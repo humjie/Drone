@@ -1,3 +1,6 @@
 [submodule "microros_ws/src/micro_ros_setup"]
 	path = microros_ws/src/micro_ros_setup
 	url = https://github.com/micro-ROS/micro_ros_setup.git
+[submodule "microros_ws/src/uros/micro-ROS-Agent"]
+	path = microros_ws/src/uros/micro-ROS-Agent
+	url = https://github.com/micro-ROS/micro-ROS-Agent.git

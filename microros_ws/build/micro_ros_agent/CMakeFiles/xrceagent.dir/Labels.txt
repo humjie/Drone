@@ -1,0 +1,13 @@
+# Target labels
+ xrceagent
+# Source files and their labels
+/home/orangepi/airduino/microros_ws/build/micro_ros_agent/CMakeFiles/xrceagent
+/home/orangepi/airduino/microros_ws/build/micro_ros_agent/CMakeFiles/xrceagent.rule
+/home/orangepi/airduino/microros_ws/build/micro_ros_agent/CMakeFiles/xrceagent-complete.rule
+/home/orangepi/airduino/microros_ws/build/micro_ros_agent/agent/src/xrceagent-stamp/xrceagent-build.rule
+/home/orangepi/airduino/microros_ws/build/micro_ros_agent/agent/src/xrceagent-stamp/xrceagent-configure.rule
+/home/orangepi/airduino/microros_ws/build/micro_ros_agent/agent/src/xrceagent-stamp/xrceagent-download.rule
+/home/orangepi/airduino/microros_ws/build/micro_ros_agent/agent/src/xrceagent-stamp/xrceagent-install.rule
+/home/orangepi/airduino/microros_ws/build/micro_ros_agent/agent/src/xrceagent-stamp/xrceagent-mkdir.rule
+/home/orangepi/airduino/microros_ws/build/micro_ros_agent/agent/src/xrceagent-stamp/xrceagent-patch.rule
+/home/orangepi/airduino/microros_ws/build/micro_ros_agent/agent/src/xrceagent-stamp/xrceagent-update.rule

@@ -1,0 +1,299 @@
+[0.048s] Invoking command in '/home/orangepi/airduino/microros_ws/build/micro_ros_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /home/orangepi/airduino/microros_ws/src/uros/micro_ros_msgs -DUAGENT_BUILD_EXECUTABLE=OFF -DUAGENT_P2P_PROFILE=OFF --no-warn-unused-cli -DCMAKE_INSTALL_PREFIX=/home/orangepi/airduino/microros_ws/install/micro_ros_msgs
+[0.088s] Not searching for unused variables given on the command line.
+[0.417s] -- The C compiler identification is GNU 13.3.0
+[0.815s] -- The CXX compiler identification is GNU 13.3.0
+[0.889s] -- Detecting C compiler ABI info
+[1.360s] -- Detecting C compiler ABI info - done
+[1.431s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.432s] -- Detecting C compile features
+[1.435s] -- Detecting C compile features - done
+[1.473s] -- Detecting CXX compiler ABI info
+[2.034s] -- Detecting CXX compiler ABI info - done
+[2.108s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.109s] -- Detecting CXX compile features
+[2.112s] -- Detecting CXX compile features - done
+[2.125s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[2.959s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[3.588s] -- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+[3.625s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.992s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.311s] -- Found rosidl_adapter: 4.6.5 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[4.333s] -- Found ament_lint_auto: 0.17.2 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[8.000s] -- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)
+[10.475s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[13.726s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[13.747s] -- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)
+[14.534s] -- Found PythonExtra: /usr/bin/python3  
+[17.891s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed 
+[18.091s] -- Added test 'copyright' to check source files copyright and LICENSE
+[18.131s] -- Added test 'lint_cmake' to check CMake code style
+[18.156s] -- Added test 'xmllint' to check XML markup files
+[18.191s] -- Configuring done (18.1s)
+[18.392s] -- Generating done (0.2s)
+[18.458s] -- Build files have been written to: /home/orangepi/airduino/microros_ws/build/micro_ros_msgs
+[18.505s] Invoked command in '/home/orangepi/airduino/microros_ws/build/micro_ros_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /home/orangepi/airduino/microros_ws/src/uros/micro_ros_msgs -DUAGENT_BUILD_EXECUTABLE=OFF -DUAGENT_P2P_PROFILE=OFF --no-warn-unused-cli -DCMAKE_INSTALL_PREFIX=/home/orangepi/airduino/microros_ws/install/micro_ros_msgs
+[18.512s] Invoking command in '/home/orangepi/airduino/microros_ws/build/micro_ros_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/orangepi/airduino/microros_ws/build/micro_ros_msgs -- -j4 -l4
+[18.749s] [  1%] [34m[1mGenerating type hashes for ROS interfaces[0m
+[18.795s] [  1%] Built target ament_cmake_python_copy_micro_ros_msgs
+[20.273s] running egg_info
+[20.278s] creating micro_ros_msgs.egg-info
+[20.401s] writing micro_ros_msgs.egg-info/PKG-INFO
+[20.405s] writing dependency_links to micro_ros_msgs.egg-info/dependency_links.txt
+[20.406s] writing top-level names to micro_ros_msgs.egg-info/top_level.txt
+[20.409s] writing manifest file 'micro_ros_msgs.egg-info/SOURCES.txt'
+[20.749s] [  1%] Built target micro_ros_msgs__rosidl_generator_type_description
+[20.806s] [  3%] [34m[1mGenerating C code for ROS interfaces[0m
+[20.863s] reading manifest file 'micro_ros_msgs.egg-info/SOURCES.txt'
+[20.867s] writing manifest file 'micro_ros_msgs.egg-info/SOURCES.txt'
+[20.875s] [  5%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[21.194s] [  5%] Built target ament_cmake_python_build_micro_ros_msgs_egg
+[23.641s] [  5%] Built target micro_ros_msgs__cpp
+[24.039s] [ 11%] [32mBuilding C object CMakeFiles/micro_ros_msgs__rosidl_generator_c.dir/rosidl_generator_c/micro_ros_msgs/msg/detail/graph__description.c.o[0m
+[24.040s] [ 11%] [32mBuilding C object CMakeFiles/micro_ros_msgs__rosidl_generator_c.dir/rosidl_generator_c/micro_ros_msgs/msg/detail/graph__type_support.c.o[0m
+[24.041s] [ 12%] [32mBuilding C object CMakeFiles/micro_ros_msgs__rosidl_generator_c.dir/rosidl_generator_c/micro_ros_msgs/msg/detail/node__description.c.o[0m
+[24.046s] [ 12%] [32mBuilding C object CMakeFiles/micro_ros_msgs__rosidl_generator_c.dir/rosidl_generator_c/micro_ros_msgs/msg/detail/graph__functions.c.o[0m
+[24.276s] [ 14%] [32mBuilding C object CMakeFiles/micro_ros_msgs__rosidl_generator_c.dir/rosidl_generator_c/micro_ros_msgs/msg/detail/node__functions.c.o[0m
+[24.358s] [ 18%] [32mBuilding C object CMakeFiles/micro_ros_msgs__rosidl_generator_c.dir/rosidl_generator_c/micro_ros_msgs/msg/detail/node__type_support.c.o[0m
+[24.359s] [ 18%] [32mBuilding C object CMakeFiles/micro_ros_msgs__rosidl_generator_c.dir/rosidl_generator_c/micro_ros_msgs/msg/detail/entity__description.c.o[0m
+[24.505s] [ 20%] [32mBuilding C object CMakeFiles/micro_ros_msgs__rosidl_generator_c.dir/rosidl_generator_c/micro_ros_msgs/msg/detail/entity__functions.c.o[0m
+[24.560s] [ 22%] [32mBuilding C object CMakeFiles/micro_ros_msgs__rosidl_generator_c.dir/rosidl_generator_c/micro_ros_msgs/msg/detail/entity__type_support.c.o[0m
+[24.810s] [ 24%] [32m[1mLinking C shared library libmicro_ros_msgs__rosidl_generator_c.so[0m
+[25.058s] [ 24%] Built target micro_ros_msgs__rosidl_generator_c
+[25.108s] [ 27%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[25.110s] [ 29%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[25.111s] [ 31%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[25.116s] [ 31%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[27.865s] [ 33%] [32mBuilding CXX object CMakeFiles/micro_ros_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/micro_ros_msgs/msg/graph__type_support.cpp.o[0m
+[27.872s] [ 35%] [32mBuilding CXX object CMakeFiles/micro_ros_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/micro_ros_msgs/msg/graph__type_support.cpp.o[0m
+[28.046s] [ 37%] [32mBuilding C object CMakeFiles/micro_ros_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/micro_ros_msgs/msg/detail/graph__type_support.c.o[0m
+[28.230s] [ 38%] [32mBuilding CXX object CMakeFiles/micro_ros_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/micro_ros_msgs/msg/node__type_support.cpp.o[0m
+[28.344s] [ 40%] [32mBuilding C object CMakeFiles/micro_ros_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/micro_ros_msgs/msg/detail/node__type_support.c.o[0m
+[28.535s] [ 42%] [32mBuilding CXX object CMakeFiles/micro_ros_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/micro_ros_msgs/msg/detail/graph__type_support_c.cpp.o[0m
+[28.548s] [ 44%] [32mBuilding CXX object CMakeFiles/micro_ros_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/micro_ros_msgs/msg/entity__type_support.cpp.o[0m
+[28.650s] [ 46%] [32mBuilding C object CMakeFiles/micro_ros_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/micro_ros_msgs/msg/detail/entity__type_support.c.o[0m
+[28.815s] [ 48%] [32m[1mLinking CXX shared library libmicro_ros_msgs__rosidl_typesupport_c.so[0m
+[28.967s] [ 50%] [32m[1mLinking C shared library libmicro_ros_msgs__rosidl_typesupport_introspection_c.so[0m
+[29.115s] [ 50%] Built target micro_ros_msgs__rosidl_typesupport_c
+[29.171s] [ 50%] Built target micro_ros_msgs__rosidl_typesupport_introspection_c
+[29.179s] [ 51%] [32mBuilding CXX object CMakeFiles/micro_ros_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/micro_ros_msgs/msg/detail/node__type_support_c.cpp.o[0m
+[29.244s] [ 53%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[30.507s] [ 55%] [32mBuilding CXX object CMakeFiles/micro_ros_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/micro_ros_msgs/msg/node__type_support.cpp.o[0m
+[33.024s] [ 57%] [32mBuilding CXX object CMakeFiles/micro_ros_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/micro_ros_msgs/msg/detail/entity__type_support_c.cpp.o[0m
+[33.030s] [ 59%] [32mBuilding CXX object CMakeFiles/micro_ros_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/micro_ros_msgs/msg/entity__type_support.cpp.o[0m
+[33.229s] [ 61%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[33.408s] [ 62%] [32mBuilding CXX object CMakeFiles/micro_ros_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/micro_ros_msgs/msg/detail/dds_fastrtps/graph__type_support.cpp.o[0m
+[35.641s] [ 64%] [32m[1mLinking CXX shared library libmicro_ros_msgs__rosidl_typesupport_cpp.so[0m
+[35.903s] [ 64%] Built target micro_ros_msgs__rosidl_typesupport_cpp
+[35.954s] [ 66%] [32mBuilding CXX object CMakeFiles/micro_ros_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/micro_ros_msgs/msg/detail/dds_fastrtps/node__type_support.cpp.o[0m
+[36.870s] [ 68%] [32mBuilding CXX object CMakeFiles/micro_ros_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/micro_ros_msgs/msg/detail/graph__type_support.cpp.o[0m
+[36.974s] [ 70%] [32m[1mLinking CXX shared library libmicro_ros_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[37.841s] [ 70%] Built target micro_ros_msgs__rosidl_typesupport_fastrtps_c
+[37.905s] [ 72%] [32mBuilding CXX object CMakeFiles/micro_ros_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/micro_ros_msgs/msg/detail/node__type_support.cpp.o[0m
+[37.922s] [ 74%] [32mBuilding CXX object CMakeFiles/micro_ros_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/micro_ros_msgs/msg/detail/dds_fastrtps/entity__type_support.cpp.o[0m
+[40.467s] [ 75%] [32mBuilding CXX object CMakeFiles/micro_ros_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/micro_ros_msgs/msg/detail/entity__type_support.cpp.o[0m
+[42.428s] [ 77%] [32m[1mLinking CXX shared library libmicro_ros_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[43.082s] [ 79%] [32m[1mLinking CXX shared library libmicro_ros_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[43.109s] [ 79%] Built target micro_ros_msgs__rosidl_typesupport_fastrtps_cpp
+[43.710s] [ 79%] Built target micro_ros_msgs__rosidl_typesupport_introspection_cpp
+[43.802s] [ 79%] Built target micro_ros_msgs
+[43.894s] [ 81%] [34m[1mGenerating Python code for ROS interfaces[0m
+[47.366s] [ 81%] Built target micro_ros_msgs__py
+[47.462s] [ 87%] [32mBuilding C object CMakeFiles/micro_ros_msgs__rosidl_generator_py.dir/rosidl_generator_py/micro_ros_msgs/msg/_entity_s.c.o[0m
+[47.463s] [ 87%] [32mBuilding C object CMakeFiles/micro_ros_msgs__rosidl_generator_py.dir/rosidl_generator_py/micro_ros_msgs/msg/_graph_s.c.o[0m
+[47.464s] [ 87%] [32mBuilding C object CMakeFiles/micro_ros_msgs__rosidl_generator_py.dir/rosidl_generator_py/micro_ros_msgs/msg/_node_s.c.o[0m
+[48.496s] [ 88%] [32m[1mLinking C shared library libmicro_ros_msgs__rosidl_generator_py.so[0m
+[48.780s] [ 88%] Built target micro_ros_msgs__rosidl_generator_py
+[48.879s] [ 94%] [32mBuilding C object CMakeFiles/micro_ros_msgs_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/micro_ros_msgs/_micro_ros_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[48.880s] [ 94%] [32mBuilding C object CMakeFiles/micro_ros_msgs_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/micro_ros_msgs/_micro_ros_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[48.885s] [ 94%] [32mBuilding C object CMakeFiles/micro_ros_msgs_s__rosidl_typesupport_c.dir/rosidl_generator_py/micro_ros_msgs/_micro_ros_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[49.590s] [ 96%] [32m[1mLinking C shared module rosidl_generator_py/micro_ros_msgs/micro_ros_msgs_s__rosidl_typesupport_introspection_c.so[0m
+[49.605s] [ 98%] [32m[1mLinking C shared module rosidl_generator_py/micro_ros_msgs/micro_ros_msgs_s__rosidl_typesupport_c.so[0m
+[49.630s] [100%] [32m[1mLinking C shared module rosidl_generator_py/micro_ros_msgs/micro_ros_msgs_s__rosidl_typesupport_fastrtps_c.so[0m
+[49.767s] [100%] Built target micro_ros_msgs_s__rosidl_typesupport_introspection_c
+[49.784s] [100%] Built target micro_ros_msgs_s__rosidl_typesupport_c
+[49.807s] [100%] Built target micro_ros_msgs_s__rosidl_typesupport_fastrtps_c
+[49.867s] Invoked command in '/home/orangepi/airduino/microros_ws/build/micro_ros_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/orangepi/airduino/microros_ws/build/micro_ros_msgs -- -j4 -l4
+[49.916s] Invoking command in '/home/orangepi/airduino/microros_ws/build/micro_ros_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/orangepi/airduino/microros_ws/build/micro_ros_msgs
+[49.959s] -- Install configuration: ""
+[49.959s] -- Installing: /home/orangepi/airduino/microros_ws/install/micro_ros_msgs/share/ament_index/resource_index/rosidl_interfaces/micro_ros_msgs
+[49.960s] -- Installing: /home/orangepi/airduino/microros_ws/install/micro_ros_msgs/share/micro_ros_msgs/msg/Graph.json
+[49.961s] -- Installing: /home/orangepi/airduino/microros_ws/install/micro_ros_msgs/share/micro_ros_msgs/msg/Node.json
+[49.962s] -- Installing: /home/orangepi/airduino/microros_ws/install/micro_ros_msgs/share/micro_ros_msgs/msg/Entity.json
+[49.962s] -- Installing: /home/orangepi/airduino/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs
+[49.963s] -- Installing: /home/orangepi/airduino/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg
+[49.964s] -- Installing: /home/orangepi/airduino/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/node.h
+[49.964s] -- Installing: /home/orangepi/airduino/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/entity.h
+[49.965s] -- Installing: /home/orangepi/airduino/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail
+[49.965s] -- Installing: /home/orangepi/airduino/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/graph__type_support.c
+[49.966s] -- Installing: /home/orangepi/airduino/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/entity__description.c
+[49.967s] -- Installing: /home/orangepi/airduino/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/node__struct.h
+[49.967s] -- Installing: /home/orangepi/airduino/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/entity__functions.c
+[49.968s] -- Installing: /home/orangepi/airduino/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/graph__functions.h
+[49.969s] -- Installing: /home/orangepi/airduino/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/entity__functions.h
+[49.969s] -- Installing: /home/orangepi/airduino/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/node__functions.h
+[49.970s] -- Installing: /home/orangepi/airduino/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/node__functions.c
+[49.971s] -- Installing: /home/orangepi/airduino/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/entity__struct.h
+[49.971s] -- Installing: /home/orangepi/airduino/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/graph__description.c
+[49.972s] -- Installing: /home/orangepi/airduino/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/node__description.c
+[49.973s] -- Installing: /home/orangepi/airduino/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/graph__functions.c
+[49.973s] -- Installing: /home/orangepi/airduino/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/entity__type_support.c
+[49.974s] -- Installing: /home/orangepi/airduino/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/entity__type_support.h
+[49.975s] -- Installing: /home/orangepi/airduino/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/graph__type_support.h
+[49.975s] -- Installing: /home/orangepi/airduino/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/node__type_support.h
+[49.976s] -- Installing: /home/orangepi/airduino/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/graph__struct.h
+[49.976s] -- Installing: /home/orangepi/airduino/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/node__type_support.c
+[49.977s] -- Installing: /home/orangepi/airduino/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/graph.h
+[49.978s] -- Installing: /home/orangepi/airduino/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/rosidl_generator_c__visibility_control.h
+[49.978s] -- Installing: /home/orangepi/airduino/microros_ws/install/micro_ros_msgs/share/micro_ros_msgs/environment/library_path.sh
+[49.979s] -- Installing: /home/orangepi/airduino/microros_ws/install/micro_ros_msgs/share/micro_ros_msgs/environment/library_path.dsv
+[49.980s] -- Installing: /home/orangepi/airduino/microros_ws/install/micro_ros_msgs/lib/libmicro_ros_msgs__rosidl_generator_c.so
+[49.980s] -- Set non-toolchain portion of runtime path of "/home/orangepi/airduino/microros_ws/install/micro_ros_msgs/lib/libmicro_ros_msgs__rosidl_generator_c.so" to ""
+[49.981s] -- Up-to-date: /home/orangepi/airduino/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs
+[49.981s] -- Up-to-date: /home/orangepi/airduino/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg
+[49.982s] -- Installing: /home/orangepi/airduino/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[49.983s] -- Up-to-date: /home/orangepi/airduino/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail
+[49.984s] -- Installing: /home/orangepi/airduino/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/graph__rosidl_typesupport_fastrtps_c.h
+[49.985s] -- Installing: /home/orangepi/airduino/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/node__rosidl_typesupport_fastrtps_c.h
+[49.985s] -- Installing: /home/orangepi/airduino/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/entity__rosidl_typesupport_fastrtps_c.h
+[49.986s] -- Installing: /home/orangepi/airduino/microros_ws/install/micro_ros_msgs/lib/libmicro_ros_msgs__rosidl_typesupport_fastrtps_c.so
+[49.987s] -- Set non-toolchain portion of runtime path of "/home/orangepi/airduino/microros_ws/install/micro_ros_msgs/lib/libmicro_ros_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[49.987s] -- Up-to-date: /home/orangepi/airduino/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs
+[49.989s] -- Up-to-date: /home/orangepi/airduino/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg
+[49.990s] -- Up-to-date: /home/orangepi/airduino/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail
+[49.990s] -- Installing: /home/orangepi/airduino/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/graph__type_support.c
+[49.991s] -- Installing: /home/orangepi/airduino/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/entity__type_support.c
+[49.992s] -- Installing: /home/orangepi/airduino/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/node__rosidl_typesupport_introspection_c.h
+[49.993s] -- Installing: /home/orangepi/airduino/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/node__type_support.c
+[49.993s] -- Installing: /home/orangepi/airduino/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/graph__rosidl_typesupport_introspection_c.h
+[49.994s] -- Installing: /home/orangepi/airduino/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/entity__rosidl_typesupport_introspection_c.h
+[49.995s] -- Installing: /home/orangepi/airduino/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[49.995s] -- Installing: /home/orangepi/airduino/microros_ws/install/micro_ros_msgs/lib/libmicro_ros_msgs__rosidl_typesupport_introspection_c.so
+[49.996s] -- Set non-toolchain portion of runtime path of "/home/orangepi/airduino/microros_ws/install/micro_ros_msgs/lib/libmicro_ros_msgs__rosidl_typesupport_introspection_c.so" to ""
+[49.997s] -- Installing: /home/orangepi/airduino/microros_ws/install/micro_ros_msgs/lib/libmicro_ros_msgs__rosidl_typesupport_c.so
+[49.997s] -- Set non-toolchain portion of runtime path of "/home/orangepi/airduino/microros_ws/install/micro_ros_msgs/lib/libmicro_ros_msgs__rosidl_typesupport_c.so" to ""
+[49.998s] -- Up-to-date: /home/orangepi/airduino/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs
+[49.999s] -- Up-to-date: /home/orangepi/airduino/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg
+[49.999s] -- Installing: /home/orangepi/airduino/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+[50.000s] -- Up-to-date: /home/orangepi/airduino/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail
+[50.000s] -- Installing: /home/orangepi/airduino/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/graph__traits.hpp
+[50.001s] -- Installing: /home/orangepi/airduino/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/node__struct.hpp
+[50.002s] -- Installing: /home/orangepi/airduino/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/entity__traits.hpp
+[50.002s] -- Installing: /home/orangepi/airduino/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/graph__struct.hpp
+[50.003s] -- Installing: /home/orangepi/airduino/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/node__builder.hpp
+[50.004s] -- Installing: /home/orangepi/airduino/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/entity__struct.hpp
+[50.004s] -- Installing: /home/orangepi/airduino/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/node__type_support.hpp
+[50.005s] -- Installing: /home/orangepi/airduino/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/node__traits.hpp
+[50.005s] -- Installing: /home/orangepi/airduino/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/graph__type_support.hpp
+[50.006s] -- Installing: /home/orangepi/airduino/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/entity__type_support.hpp
+[50.007s] -- Installing: /home/orangepi/airduino/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/graph__builder.hpp
+[50.007s] -- Installing: /home/orangepi/airduino/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/entity__builder.hpp
+[50.008s] -- Installing: /home/orangepi/airduino/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/entity.hpp
+[50.008s] -- Installing: /home/orangepi/airduino/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/node.hpp
+[50.009s] -- Installing: /home/orangepi/airduino/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/graph.hpp
+[50.010s] -- Up-to-date: /home/orangepi/airduino/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs
+[50.010s] -- Up-to-date: /home/orangepi/airduino/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg
+[50.011s] -- Installing: /home/orangepi/airduino/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[50.012s] -- Up-to-date: /home/orangepi/airduino/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail
+[50.012s] -- Installing: /home/orangepi/airduino/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/graph__rosidl_typesupport_fastrtps_cpp.hpp
+[50.013s] -- Installing: /home/orangepi/airduino/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/entity__rosidl_typesupport_fastrtps_cpp.hpp
+[50.013s] -- Installing: /home/orangepi/airduino/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/node__rosidl_typesupport_fastrtps_cpp.hpp
+[50.014s] -- Installing: /home/orangepi/airduino/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/dds_fastrtps
+[50.014s] -- Installing: /home/orangepi/airduino/microros_ws/install/micro_ros_msgs/lib/libmicro_ros_msgs__rosidl_typesupport_fastrtps_cpp.so
+[50.015s] -- Set non-toolchain portion of runtime path of "/home/orangepi/airduino/microros_ws/install/micro_ros_msgs/lib/libmicro_ros_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[50.016s] -- Up-to-date: /home/orangepi/airduino/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs
+[50.016s] -- Up-to-date: /home/orangepi/airduino/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg
+[50.017s] -- Up-to-date: /home/orangepi/airduino/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail
+[50.017s] -- Installing: /home/orangepi/airduino/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/graph__type_support.cpp
+[50.018s] -- Installing: /home/orangepi/airduino/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/node__rosidl_typesupport_introspection_cpp.hpp
+[50.019s] -- Installing: /home/orangepi/airduino/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/node__type_support.cpp
+[50.019s] -- Installing: /home/orangepi/airduino/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/entity__type_support.cpp
+[50.020s] -- Installing: /home/orangepi/airduino/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/entity__rosidl_typesupport_introspection_cpp.hpp
+[50.020s] -- Installing: /home/orangepi/airduino/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/graph__rosidl_typesupport_introspection_cpp.hpp
+[50.021s] -- Installing: /home/orangepi/airduino/microros_ws/install/micro_ros_msgs/lib/libmicro_ros_msgs__rosidl_typesupport_introspection_cpp.so
+[50.022s] -- Set non-toolchain portion of runtime path of "/home/orangepi/airduino/microros_ws/install/micro_ros_msgs/lib/libmicro_ros_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[50.022s] -- Installing: /home/orangepi/airduino/microros_ws/install/micro_ros_msgs/lib/libmicro_ros_msgs__rosidl_typesupport_cpp.so
+[50.023s] -- Set non-toolchain portion of runtime path of "/home/orangepi/airduino/microros_ws/install/micro_ros_msgs/lib/libmicro_ros_msgs__rosidl_typesupport_cpp.so" to ""
+[50.024s] -- Installing: /home/orangepi/airduino/microros_ws/install/micro_ros_msgs/share/micro_ros_msgs/environment/pythonpath.sh
+[50.024s] -- Installing: /home/orangepi/airduino/microros_ws/install/micro_ros_msgs/share/micro_ros_msgs/environment/pythonpath.dsv
+[50.025s] -- Installing: /home/orangepi/airduino/microros_ws/install/micro_ros_msgs/lib/python3.12/site-packages/micro_ros_msgs-5.0.2-py3.12.egg-info
+[50.026s] -- Installing: /home/orangepi/airduino/microros_ws/install/micro_ros_msgs/lib/python3.12/site-packages/micro_ros_msgs-5.0.2-py3.12.egg-info/SOURCES.txt
+[50.026s] -- Installing: /home/orangepi/airduino/microros_ws/install/micro_ros_msgs/lib/python3.12/site-packages/micro_ros_msgs-5.0.2-py3.12.egg-info/dependency_links.txt
+[50.027s] -- Installing: /home/orangepi/airduino/microros_ws/install/micro_ros_msgs/lib/python3.12/site-packages/micro_ros_msgs-5.0.2-py3.12.egg-info/PKG-INFO
+[50.028s] -- Installing: /home/orangepi/airduino/microros_ws/install/micro_ros_msgs/lib/python3.12/site-packages/micro_ros_msgs-5.0.2-py3.12.egg-info/top_level.txt
+[50.028s] -- Installing: /home/orangepi/airduino/microros_ws/install/micro_ros_msgs/lib/python3.12/site-packages/micro_ros_msgs
+[50.029s] -- Installing: /home/orangepi/airduino/microros_ws/install/micro_ros_msgs/lib/python3.12/site-packages/micro_ros_msgs/micro_ros_msgs_s__rosidl_typesupport_fastrtps_c.so
+[50.030s] -- Installing: /home/orangepi/airduino/microros_ws/install/micro_ros_msgs/lib/python3.12/site-packages/micro_ros_msgs/micro_ros_msgs_s__rosidl_typesupport_introspection_c.so
+[50.030s] -- Installing: /home/orangepi/airduino/microros_ws/install/micro_ros_msgs/lib/python3.12/site-packages/micro_ros_msgs/msg
+[50.031s] -- Installing: /home/orangepi/airduino/microros_ws/install/micro_ros_msgs/lib/python3.12/site-packages/micro_ros_msgs/msg/_node_s.c
+[50.031s] -- Installing: /home/orangepi/airduino/microros_ws/install/micro_ros_msgs/lib/python3.12/site-packages/micro_ros_msgs/msg/_graph_s.c
+[50.032s] -- Installing: /home/orangepi/airduino/microros_ws/install/micro_ros_msgs/lib/python3.12/site-packages/micro_ros_msgs/msg/_entity_s.c
+[50.032s] -- Installing: /home/orangepi/airduino/microros_ws/install/micro_ros_msgs/lib/python3.12/site-packages/micro_ros_msgs/msg/__init__.py
+[50.033s] -- Installing: /home/orangepi/airduino/microros_ws/install/micro_ros_msgs/lib/python3.12/site-packages/micro_ros_msgs/msg/_node.py
+[50.033s] -- Installing: /home/orangepi/airduino/microros_ws/install/micro_ros_msgs/lib/python3.12/site-packages/micro_ros_msgs/msg/_entity.py
+[50.034s] -- Installing: /home/orangepi/airduino/microros_ws/install/micro_ros_msgs/lib/python3.12/site-packages/micro_ros_msgs/msg/_graph.py
+[50.034s] -- Installing: /home/orangepi/airduino/microros_ws/install/micro_ros_msgs/lib/python3.12/site-packages/micro_ros_msgs/_micro_ros_msgs_s.ep.rosidl_typesupport_c.c
+[50.035s] -- Installing: /home/orangepi/airduino/microros_ws/install/micro_ros_msgs/lib/python3.12/site-packages/micro_ros_msgs/_micro_ros_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[50.035s] -- Installing: /home/orangepi/airduino/microros_ws/install/micro_ros_msgs/lib/python3.12/site-packages/micro_ros_msgs/_micro_ros_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[50.036s] -- Installing: /home/orangepi/airduino/microros_ws/install/micro_ros_msgs/lib/python3.12/site-packages/micro_ros_msgs/__init__.py
+[50.036s] -- Installing: /home/orangepi/airduino/microros_ws/install/micro_ros_msgs/lib/python3.12/site-packages/micro_ros_msgs/micro_ros_msgs_s__rosidl_typesupport_c.so
+[50.290s] Listing '/home/orangepi/airduino/microros_ws/install/micro_ros_msgs/lib/python3.12/site-packages/micro_ros_msgs'...
+[50.291s] Compiling '/home/orangepi/airduino/microros_ws/install/micro_ros_msgs/lib/python3.12/site-packages/micro_ros_msgs/__init__.py'...
+[50.291s] Listing '/home/orangepi/airduino/microros_ws/install/micro_ros_msgs/lib/python3.12/site-packages/micro_ros_msgs/msg'...
+[50.292s] Compiling '/home/orangepi/airduino/microros_ws/install/micro_ros_msgs/lib/python3.12/site-packages/micro_ros_msgs/msg/__init__.py'...
+[50.292s] Compiling '/home/orangepi/airduino/microros_ws/install/micro_ros_msgs/lib/python3.12/site-packages/micro_ros_msgs/msg/_entity.py'...
+[50.293s] Compiling '/home/orangepi/airduino/microros_ws/install/micro_ros_msgs/lib/python3.12/site-packages/micro_ros_msgs/msg/_graph.py'...
+[50.293s] Compiling '/home/orangepi/airduino/microros_ws/install/micro_ros_msgs/lib/python3.12/site-packages/micro_ros_msgs/msg/_node.py'...
+[50.352s] -- Installing: /home/orangepi/airduino/microros_ws/install/micro_ros_msgs/lib/python3.12/site-packages/micro_ros_msgs/micro_ros_msgs_s__rosidl_typesupport_fastrtps_c.so
+[50.354s] -- Set non-toolchain portion of runtime path of "/home/orangepi/airduino/microros_ws/install/micro_ros_msgs/lib/python3.12/site-packages/micro_ros_msgs/micro_ros_msgs_s__rosidl_typesupport_fastrtps_c.so" to ""
+[50.355s] -- Installing: /home/orangepi/airduino/microros_ws/install/micro_ros_msgs/lib/python3.12/site-packages/micro_ros_msgs/micro_ros_msgs_s__rosidl_typesupport_introspection_c.so
+[50.356s] -- Set non-toolchain portion of runtime path of "/home/orangepi/airduino/microros_ws/install/micro_ros_msgs/lib/python3.12/site-packages/micro_ros_msgs/micro_ros_msgs_s__rosidl_typesupport_introspection_c.so" to ""
+[50.357s] -- Installing: /home/orangepi/airduino/microros_ws/install/micro_ros_msgs/lib/python3.12/site-packages/micro_ros_msgs/micro_ros_msgs_s__rosidl_typesupport_c.so
+[50.359s] -- Set non-toolchain portion of runtime path of "/home/orangepi/airduino/microros_ws/install/micro_ros_msgs/lib/python3.12/site-packages/micro_ros_msgs/micro_ros_msgs_s__rosidl_typesupport_c.so" to ""
+[50.360s] -- Installing: /home/orangepi/airduino/microros_ws/install/micro_ros_msgs/lib/libmicro_ros_msgs__rosidl_generator_py.so
+[50.362s] -- Set non-toolchain portion of runtime path of "/home/orangepi/airduino/microros_ws/install/micro_ros_msgs/lib/libmicro_ros_msgs__rosidl_generator_py.so" to ""
+[50.362s] -- Installing: /home/orangepi/airduino/microros_ws/install/micro_ros_msgs/share/micro_ros_msgs/msg/Graph.idl
+[50.363s] -- Installing: /home/orangepi/airduino/microros_ws/install/micro_ros_msgs/share/micro_ros_msgs/msg/Node.idl
+[50.364s] -- Installing: /home/orangepi/airduino/microros_ws/install/micro_ros_msgs/share/micro_ros_msgs/msg/Entity.idl
+[50.364s] -- Installing: /home/orangepi/airduino/microros_ws/install/micro_ros_msgs/share/micro_ros_msgs/msg/Graph.msg
+[50.365s] -- Installing: /home/orangepi/airduino/microros_ws/install/micro_ros_msgs/share/micro_ros_msgs/msg/Node.msg
+[50.366s] -- Installing: /home/orangepi/airduino/microros_ws/install/micro_ros_msgs/share/micro_ros_msgs/msg/Entity.msg
+[50.366s] -- Installing: /home/orangepi/airduino/microros_ws/install/micro_ros_msgs/share/ament_index/resource_index/package_run_dependencies/micro_ros_msgs
+[50.367s] -- Installing: /home/orangepi/airduino/microros_ws/install/micro_ros_msgs/share/ament_index/resource_index/parent_prefix_path/micro_ros_msgs
+[50.368s] -- Installing: /home/orangepi/airduino/microros_ws/install/micro_ros_msgs/share/micro_ros_msgs/environment/ament_prefix_path.sh
+[50.368s] -- Installing: /home/orangepi/airduino/microros_ws/install/micro_ros_msgs/share/micro_ros_msgs/environment/ament_prefix_path.dsv
+[50.369s] -- Installing: /home/orangepi/airduino/microros_ws/install/micro_ros_msgs/share/micro_ros_msgs/environment/path.sh
+[50.370s] -- Installing: /home/orangepi/airduino/microros_ws/install/micro_ros_msgs/share/micro_ros_msgs/environment/path.dsv
+[50.370s] -- Installing: /home/orangepi/airduino/microros_ws/install/micro_ros_msgs/share/micro_ros_msgs/local_setup.bash
+[50.371s] -- Installing: /home/orangepi/airduino/microros_ws/install/micro_ros_msgs/share/micro_ros_msgs/local_setup.sh
+[50.372s] -- Installing: /home/orangepi/airduino/microros_ws/install/micro_ros_msgs/share/micro_ros_msgs/local_setup.zsh
+[50.372s] -- Installing: /home/orangepi/airduino/microros_ws/install/micro_ros_msgs/share/micro_ros_msgs/local_setup.dsv
+[50.373s] -- Installing: /home/orangepi/airduino/microros_ws/install/micro_ros_msgs/share/micro_ros_msgs/package.dsv
+[50.373s] -- Installing: /home/orangepi/airduino/microros_ws/install/micro_ros_msgs/share/ament_index/resource_index/packages/micro_ros_msgs
+[50.374s] -- Installing: /home/orangepi/airduino/microros_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/export_micro_ros_msgs__rosidl_generator_cExport.cmake
+[50.375s] -- Installing: /home/orangepi/airduino/microros_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/export_micro_ros_msgs__rosidl_generator_cExport-noconfig.cmake
+[50.376s] -- Installing: /home/orangepi/airduino/microros_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/export_micro_ros_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[50.376s] -- Installing: /home/orangepi/airduino/microros_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/export_micro_ros_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[50.377s] -- Installing: /home/orangepi/airduino/microros_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/micro_ros_msgs__rosidl_typesupport_introspection_cExport.cmake
+[50.378s] -- Installing: /home/orangepi/airduino/microros_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/micro_ros_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[50.379s] -- Installing: /home/orangepi/airduino/microros_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/micro_ros_msgs__rosidl_typesupport_cExport.cmake
+[50.379s] -- Installing: /home/orangepi/airduino/microros_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/micro_ros_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[50.380s] -- Installing: /home/orangepi/airduino/microros_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/export_micro_ros_msgs__rosidl_generator_cppExport.cmake
+[50.381s] -- Installing: /home/orangepi/airduino/microros_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/export_micro_ros_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[50.382s] -- Installing: /home/orangepi/airduino/microros_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/export_micro_ros_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[50.383s] -- Installing: /home/orangepi/airduino/microros_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/micro_ros_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[50.383s] -- Installing: /home/orangepi/airduino/microros_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/micro_ros_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[50.384s] -- Installing: /home/orangepi/airduino/microros_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/micro_ros_msgs__rosidl_typesupport_cppExport.cmake
+[50.385s] -- Installing: /home/orangepi/airduino/microros_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/micro_ros_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[50.386s] -- Installing: /home/orangepi/airduino/microros_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/export_micro_ros_msgs__rosidl_generator_pyExport.cmake
+[50.387s] -- Installing: /home/orangepi/airduino/microros_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/export_micro_ros_msgs__rosidl_generator_pyExport-noconfig.cmake
+[50.388s] -- Installing: /home/orangepi/airduino/microros_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/rosidl_cmake-extras.cmake
+[50.388s] -- Installing: /home/orangepi/airduino/microros_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[50.390s] -- Installing: /home/orangepi/airduino/microros_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[50.391s] -- Installing: /home/orangepi/airduino/microros_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[50.393s] -- Installing: /home/orangepi/airduino/microros_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[50.394s] -- Installing: /home/orangepi/airduino/microros_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[50.396s] -- Installing: /home/orangepi/airduino/microros_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[50.397s] -- Installing: /home/orangepi/airduino/microros_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/micro_ros_msgsConfig.cmake
+[50.398s] -- Installing: /home/orangepi/airduino/microros_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/micro_ros_msgsConfig-version.cmake
+[50.399s] -- Installing: /home/orangepi/airduino/microros_ws/install/micro_ros_msgs/share/micro_ros_msgs/package.xml
+[50.410s] Invoked command in '/home/orangepi/airduino/microros_ws/build/micro_ros_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/orangepi/airduino/microros_ws/build/micro_ros_msgs

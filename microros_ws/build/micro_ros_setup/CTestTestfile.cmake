@@ -1,6 +1,6 @@
 # CMake generated Testfile for 
-# Source directory: /home/orangepi/microros_ws/src/micro_ros_setup
-# Build directory: /home/orangepi/microros_ws/build/micro_ros_setup
+# Source directory: /home/orangepi/airduino/microros_ws/src/micro_ros_setup
+# Build directory: /home/orangepi/airduino/microros_ws/build/micro_ros_setup
 # 
 # This file includes the relevant testing commands required for 
 # testing this directory and lists subdirectories to be tested as well.

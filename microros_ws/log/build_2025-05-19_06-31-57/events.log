@@ -1,0 +1,239 @@
+[0.000000] (-) TimerEvent: {}
+[0.001203] (micro_ros_setup) JobQueued: {'identifier': 'micro_ros_setup', 'dependencies': OrderedDict()}
+[0.002273] (micro_ros_setup) JobStarted: {'identifier': 'micro_ros_setup'}
+[0.043314] (micro_ros_setup) JobProgress: {'identifier': 'micro_ros_setup', 'progress': 'cmake'}
+[0.045328] (micro_ros_setup) Command: {'cmd': ['/usr/bin/cmake', '/home/orangepi/airduino/microros_ws/src/micro_ros_setup', '-DCMAKE_INSTALL_PREFIX=/home/orangepi/airduino/microros_ws/install/micro_ros_setup'], 'cwd': '/home/orangepi/airduino/microros_ws/build/micro_ros_setup', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'en_US.UTF-8', 'USER': 'orangepi', 'SSH_CLIENT': '192.168.0.129 23536 22', 'XDG_SESSION_TYPE': 'tty', 'GIT_ASKPASS': '/home/orangepi/.vscode-server/cli/servers/Stable-91fa95bccb027ece6a968589bb1d662fa9c8e170/server/extensions/git/dist/askpass.sh', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'BROWSER': '/home/orangepi/.vscode-server/cli/servers/Stable-848b80aeb52026648a8ff9f7c45a9b0a80641e2e/server/bin/helpers/browser.sh', 'HOME': '/home/orangepi', 'OLDPWD': '/home/orangepi/airduino', 'TERM_PROGRAM_VERSION': '1.100.2', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-5d91d02f-0dfb-4e1e-84f3-6e1eafb840d1.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/orangepi/.vscode-server/cli/servers/Stable-91fa95bccb027ece6a968589bb1d662fa9c8e170/server/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/home/orangepi/.vscode-server/cli/servers/Stable-91fa95bccb027ece6a968589bb1d662fa9c8e170/server/node', 'SSL_CERT_FILE': '/usr/lib/ssl/cert.pem', 'PYDEVD_DISABLE_FILE_VALIDATION': '1', 'BUNDLED_DEBUGPY_PATH': '/home/orangepi/.vscode-server/extensions/ms-python.debugpy-2025.8.0-linux-arm64/bundled/libs/debugpy', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'orangepi', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '8', 'PATH': '/home/orangepi/.vscode-server/cli/servers/Stable-848b80aeb52026648a8ff9f7c45a9b0a80641e2e/server/bin/remote-cli:/home/orangepi/.local/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/orangepi/.vscode-server/extensions/ms-python.debugpy-2025.8.0-linux-arm64/bundled/scripts/noConfigScripts:/home/orangepi/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand', 'XDG_RUNTIME_DIR': '/run/user/1000', 'SSL_CERT_DIR': '/usr/lib/ssl/certs', 'VSCODE_DEBUGPY_ADAPTER_ENDPOINTS': '/home/orangepi/.vscode-server/extensions/ms-python.debugpy-2025.8.0-linux-arm64/.noConfigDebugAdapterEndpoints/endpoint-eafc9373665f109e.txt', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-3cb7b1d95a.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'LC_MESSAGES': 'en_US.UTF-8', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/orangepi/airduino/microros_ws/build/micro_ros_setup', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '192.168.0.129 23536 192.168.0.112 22', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[0.099012] (-) TimerEvent: {}
+[0.200049] (-) TimerEvent: {}
+[0.301054] (-) TimerEvent: {}
+[0.402127] (-) TimerEvent: {}
+[0.489422] (micro_ros_setup) StdoutLine: {'line': b'-- The C compiler identification is GNU 13.3.0\n'}
+[0.502340] (-) TimerEvent: {}
+[0.603318] (-) TimerEvent: {}
+[0.704466] (-) TimerEvent: {}
+[0.805566] (-) TimerEvent: {}
+[0.895735] (micro_ros_setup) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 13.3.0\n'}
+[0.905786] (-) TimerEvent: {}
+[0.965596] (micro_ros_setup) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[1.006051] (-) TimerEvent: {}
+[1.107038] (-) TimerEvent: {}
+[1.208096] (-) TimerEvent: {}
+[1.309129] (-) TimerEvent: {}
+[1.410188] (-) TimerEvent: {}
+[1.447326] (micro_ros_setup) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[1.510432] (-) TimerEvent: {}
+[1.518759] (micro_ros_setup) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[1.520385] (micro_ros_setup) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[1.523005] (micro_ros_setup) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[1.560949] (micro_ros_setup) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.610706] (-) TimerEvent: {}
+[1.711695] (-) TimerEvent: {}
+[1.812807] (-) TimerEvent: {}
+[1.914731] (-) TimerEvent: {}
+[2.015894] (-) TimerEvent: {}
+[2.109291] (micro_ros_setup) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[2.115901] (-) TimerEvent: {}
+[2.184214] (micro_ros_setup) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[2.185737] (micro_ros_setup) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[2.189067] (micro_ros_setup) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[2.216201] (-) TimerEvent: {}
+[2.225918] (micro_ros_setup) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[2.316433] (-) TimerEvent: {}
+[2.417422] (-) TimerEvent: {}
+[2.518456] (-) TimerEvent: {}
+[2.619369] (-) TimerEvent: {}
+[2.720361] (-) TimerEvent: {}
+[2.821341] (-) TimerEvent: {}
+[2.922493] (-) TimerEvent: {}
+[3.023465] (-) TimerEvent: {}
+[3.082704] (micro_ros_setup) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter \n'}
+[3.123722] (-) TimerEvent: {}
+[3.224599] (-) TimerEvent: {}
+[3.325541] (-) TimerEvent: {}
+[3.426474] (-) TimerEvent: {}
+[3.527317] (-) TimerEvent: {}
+[3.628256] (-) TimerEvent: {}
+[3.729240] (-) TimerEvent: {}
+[3.830179] (-) TimerEvent: {}
+[3.848620] (micro_ros_setup) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.17.2 (/opt/ros/jazzy/share/ament_lint_auto/cmake)\n'}
+[3.930387] (-) TimerEvent: {}
+[4.031246] (-) TimerEvent: {}
+[4.132184] (-) TimerEvent: {}
+[4.233138] (-) TimerEvent: {}
+[4.334138] (-) TimerEvent: {}
+[4.435316] (-) TimerEvent: {}
+[4.498799] (micro_ros_setup) StdoutLine: {'line': b'-- Configuring done (4.4s)\n'}
+[4.512083] (micro_ros_setup) StdoutLine: {'line': b'-- Generating done (0.0s)\n'}
+[4.521153] (micro_ros_setup) StdoutLine: {'line': b'-- Build files have been written to: /home/orangepi/airduino/microros_ws/build/micro_ros_setup\n'}
+[4.535600] (-) TimerEvent: {}
+[4.553150] (micro_ros_setup) CommandEnded: {'returncode': 0}
+[4.556047] (micro_ros_setup) JobProgress: {'identifier': 'micro_ros_setup', 'progress': 'build'}
+[4.559663] (micro_ros_setup) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/orangepi/airduino/microros_ws/build/micro_ros_setup', '--', '-j4', '-l4'], 'cwd': '/home/orangepi/airduino/microros_ws/build/micro_ros_setup', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'en_US.UTF-8', 'USER': 'orangepi', 'SSH_CLIENT': '192.168.0.129 23536 22', 'XDG_SESSION_TYPE': 'tty', 'GIT_ASKPASS': '/home/orangepi/.vscode-server/cli/servers/Stable-91fa95bccb027ece6a968589bb1d662fa9c8e170/server/extensions/git/dist/askpass.sh', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'BROWSER': '/home/orangepi/.vscode-server/cli/servers/Stable-848b80aeb52026648a8ff9f7c45a9b0a80641e2e/server/bin/helpers/browser.sh', 'HOME': '/home/orangepi', 'OLDPWD': '/home/orangepi/airduino', 'TERM_PROGRAM_VERSION': '1.100.2', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-5d91d02f-0dfb-4e1e-84f3-6e1eafb840d1.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/orangepi/.vscode-server/cli/servers/Stable-91fa95bccb027ece6a968589bb1d662fa9c8e170/server/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/home/orangepi/.vscode-server/cli/servers/Stable-91fa95bccb027ece6a968589bb1d662fa9c8e170/server/node', 'SSL_CERT_FILE': '/usr/lib/ssl/cert.pem', 'PYDEVD_DISABLE_FILE_VALIDATION': '1', 'BUNDLED_DEBUGPY_PATH': '/home/orangepi/.vscode-server/extensions/ms-python.debugpy-2025.8.0-linux-arm64/bundled/libs/debugpy', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'orangepi', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '8', 'PATH': '/home/orangepi/.vscode-server/cli/servers/Stable-848b80aeb52026648a8ff9f7c45a9b0a80641e2e/server/bin/remote-cli:/home/orangepi/.local/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/orangepi/.vscode-server/extensions/ms-python.debugpy-2025.8.0-linux-arm64/bundled/scripts/noConfigScripts:/home/orangepi/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand', 'XDG_RUNTIME_DIR': '/run/user/1000', 'SSL_CERT_DIR': '/usr/lib/ssl/certs', 'VSCODE_DEBUGPY_ADAPTER_ENDPOINTS': '/home/orangepi/.vscode-server/extensions/ms-python.debugpy-2025.8.0-linux-arm64/.noConfigDebugAdapterEndpoints/endpoint-eafc9373665f109e.txt', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-3cb7b1d95a.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'LC_MESSAGES': 'en_US.UTF-8', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/orangepi/airduino/microros_ws/build/micro_ros_setup', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '192.168.0.129 23536 192.168.0.112 22', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[4.635916] (-) TimerEvent: {}
+[4.736918] (-) TimerEvent: {}
+[4.741984] (micro_ros_setup) CommandEnded: {'returncode': 0}
+[4.744924] (micro_ros_setup) JobProgress: {'identifier': 'micro_ros_setup', 'progress': 'install'}
+[4.787310] (micro_ros_setup) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/orangepi/airduino/microros_ws/build/micro_ros_setup'], 'cwd': '/home/orangepi/airduino/microros_ws/build/micro_ros_setup', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'en_US.UTF-8', 'USER': 'orangepi', 'SSH_CLIENT': '192.168.0.129 23536 22', 'XDG_SESSION_TYPE': 'tty', 'GIT_ASKPASS': '/home/orangepi/.vscode-server/cli/servers/Stable-91fa95bccb027ece6a968589bb1d662fa9c8e170/server/extensions/git/dist/askpass.sh', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'BROWSER': '/home/orangepi/.vscode-server/cli/servers/Stable-848b80aeb52026648a8ff9f7c45a9b0a80641e2e/server/bin/helpers/browser.sh', 'HOME': '/home/orangepi', 'OLDPWD': '/home/orangepi/airduino', 'TERM_PROGRAM_VERSION': '1.100.2', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-5d91d02f-0dfb-4e1e-84f3-6e1eafb840d1.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/orangepi/.vscode-server/cli/servers/Stable-91fa95bccb027ece6a968589bb1d662fa9c8e170/server/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/home/orangepi/.vscode-server/cli/servers/Stable-91fa95bccb027ece6a968589bb1d662fa9c8e170/server/node', 'SSL_CERT_FILE': '/usr/lib/ssl/cert.pem', 'PYDEVD_DISABLE_FILE_VALIDATION': '1', 'BUNDLED_DEBUGPY_PATH': '/home/orangepi/.vscode-server/extensions/ms-python.debugpy-2025.8.0-linux-arm64/bundled/libs/debugpy', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'orangepi', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '8', 'PATH': '/home/orangepi/.vscode-server/cli/servers/Stable-848b80aeb52026648a8ff9f7c45a9b0a80641e2e/server/bin/remote-cli:/home/orangepi/.local/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/orangepi/.vscode-server/extensions/ms-python.debugpy-2025.8.0-linux-arm64/bundled/scripts/noConfigScripts:/home/orangepi/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand', 'XDG_RUNTIME_DIR': '/run/user/1000', 'SSL_CERT_DIR': '/usr/lib/ssl/certs', 'VSCODE_DEBUGPY_ADAPTER_ENDPOINTS': '/home/orangepi/.vscode-server/extensions/ms-python.debugpy-2025.8.0-linux-arm64/.noConfigDebugAdapterEndpoints/endpoint-eafc9373665f109e.txt', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-3cb7b1d95a.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'LC_MESSAGES': 'en_US.UTF-8', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/orangepi/airduino/microros_ws/build/micro_ros_setup', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '192.168.0.129 23536 192.168.0.112 22', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[4.830307] (micro_ros_setup) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[4.831589] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/orangepi/airduino/microros_ws/install/micro_ros_setup/share/ament_index/resource_index/package_run_dependencies/micro_ros_setup\n'}
+[4.833049] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/orangepi/airduino/microros_ws/install/micro_ros_setup/share/ament_index/resource_index/parent_prefix_path/micro_ros_setup\n'}
+[4.834043] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/orangepi/airduino/microros_ws/install/micro_ros_setup/share/micro_ros_setup/environment/ament_prefix_path.sh\n'}
+[4.834897] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/orangepi/airduino/microros_ws/install/micro_ros_setup/share/micro_ros_setup/environment/ament_prefix_path.dsv\n'}
+[4.835690] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/orangepi/airduino/microros_ws/install/micro_ros_setup/share/micro_ros_setup/environment/path.sh\n'}
+[4.836610] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/orangepi/airduino/microros_ws/install/micro_ros_setup/share/micro_ros_setup/environment/path.dsv\n'}
+[4.837327] (-) TimerEvent: {}
+[4.838552] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/orangepi/airduino/microros_ws/install/micro_ros_setup/share/micro_ros_setup/local_setup.bash\n'}
+[4.841355] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/orangepi/airduino/microros_ws/install/micro_ros_setup/share/micro_ros_setup/local_setup.sh\n'}
+[4.842146] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/orangepi/airduino/microros_ws/install/micro_ros_setup/share/micro_ros_setup/local_setup.zsh\n'}
+[4.842891] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/orangepi/airduino/microros_ws/install/micro_ros_setup/share/micro_ros_setup/local_setup.dsv\n'}
+[4.843816] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/orangepi/airduino/microros_ws/install/micro_ros_setup/share/micro_ros_setup/package.dsv\n'}
+[4.845103] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/orangepi/airduino/microros_ws/install/micro_ros_setup/share/ament_index/resource_index/packages/micro_ros_setup\n'}
+[4.846343] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/orangepi/airduino/microros_ws/install/micro_ros_setup/share/micro_ros_setup/cmake/micro_ros_setupConfig.cmake\n'}
+[4.847550] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/orangepi/airduino/microros_ws/install/micro_ros_setup/share/micro_ros_setup/cmake/micro_ros_setupConfig-version.cmake\n'}
+[4.848865] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/orangepi/airduino/microros_ws/install/micro_ros_setup/share/micro_ros_setup/package.xml\n'}
+[4.849631] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/orangepi/airduino/microros_ws/install/micro_ros_setup/./config\n'}
+[4.850337] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/orangepi/airduino/microros_ws/install/micro_ros_setup/./config/freertos\n'}
+[4.851153] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/orangepi/airduino/microros_ws/install/micro_ros_setup/./config/freertos/list_apps.sh\n'}
+[4.852001] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/orangepi/airduino/microros_ws/install/micro_ros_setup/./config/freertos/nucleo_f446re\n'}
+[4.852832] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/orangepi/airduino/microros_ws/install/micro_ros_setup/./config/freertos/nucleo_f446re/build.sh\n'}
+[4.853662] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/orangepi/airduino/microros_ws/install/micro_ros_setup/./config/freertos/nucleo_f446re/board.repos\n'}
+[4.854398] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/orangepi/airduino/microros_ws/install/micro_ros_setup/./config/freertos/nucleo_f446re/package.xml\n'}
+[4.855165] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/orangepi/airduino/microros_ws/install/micro_ros_setup/./config/freertos/nucleo_f446re/create.sh\n'}
+[4.855934] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/orangepi/airduino/microros_ws/install/micro_ros_setup/./config/freertos/nucleo_f446re/client_uros_packages.repos\n'}
+[4.856817] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/orangepi/airduino/microros_ws/install/micro_ros_setup/./config/freertos/nucleo_f446re/configure.sh\n'}
+[4.857583] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/orangepi/airduino/microros_ws/install/micro_ros_setup/./config/freertos/nucleo_f446re/client-colcon.meta\n'}
+[4.858384] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/orangepi/airduino/microros_ws/install/micro_ros_setup/./config/freertos/nucleo_f446re/flash.sh\n'}
+[4.859173] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/orangepi/airduino/microros_ws/install/micro_ros_setup/./config/freertos/dev_ros2_packages.txt\n'}
+[4.860046] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/orangepi/airduino/microros_ws/install/micro_ros_setup/./config/freertos/esp32\n'}
+[4.860822] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/orangepi/airduino/microros_ws/install/micro_ros_setup/./config/freertos/esp32/build.sh\n'}
+[4.861667] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/orangepi/airduino/microros_ws/install/micro_ros_setup/./config/freertos/esp32/board.repos\n'}
+[4.862456] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/orangepi/airduino/microros_ws/install/micro_ros_setup/./config/freertos/esp32/README.md\n'}
+[4.864263] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/orangepi/airduino/microros_ws/install/micro_ros_setup/./config/freertos/esp32/package.xml\n'}
+[4.865046] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/orangepi/airduino/microros_ws/install/micro_ros_setup/./config/freertos/esp32/create.sh\n'}
+[4.865804] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/orangepi/airduino/microros_ws/install/micro_ros_setup/./config/freertos/esp32/client_uros_packages.repos\n'}
+[4.866437] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/orangepi/airduino/microros_ws/install/micro_ros_setup/./config/freertos/esp32/configure.sh\n'}
+[4.867032] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/orangepi/airduino/microros_ws/install/micro_ros_setup/./config/freertos/esp32/client-colcon.meta\n'}
+[4.867635] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/orangepi/airduino/microros_ws/install/micro_ros_setup/./config/freertos/esp32/flash.sh\n'}
+[4.868254] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/orangepi/airduino/microros_ws/install/micro_ros_setup/./config/freertos/olimex-stm32-e407\n'}
+[4.868863] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/orangepi/airduino/microros_ws/install/micro_ros_setup/./config/freertos/olimex-stm32-e407/build.sh\n'}
+[4.869454] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/orangepi/airduino/microros_ws/install/micro_ros_setup/./config/freertos/olimex-stm32-e407/board.repos\n'}
+[4.870038] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/orangepi/airduino/microros_ws/install/micro_ros_setup/./config/freertos/olimex-stm32-e407/package.xml\n'}
+[4.870658] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/orangepi/airduino/microros_ws/install/micro_ros_setup/./config/freertos/olimex-stm32-e407/create.sh\n'}
+[4.871264] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/orangepi/airduino/microros_ws/install/micro_ros_setup/./config/freertos/olimex-stm32-e407/client_uros_packages.repos\n'}
+[4.872003] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/orangepi/airduino/microros_ws/install/micro_ros_setup/./config/freertos/olimex-stm32-e407/configure.sh\n'}
+[4.872691] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/orangepi/airduino/microros_ws/install/micro_ros_setup/./config/freertos/olimex-stm32-e407/client-colcon.meta\n'}
+[4.873342] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/orangepi/airduino/microros_ws/install/micro_ros_setup/./config/freertos/olimex-stm32-e407/flash.sh\n'}
+[4.873984] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/orangepi/airduino/microros_ws/install/micro_ros_setup/./config/freertos/nucleo_f446ze\n'}
+[4.874569] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/orangepi/airduino/microros_ws/install/micro_ros_setup/./config/freertos/nucleo_f446ze/build.sh\n'}
+[4.875195] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/orangepi/airduino/microros_ws/install/micro_ros_setup/./config/freertos/nucleo_f446ze/board.repos\n'}
+[4.875867] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/orangepi/airduino/microros_ws/install/micro_ros_setup/./config/freertos/nucleo_f446ze/package.xml\n'}
+[4.876601] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/orangepi/airduino/microros_ws/install/micro_ros_setup/./config/freertos/nucleo_f446ze/create.sh\n'}
+[4.877700] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/orangepi/airduino/microros_ws/install/micro_ros_setup/./config/freertos/nucleo_f446ze/client_uros_packages.repos\n'}
+[4.878641] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/orangepi/airduino/microros_ws/install/micro_ros_setup/./config/freertos/nucleo_f446ze/configure.sh\n'}
+[4.879494] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/orangepi/airduino/microros_ws/install/micro_ros_setup/./config/freertos/nucleo_f446ze/client-colcon.meta\n'}
+[4.880710] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/orangepi/airduino/microros_ws/install/micro_ros_setup/./config/freertos/nucleo_f446ze/flash.sh\n'}
+[4.881826] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/orangepi/airduino/microros_ws/install/micro_ros_setup/./config/freertos/crazyflie21\n'}
+[4.882666] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/orangepi/airduino/microros_ws/install/micro_ros_setup/./config/freertos/crazyflie21/build.sh\n'}
+[4.883469] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/orangepi/airduino/microros_ws/install/micro_ros_setup/./config/freertos/crazyflie21/board.repos\n'}
+[4.884606] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/orangepi/airduino/microros_ws/install/micro_ros_setup/./config/freertos/crazyflie21/package.xml\n'}
+[4.885382] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/orangepi/airduino/microros_ws/install/micro_ros_setup/./config/freertos/crazyflie21/create.sh\n'}
+[4.886125] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/orangepi/airduino/microros_ws/install/micro_ros_setup/./config/freertos/crazyflie21/client_uros_packages.repos\n'}
+[4.887095] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/orangepi/airduino/microros_ws/install/micro_ros_setup/./config/freertos/crazyflie21/configure.sh\n'}
+[4.887938] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/orangepi/airduino/microros_ws/install/micro_ros_setup/./config/freertos/crazyflie21/client-colcon.meta\n'}
+[4.888760] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/orangepi/airduino/microros_ws/install/micro_ros_setup/./config/freertos/crazyflie21/flash.sh\n'}
+[4.889668] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/orangepi/airduino/microros_ws/install/micro_ros_setup/./config/freertos/dev_uros_packages.repos\n'}
+[4.890565] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/orangepi/airduino/microros_ws/install/micro_ros_setup/./config/freertos/nucleo_f746zg\n'}
+[4.891373] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/orangepi/airduino/microros_ws/install/micro_ros_setup/./config/freertos/nucleo_f746zg/build.sh\n'}
+[4.892162] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/orangepi/airduino/microros_ws/install/micro_ros_setup/./config/freertos/nucleo_f746zg/board.repos\n'}
+[4.893126] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/orangepi/airduino/microros_ws/install/micro_ros_setup/./config/freertos/nucleo_f746zg/package.xml\n'}
+[4.894302] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/orangepi/airduino/microros_ws/install/micro_ros_setup/./config/freertos/nucleo_f746zg/create.sh\n'}
+[4.895100] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/orangepi/airduino/microros_ws/install/micro_ros_setup/./config/freertos/nucleo_f746zg/client_uros_packages.repos\n'}
+[4.895751] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/orangepi/airduino/microros_ws/install/micro_ros_setup/./config/freertos/nucleo_f746zg/configure.sh\n'}
+[4.896475] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/orangepi/airduino/microros_ws/install/micro_ros_setup/./config/freertos/nucleo_f746zg/client-colcon.meta\n'}
+[4.897084] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/orangepi/airduino/microros_ws/install/micro_ros_setup/./config/freertos/nucleo_f746zg/flash.sh\n'}
+[4.897784] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/orangepi/airduino/microros_ws/install/micro_ros_setup/./config/freertos/nucleo_f767zi\n'}
+[4.898446] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/orangepi/airduino/microros_ws/install/micro_ros_setup/./config/freertos/nucleo_f767zi/build.sh\n'}
+[4.899113] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/orangepi/airduino/microros_ws/install/micro_ros_setup/./config/freertos/nucleo_f767zi/board.repos\n'}
+[4.899749] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/orangepi/airduino/microros_ws/install/micro_ros_setup/./config/freertos/nucleo_f767zi/package.xml\n'}
+[4.900402] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/orangepi/airduino/microros_ws/install/micro_ros_setup/./config/freertos/nucleo_f767zi/create.sh\n'}
+[4.901070] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/orangepi/airduino/microros_ws/install/micro_ros_setup/./config/freertos/nucleo_f767zi/client_uros_packages.repos\n'}
+[4.901734] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/orangepi/airduino/microros_ws/install/micro_ros_setup/./config/freertos/nucleo_f767zi/configure.sh\n'}
+[4.902354] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/orangepi/airduino/microros_ws/install/micro_ros_setup/./config/freertos/nucleo_f767zi/client-colcon.meta\n'}
+[4.903005] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/orangepi/airduino/microros_ws/install/micro_ros_setup/./config/freertos/nucleo_f767zi/flash.sh\n'}
+[4.903588] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/orangepi/airduino/microros_ws/install/micro_ros_setup/./config/agent_ros2_packages.txt\n'}
+[4.904179] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/orangepi/airduino/microros_ws/install/micro_ros_setup/./config/raspbian\n'}
+[4.904803] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/orangepi/airduino/microros_ws/install/micro_ros_setup/./config/raspbian/generic\n'}
+[4.905448] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/orangepi/airduino/microros_ws/install/micro_ros_setup/./config/raspbian/generic/build.sh\n'}
+[4.906039] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/orangepi/airduino/microros_ws/install/micro_ros_setup/./config/raspbian/generic/supported_platforms\n'}
+[4.906683] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/orangepi/airduino/microros_ws/install/micro_ros_setup/./config/raspbian/generic/create.sh\n'}
+[4.907319] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/orangepi/airduino/microros_ws/install/micro_ros_setup/./config/raspbian/generic/client_uros_packages.repos\n'}
+[4.908030] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/orangepi/airduino/microros_ws/install/micro_ros_setup/./config/raspbian/generic/configure.sh\n'}
+[4.908622] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/orangepi/airduino/microros_ws/install/micro_ros_setup/./config/raspbian/generic/client-colcon.meta\n'}
+[4.909147] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/orangepi/airduino/microros_ws/install/micro_ros_setup/./config/raspbian/generic/flash.sh\n'}
+[4.909642] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/orangepi/airduino/microros_ws/install/micro_ros_setup/./config/raspbian/dev_ros2_packages.txt\n'}
+[4.910126] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/orangepi/airduino/microros_ws/install/micro_ros_setup/./config/raspbian/dev_uros_packages.repos\n'}
+[4.910601] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/orangepi/airduino/microros_ws/install/micro_ros_setup/./config/android\n'}
+[4.911136] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/orangepi/airduino/microros_ws/install/micro_ros_setup/./config/android/generic\n'}
+[4.911602] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/orangepi/airduino/microros_ws/install/micro_ros_setup/./config/android/generic/build.sh\n'}
+[4.912126] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/orangepi/airduino/microros_ws/install/micro_ros_setup/./config/android/generic/package.xml\n'}
+[4.912613] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/orangepi/airduino/microros_ws/install/micro_ros_setup/./config/android/generic/create.sh\n'}
+[4.913080] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/orangepi/airduino/microros_ws/install/micro_ros_setup/./config/android/generic/client_uros_packages.repos\n'}
+[4.913549] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/orangepi/airduino/microros_ws/install/micro_ros_setup/./config/android/generic/client-colcon.meta\n'}
+[4.914014] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/orangepi/airduino/microros_ws/install/micro_ros_setup/./config/android/generic/flash.sh\n'}
+[4.914486] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/orangepi/airduino/microros_ws/install/micro_ros_setup/./config/android/dev_ros2_packages.txt\n'}
+[4.915199] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/orangepi/airduino/microros_ws/install/micro_ros_setup/./config/android/dev_uros_packages.repos\n'}
+[4.916214] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/orangepi/airduino/microros_ws/install/micro_ros_setup/./config/generate_lib\n'}
+[4.918656] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/orangepi/airduino/microros_ws/install/micro_ros_setup/./config/generate_lib/generic\n'}
+[4.919595] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/orangepi/airduino/microros_ws/install/micro_ros_setup/./config/generate_lib/generic/build.sh\n'}
+[4.920640] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/orangepi/airduino/microros_ws/install/micro_ros_setup/./config/generate_lib/generic/package.xml\n'}
+[4.921435] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/orangepi/airduino/microros_ws/install/micro_ros_setup/./config/generate_lib/generic/create.sh\n'}
+[4.922026] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/orangepi/airduino/microros_ws/install/micro_ros_setup/./config/generate_lib/generic/demo_toolchain.cmake\n'}
+[4.923585] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/orangepi/airduino/microros_ws/install/micro_ros_setup/./config/generate_lib/generic/client_uros_packages.repos\n'}
+[4.924861] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/orangepi/airduino/microros_ws/install/micro_ros_setup/./config/generate_lib/generic/client-colcon.meta\n'}
+[4.926270] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/orangepi/airduino/microros_ws/install/micro_ros_setup/./config/generate_lib/generic/flash.sh\n'}
+[4.926999] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/orangepi/airduino/microros_ws/install/micro_ros_setup/./config/generate_lib/dev_ros2_packages.txt\n'}
+[4.927801] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/orangepi/airduino/microros_ws/install/micro_ros_setup/./config/generate_lib/dev_uros_packages.repos\n'}
+[4.928619] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/orangepi/airduino/microros_ws/install/micro_ros_setup/./config/agent_uros_packages.repos\n'}
+[4.929189] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/orangepi/airduino/microros_ws/install/micro_ros_setup/./config/host\n'}
+[4.929860] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/orangepi/airduino/microros_ws/install/micro_ros_setup/./config/host/generic\n'}
+[4.930516] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/orangepi/airduino/microros_ws/install/micro_ros_setup/./config/host/generic/build.sh\n'}
+[4.931099] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/orangepi/airduino/microros_ws/install/micro_ros_setup/./config/host/generic/client-host-colcon.meta\n'}
+[4.931771] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/orangepi/airduino/microros_ws/install/micro_ros_setup/./config/host/generic/package.xml\n'}
+[4.932311] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/orangepi/airduino/microros_ws/install/micro_ros_setup/./config/host/generic/create.sh\n'}
+[4.933505] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/orangepi/airduino/microros_ws/install/micro_ros_setup/./config/host/generic/client_host_packages.repos\n'}
+[4.934236] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/orangepi/airduino/microros_ws/install/micro_ros_setup/./config/host/generic/flash.sh\n'}
+[4.935374] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/orangepi/airduino/microros_ws/install/micro_ros_setup/./config/host/dev_ros2_packages.txt\n'}
+[4.936692] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/orangepi/airduino/microros_ws/install/micro_ros_setup/./config/host/dev_uros_packages.repos\n'}
+[4.937474] (-) TimerEvent: {}
+[4.938008] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/orangepi/airduino/microros_ws/install/micro_ros_setup/./config/host/client_ros2_packages.txt\n'}
+[4.938774] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/orangepi/airduino/microros_ws/install/micro_ros_setup/./config/client_uros_packages.repos\n'}
+[4.939580] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/orangepi/airduino/microros_ws/install/micro_ros_setup/./config/client_ros2_packages.txt\n'}
+[4.940138] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/orangepi/airduino/microros_ws/install/micro_ros_setup/./config/zephyr\n'}
+[4.940922] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/orangepi/airduino/microros_ws/install/micro_ros_setup/./config/zephyr/generic\n'}
+[4.941616] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/orangepi/airduino/microros_ws/install/micro_ros_setup/./config/zephyr/generic/build.sh\n'}
+[4.942488] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/orangepi/airduino/microros_ws/install/micro_ros_setup/./config/zephyr/generic/board.repos\n'}
+[4.946461] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/orangepi/airduino/microros_ws/install/micro_ros_setup/./config/zephyr/generic/supported_platforms\n'}
+[4.947567] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/orangepi/airduino/microros_ws/install/micro_ros_setup/./config/zephyr/generic/package.xml\n'}
+[4.948184] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/orangepi/airduino/microros_ws/install/micro_ros_setup/./config/zephyr/generic/create.sh\n'}
+[4.948845] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/orangepi/airduino/microros_ws/install/micro_ros_setup/./config/zephyr/generic/client_uros_packages.repos\n'}
+[4.949506] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/orangepi/airduino/microros_ws/install/micro_ros_setup/./config/zephyr/generic/configure.sh\n'}
+[4.950200] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/orangepi/airduino/microros_ws/install/micro_ros_setup/./config/zephyr/generic/client-colcon.meta\n'}
+[4.950725] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/orangepi/airduino/microros_ws/install/micro_ros_setup/./config/zephyr/generic/flash.sh\n'}
+[4.951285] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/orangepi/airduino/microros_ws/install/micro_ros_setup/./config/zephyr/list_apps.sh\n'}
+[4.952003] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/orangepi/airduino/microros_ws/install/micro_ros_setup/./config/zephyr/dev_ros2_packages.txt\n'}
+[4.953262] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/orangepi/airduino/microros_ws/install/micro_ros_setup/./config/zephyr/dev_uros_packages.repos\n'}
+[4.953789] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/orangepi/airduino/microros_ws/install/micro_ros_setup/./config/utils.sh\n'}
+[4.954851] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/orangepi/airduino/microros_ws/install/micro_ros_setup/lib/micro_ros_setup/create_ws.sh\n'}
+[4.955438] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/orangepi/airduino/microros_ws/install/micro_ros_setup/lib/micro_ros_setup/create_agent_ws.sh\n'}
+[4.956062] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/orangepi/airduino/microros_ws/install/micro_ros_setup/lib/micro_ros_setup/create_firmware_ws.sh\n'}
+[4.956667] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/orangepi/airduino/microros_ws/install/micro_ros_setup/lib/micro_ros_setup/configure_firmware.sh\n'}
+[4.957214] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/orangepi/airduino/microros_ws/install/micro_ros_setup/lib/micro_ros_setup/flash_firmware.sh\n'}
+[4.958025] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/orangepi/airduino/microros_ws/install/micro_ros_setup/lib/micro_ros_setup/build_firmware.sh\n'}
+[4.960168] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/orangepi/airduino/microros_ws/install/micro_ros_setup/lib/micro_ros_setup/build_agent.sh\n'}
+[4.962703] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/orangepi/airduino/microros_ws/install/micro_ros_setup/lib/micro_ros_setup/yaml_filter.py\n'}
+[4.963391] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/orangepi/airduino/microros_ws/install/micro_ros_setup/lib/micro_ros_setup/clean_env.sh\n'}
+[4.964692] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/orangepi/airduino/microros_ws/install/micro_ros_setup/lib/micro_ros_setup/component\n'}
+[4.965710] (micro_ros_setup) CommandEnded: {'returncode': 0}
+[5.037690] (-) TimerEvent: {}
+[5.043377] (micro_ros_setup) JobEnded: {'identifier': 'micro_ros_setup', 'rc': 0}
+[5.047319] (-) EventReactorShutdown: {}
