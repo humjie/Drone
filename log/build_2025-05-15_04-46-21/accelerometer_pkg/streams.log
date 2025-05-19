@@ -1,0 +1,24 @@
+[5.253s] Invoking command in '/home/orangepi/ros2_ws/src/accelerometer_pkg/accelerometer_pkg': PYTHONPATH=/home/orangepi/ros2_ws/build/accelerometer_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/orangepi/ros2_ws/install/accelerometer_pkg/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/accelerometer_pkg build --build-base /home/orangepi/ros2_ws/build/accelerometer_pkg/build install --record /home/orangepi/ros2_ws/build/accelerometer_pkg/install.log --single-version-externally-managed install_data
+[6.898s] running egg_info
+[7.015s] writing ../../../build/accelerometer_pkg/accelerometer_pkg.egg-info/PKG-INFO
+[7.017s] writing dependency_links to ../../../build/accelerometer_pkg/accelerometer_pkg.egg-info/dependency_links.txt
+[7.021s] writing entry points to ../../../build/accelerometer_pkg/accelerometer_pkg.egg-info/entry_points.txt
+[7.022s] writing requirements to ../../../build/accelerometer_pkg/accelerometer_pkg.egg-info/requires.txt
+[7.023s] writing top-level names to ../../../build/accelerometer_pkg/accelerometer_pkg.egg-info/top_level.txt
+[7.274s] reading manifest file '../../../build/accelerometer_pkg/accelerometer_pkg.egg-info/SOURCES.txt'
+[7.285s] writing manifest file '../../../build/accelerometer_pkg/accelerometer_pkg.egg-info/SOURCES.txt'
+[7.287s] running build
+[7.288s] running build_py
+[7.288s] copying accelerometer_pkg/accelerometer_node.py -> /home/orangepi/ros2_ws/build/accelerometer_pkg/build/lib/accelerometer_pkg
+[7.290s] running install
+[7.342s] running install_lib
+[7.458s] copying /home/orangepi/ros2_ws/build/accelerometer_pkg/build/lib/accelerometer_pkg/accelerometer_node.py -> /home/orangepi/ros2_ws/install/accelerometer_pkg/lib/python3.12/site-packages/accelerometer_pkg
+[7.461s] byte-compiling /home/orangepi/ros2_ws/install/accelerometer_pkg/lib/python3.12/site-packages/accelerometer_pkg/accelerometer_node.py to accelerometer_node.cpython-312.pyc
+[7.470s] running install_data
+[7.471s] running install_egg_info
+[7.604s] removing '/home/orangepi/ros2_ws/install/accelerometer_pkg/lib/python3.12/site-packages/accelerometer_pkg-0.0.1-py3.12.egg-info' (and everything under it)
+[7.606s] Copying ../../../build/accelerometer_pkg/accelerometer_pkg.egg-info to /home/orangepi/ros2_ws/install/accelerometer_pkg/lib/python3.12/site-packages/accelerometer_pkg-0.0.1-py3.12.egg-info
+[7.614s] running install_scripts
+[8.459s] Installing accelerometer_node script to /home/orangepi/ros2_ws/install/accelerometer_pkg/lib/accelerometer_pkg
+[8.461s] writing list of installed files to '/home/orangepi/ros2_ws/build/accelerometer_pkg/install.log'
+[8.778s] Invoked command in '/home/orangepi/ros2_ws/src/accelerometer_pkg/accelerometer_pkg' returned '0': PYTHONPATH=/home/orangepi/ros2_ws/build/accelerometer_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/orangepi/ros2_ws/install/accelerometer_pkg/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/accelerometer_pkg build --build-base /home/orangepi/ros2_ws/build/accelerometer_pkg/build install --record /home/orangepi/ros2_ws/build/accelerometer_pkg/install.log --single-version-externally-managed install_data

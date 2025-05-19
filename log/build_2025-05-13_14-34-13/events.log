@@ -1,0 +1,135 @@
+[0.000000] (-) TimerEvent: {}
+[0.001394] (accelerometer_pkg) JobQueued: {'identifier': 'accelerometer_pkg', 'dependencies': OrderedDict()}
+[0.002503] (accelerometer_pkg) JobStarted: {'identifier': 'accelerometer_pkg'}
+[0.098895] (-) TimerEvent: {}
+[0.199876] (-) TimerEvent: {}
+[0.301129] (-) TimerEvent: {}
+[0.401951] (-) TimerEvent: {}
+[0.502814] (-) TimerEvent: {}
+[0.603706] (-) TimerEvent: {}
+[0.704585] (-) TimerEvent: {}
+[0.805437] (-) TimerEvent: {}
+[0.906338] (-) TimerEvent: {}
+[1.007192] (-) TimerEvent: {}
+[1.108051] (-) TimerEvent: {}
+[1.208915] (-) TimerEvent: {}
+[1.309951] (-) TimerEvent: {}
+[1.411036] (-) TimerEvent: {}
+[1.512186] (-) TimerEvent: {}
+[1.613254] (-) TimerEvent: {}
+[1.714162] (-) TimerEvent: {}
+[1.815287] (-) TimerEvent: {}
+[1.916222] (-) TimerEvent: {}
+[2.017201] (-) TimerEvent: {}
+[2.118713] (-) TimerEvent: {}
+[2.220660] (-) TimerEvent: {}
+[2.321667] (-) TimerEvent: {}
+[2.422725] (-) TimerEvent: {}
+[2.523728] (-) TimerEvent: {}
+[2.624692] (-) TimerEvent: {}
+[2.726353] (-) TimerEvent: {}
+[2.828075] (-) TimerEvent: {}
+[2.929934] (-) TimerEvent: {}
+[3.031474] (-) TimerEvent: {}
+[3.134269] (-) TimerEvent: {}
+[3.235676] (-) TimerEvent: {}
+[3.336562] (-) TimerEvent: {}
+[3.437610] (-) TimerEvent: {}
+[3.538569] (-) TimerEvent: {}
+[3.639398] (-) TimerEvent: {}
+[3.740300] (-) TimerEvent: {}
+[3.841183] (-) TimerEvent: {}
+[3.942111] (-) TimerEvent: {}
+[4.042976] (-) TimerEvent: {}
+[4.143887] (-) TimerEvent: {}
+[4.244741] (-) TimerEvent: {}
+[4.345671] (-) TimerEvent: {}
+[4.446564] (-) TimerEvent: {}
+[4.547434] (-) TimerEvent: {}
+[4.648280] (-) TimerEvent: {}
+[4.749150] (-) TimerEvent: {}
+[4.850140] (-) TimerEvent: {}
+[4.950987] (-) TimerEvent: {}
+[5.051843] (-) TimerEvent: {}
+[5.152712] (-) TimerEvent: {}
+[5.253540] (-) TimerEvent: {}
+[5.354452] (-) TimerEvent: {}
+[5.455344] (-) TimerEvent: {}
+[5.556213] (-) TimerEvent: {}
+[5.657221] (-) TimerEvent: {}
+[5.758400] (-) TimerEvent: {}
+[5.859473] (-) TimerEvent: {}
+[5.960511] (-) TimerEvent: {}
+[5.972034] (accelerometer_pkg) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../build/accelerometer_pkg', 'build', '--build-base', '/home/orangepi/ros2_ws/build/accelerometer_pkg/build', 'install', '--record', '/home/orangepi/ros2_ws/build/accelerometer_pkg/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/orangepi/ros2_ws/accelerometer_pkg', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'en_US.UTF-8', 'USER': 'orangepi', 'SSH_CLIENT': '192.168.0.128 52218 22', 'ROS_PACKAGE_PATH': '/home/orangepi/ros2_ws/install/adxl345_node/share', 'XDG_SESSION_TYPE': 'tty', 'GIT_ASKPASS': '/home/orangepi/.vscode-server/cli/servers/Stable-fabdb6a30b49f79a7aba0f2ad9df9b399473380f/server/extensions/git/dist/askpass.sh', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'BROWSER': '/home/orangepi/.vscode-server/cli/servers/Stable-fabdb6a30b49f79a7aba0f2ad9df9b399473380f/server/bin/helpers/browser.sh', 'HOME': '/home/orangepi', 'OLDPWD': '/home/orangepi', 'TERM_PROGRAM_VERSION': '1.96.2', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-b73ccf80-8f20-4c4e-97aa-9dc557040ba8.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/orangepi/.vscode-server/cli/servers/Stable-fabdb6a30b49f79a7aba0f2ad9df9b399473380f/server/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/home/orangepi/.vscode-server/cli/servers/Stable-fabdb6a30b49f79a7aba0f2ad9df9b399473380f/server/node', 'SSL_CERT_FILE': '/usr/lib/ssl/cert.pem', 'PYDEVD_DISABLE_FILE_VALIDATION': '1', 'BUNDLED_DEBUGPY_PATH': '/home/orangepi/.vscode-server/extensions/ms-python.debugpy-2025.8.0-linux-arm64/bundled/libs/debugpy', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'COLCON_PREFIX_PATH': '/home/orangepi/ros2_ws/install:/home/orangepi/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'orangepi', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'PKG_CONFIG_PATH': '/home/orangepi/ros2_ws/install/adxl345_node/lib/aarch64-linux-gnu/pkgconfig:/home/orangepi/ros2_ws/install/adxl345_node/lib/pkgconfig', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '6', 'PATH': '/opt/ros/jazzy/bin:/home/orangepi/.vscode-server/cli/servers/Stable-fabdb6a30b49f79a7aba0f2ad9df9b399473380f/server/bin/remote-cli:/home/orangepi/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/orangepi/.vscode-server/extensions/ms-python.debugpy-2025.8.0-linux-arm64/bundled/scripts/noConfigScripts:/home/orangepi/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand', 'XDG_RUNTIME_DIR': '/run/user/1000', 'SSL_CERT_DIR': '/usr/lib/ssl/certs', 'VSCODE_DEBUGPY_ADAPTER_ENDPOINTS': '/home/orangepi/.vscode-server/extensions/ms-python.debugpy-2025.8.0-linux-arm64/.noConfigDebugAdapterEndpoints/endpoint-eafc9373665f109e.txt', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-3cb7b1d95a.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'LC_MESSAGES': 'en_US.UTF-8', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/orangepi/ros2_ws/build/accelerometer_pkg', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '192.168.0.128 52218 192.168.0.112 22', 'PYTHONPATH': '/home/orangepi/ros2_ws/build/accelerometer_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/orangepi/ros2_ws/install/accelerometer_pkg/lib/python3.12/site-packages:/home/orangepi/ros2_ws/install/adxl345_node/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/orangepi/ros2_ws/install/adxl345_node:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}, 'shell': False}
+[6.060709] (-) TimerEvent: {}
+[6.161614] (-) TimerEvent: {}
+[6.262557] (-) TimerEvent: {}
+[6.363463] (-) TimerEvent: {}
+[6.464361] (-) TimerEvent: {}
+[6.565305] (-) TimerEvent: {}
+[6.666340] (-) TimerEvent: {}
+[6.767214] (-) TimerEvent: {}
+[6.868078] (-) TimerEvent: {}
+[6.968937] (-) TimerEvent: {}
+[7.069858] (-) TimerEvent: {}
+[7.170874] (-) TimerEvent: {}
+[7.271839] (-) TimerEvent: {}
+[7.372707] (-) TimerEvent: {}
+[7.473555] (-) TimerEvent: {}
+[7.574420] (-) TimerEvent: {}
+[7.620799] (accelerometer_pkg) StdoutLine: {'line': b'running egg_info\n'}
+[7.622743] (accelerometer_pkg) StdoutLine: {'line': b'creating ../build/accelerometer_pkg/accelerometer_pkg.egg-info\n'}
+[7.674611] (-) TimerEvent: {}
+[7.738380] (accelerometer_pkg) StdoutLine: {'line': b'writing ../build/accelerometer_pkg/accelerometer_pkg.egg-info/PKG-INFO\n'}
+[7.739758] (accelerometer_pkg) StdoutLine: {'line': b'writing dependency_links to ../build/accelerometer_pkg/accelerometer_pkg.egg-info/dependency_links.txt\n'}
+[7.740547] (accelerometer_pkg) StdoutLine: {'line': b'writing entry points to ../build/accelerometer_pkg/accelerometer_pkg.egg-info/entry_points.txt\n'}
+[7.741189] (accelerometer_pkg) StdoutLine: {'line': b'writing requirements to ../build/accelerometer_pkg/accelerometer_pkg.egg-info/requires.txt\n'}
+[7.741832] (accelerometer_pkg) StdoutLine: {'line': b'writing top-level names to ../build/accelerometer_pkg/accelerometer_pkg.egg-info/top_level.txt\n'}
+[7.742470] (accelerometer_pkg) StdoutLine: {'line': b"writing manifest file '../build/accelerometer_pkg/accelerometer_pkg.egg-info/SOURCES.txt'\n"}
+[7.774813] (-) TimerEvent: {}
+[7.876843] (-) TimerEvent: {}
+[7.977708] (-) TimerEvent: {}
+[7.986030] (accelerometer_pkg) StdoutLine: {'line': b"reading manifest file '../build/accelerometer_pkg/accelerometer_pkg.egg-info/SOURCES.txt'\n"}
+[7.990036] (accelerometer_pkg) StdoutLine: {'line': b"writing manifest file '../build/accelerometer_pkg/accelerometer_pkg.egg-info/SOURCES.txt'\n"}
+[7.990910] (accelerometer_pkg) StdoutLine: {'line': b'running build\n'}
+[7.991533] (accelerometer_pkg) StdoutLine: {'line': b'running build_py\n'}
+[7.992123] (accelerometer_pkg) StdoutLine: {'line': b'creating /home/orangepi/ros2_ws/build/accelerometer_pkg/build\n'}
+[7.992757] (accelerometer_pkg) StdoutLine: {'line': b'creating /home/orangepi/ros2_ws/build/accelerometer_pkg/build/lib\n'}
+[7.993356] (accelerometer_pkg) StdoutLine: {'line': b'creating /home/orangepi/ros2_ws/build/accelerometer_pkg/build/lib/accelerometer_pkg\n'}
+[7.994098] (accelerometer_pkg) StdoutLine: {'line': b'copying accelerometer_pkg/accelerometer_node.py -> /home/orangepi/ros2_ws/build/accelerometer_pkg/build/lib/accelerometer_pkg\n'}
+[7.994769] (accelerometer_pkg) StdoutLine: {'line': b'copying accelerometer_pkg/__init__.py -> /home/orangepi/ros2_ws/build/accelerometer_pkg/build/lib/accelerometer_pkg\n'}
+[7.995372] (accelerometer_pkg) StdoutLine: {'line': b'running install\n'}
+[8.043439] (accelerometer_pkg) StdoutLine: {'line': b'running install_lib\n'}
+[8.077917] (-) TimerEvent: {}
+[8.162603] (accelerometer_pkg) StdoutLine: {'line': b'creating /home/orangepi/ros2_ws/install/accelerometer_pkg/lib/python3.12/site-packages/accelerometer_pkg\n'}
+[8.163556] (accelerometer_pkg) StdoutLine: {'line': b'copying /home/orangepi/ros2_ws/build/accelerometer_pkg/build/lib/accelerometer_pkg/accelerometer_node.py -> /home/orangepi/ros2_ws/install/accelerometer_pkg/lib/python3.12/site-packages/accelerometer_pkg\n'}
+[8.164252] (accelerometer_pkg) StdoutLine: {'line': b'copying /home/orangepi/ros2_ws/build/accelerometer_pkg/build/lib/accelerometer_pkg/__init__.py -> /home/orangepi/ros2_ws/install/accelerometer_pkg/lib/python3.12/site-packages/accelerometer_pkg\n'}
+[8.166840] (accelerometer_pkg) StdoutLine: {'line': b'byte-compiling /home/orangepi/ros2_ws/install/accelerometer_pkg/lib/python3.12/site-packages/accelerometer_pkg/accelerometer_node.py to accelerometer_node.cpython-312.pyc\n'}
+[8.175173] (accelerometer_pkg) StdoutLine: {'line': b'byte-compiling /home/orangepi/ros2_ws/install/accelerometer_pkg/lib/python3.12/site-packages/accelerometer_pkg/__init__.py to __init__.cpython-312.pyc\n'}
+[8.176150] (accelerometer_pkg) StdoutLine: {'line': b'running install_data\n'}
+[8.176803] (accelerometer_pkg) StdoutLine: {'line': b'creating /home/orangepi/ros2_ws/install/accelerometer_pkg/share/ament_index\n'}
+[8.177508] (accelerometer_pkg) StdoutLine: {'line': b'creating /home/orangepi/ros2_ws/install/accelerometer_pkg/share/ament_index/resource_index\n'}
+[8.178147] (-) TimerEvent: {}
+[8.179553] (accelerometer_pkg) StdoutLine: {'line': b'creating /home/orangepi/ros2_ws/install/accelerometer_pkg/share/ament_index/resource_index/packages\n'}
+[8.180360] (accelerometer_pkg) StdoutLine: {'line': b'copying resource/accelerometer_pkg -> /home/orangepi/ros2_ws/install/accelerometer_pkg/share/ament_index/resource_index/packages\n'}
+[8.180895] (accelerometer_pkg) StdoutLine: {'line': b'copying package.xml -> /home/orangepi/ros2_ws/install/accelerometer_pkg/share/accelerometer_pkg\n'}
+[8.181395] (accelerometer_pkg) StdoutLine: {'line': b'running install_egg_info\n'}
+[8.278375] (-) TimerEvent: {}
+[8.310387] (accelerometer_pkg) StdoutLine: {'line': b'Copying ../build/accelerometer_pkg/accelerometer_pkg.egg-info to /home/orangepi/ros2_ws/install/accelerometer_pkg/lib/python3.12/site-packages/accelerometer_pkg-0.0.1-py3.12.egg-info\n'}
+[8.315490] (accelerometer_pkg) StdoutLine: {'line': b'running install_scripts\n'}
+[8.378583] (-) TimerEvent: {}
+[8.479435] (-) TimerEvent: {}
+[8.580278] (-) TimerEvent: {}
+[8.681133] (-) TimerEvent: {}
+[8.782098] (-) TimerEvent: {}
+[8.882975] (-) TimerEvent: {}
+[8.983845] (-) TimerEvent: {}
+[9.082808] (accelerometer_pkg) StdoutLine: {'line': b'Installing accelerometer_node script to /home/orangepi/ros2_ws/install/accelerometer_pkg/lib/accelerometer_pkg\n'}
+[9.083840] (-) TimerEvent: {}
+[9.086225] (accelerometer_pkg) StdoutLine: {'line': b"writing list of installed files to '/home/orangepi/ros2_ws/build/accelerometer_pkg/install.log'\n"}
+[9.184190] (-) TimerEvent: {}
+[9.285319] (-) TimerEvent: {}
+[9.386512] (-) TimerEvent: {}
+[9.404559] (accelerometer_pkg) CommandEnded: {'returncode': 0}
+[9.455560] (accelerometer_pkg) JobEnded: {'identifier': 'accelerometer_pkg', 'rc': 0}
+[9.460357] (-) EventReactorShutdown: {}

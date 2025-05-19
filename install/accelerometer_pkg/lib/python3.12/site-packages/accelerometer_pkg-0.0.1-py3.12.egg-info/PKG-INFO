@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: accelerometer-pkg
+Version: 0.0.1
+Summary: Package for reading ADXL345 accelerometer data via ESP32
+Maintainer: your_name
+Maintainer-email: your_email@example.com
+License: Apache License 2.0

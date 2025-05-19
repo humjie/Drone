@@ -1,0 +1,76 @@
+[0.073s] Invoking command in '/home/orangepi/ros2_ws/build/adxl345_node': /usr/bin/cmake /home/orangepi/ros2_ws/src/adxl345_node -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/orangepi/ros2_ws/install/adxl345_node
+[0.705s] -- The C compiler identification is GNU 13.3.0
+[1.172s] -- The CXX compiler identification is GNU 13.3.0
+[1.264s] -- Detecting C compiler ABI info
+[1.924s] -- Detecting C compiler ABI info - done
+[2.006s] -- Check for working C compiler: /usr/bin/cc - skipped
+[2.008s] -- Detecting C compile features
+[2.012s] -- Detecting C compile features - done
+[2.059s] -- Detecting CXX compiler ABI info
+[2.617s] -- Detecting CXX compiler ABI info - done
+[2.691s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.692s] -- Detecting CXX compile features
+[2.695s] -- Detecting CXX compile features - done
+[2.706s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[3.563s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[4.193s] -- Found rclpy: 7.1.4 (/opt/ros/jazzy/share/rclpy/cmake)
+[4.199s] -- Found sensor_msgs: 5.3.6 (/opt/ros/jazzy/share/sensor_msgs/cmake)
+[4.400s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[4.485s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[4.579s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[4.690s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[6.590s] -- Configuring done (6.5s)
+[6.615s] -- Generating done (0.0s)
+[6.623s] [33mCMake Warning:
+[6.623s]   Manually-specified variables were not used by the project:
+[6.624s] 
+[6.624s]     CATKIN_INSTALL_INTO_PREFIX_ROOT
+[6.625s] 
+[6.626s] [0m
+[6.633s] -- Build files have been written to: /home/orangepi/ros2_ws/build/adxl345_node
+[6.682s] Invoked command in '/home/orangepi/ros2_ws/build/adxl345_node' returned '0': /usr/bin/cmake /home/orangepi/ros2_ws/src/adxl345_node -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/orangepi/ros2_ws/install/adxl345_node
+[6.689s] Invoking command in '/home/orangepi/ros2_ws/build/adxl345_node': /usr/bin/cmake --build /home/orangepi/ros2_ws/build/adxl345_node -- -j4 -l4
+[6.964s] Built target ament_cmake_python_copy_adxl345_node_setup
+[6.965s] Built target ament_cmake_python_copy_adxl345_node
+[8.309s] running egg_info
+[8.315s] creating adxl345_node.egg-info
+[8.431s] writing adxl345_node.egg-info/PKG-INFO
+[8.432s] writing dependency_links to adxl345_node.egg-info/dependency_links.txt
+[8.433s] writing top-level names to adxl345_node.egg-info/top_level.txt
+[8.434s] writing manifest file 'adxl345_node.egg-info/SOURCES.txt'
+[8.786s] reading manifest file 'adxl345_node.egg-info/SOURCES.txt'
+[8.789s] writing manifest file 'adxl345_node.egg-info/SOURCES.txt'
+[9.068s] Built target ament_cmake_python_build_adxl345_node_egg
+[9.122s] Invoked command in '/home/orangepi/ros2_ws/build/adxl345_node' returned '0': /usr/bin/cmake --build /home/orangepi/ros2_ws/build/adxl345_node -- -j4 -l4
+[9.172s] Invoking command in '/home/orangepi/ros2_ws/build/adxl345_node': /usr/bin/cmake --install /home/orangepi/ros2_ws/build/adxl345_node
+[9.210s] -- Install configuration: ""
+[9.211s] -- Installing: /home/orangepi/ros2_ws/install/adxl345_node/share/adxl345_node/environment/pythonpath.sh
+[9.212s] -- Installing: /home/orangepi/ros2_ws/install/adxl345_node/share/adxl345_node/environment/pythonpath.dsv
+[9.212s] -- Installing: /home/orangepi/ros2_ws/install/adxl345_node/lib/python3.12/site-packages/adxl345_node-0.1.0-py3.12.egg-info
+[9.213s] -- Installing: /home/orangepi/ros2_ws/install/adxl345_node/lib/python3.12/site-packages/adxl345_node-0.1.0-py3.12.egg-info/SOURCES.txt
+[9.213s] -- Installing: /home/orangepi/ros2_ws/install/adxl345_node/lib/python3.12/site-packages/adxl345_node-0.1.0-py3.12.egg-info/dependency_links.txt
+[9.214s] -- Installing: /home/orangepi/ros2_ws/install/adxl345_node/lib/python3.12/site-packages/adxl345_node-0.1.0-py3.12.egg-info/PKG-INFO
+[9.215s] -- Installing: /home/orangepi/ros2_ws/install/adxl345_node/lib/python3.12/site-packages/adxl345_node-0.1.0-py3.12.egg-info/top_level.txt
+[9.215s] -- Installing: /home/orangepi/ros2_ws/install/adxl345_node/lib/python3.12/site-packages/adxl345_node
+[9.215s] -- Installing: /home/orangepi/ros2_ws/install/adxl345_node/lib/python3.12/site-packages/adxl345_node/adxl345_node.py
+[9.216s] -- Installing: /home/orangepi/ros2_ws/install/adxl345_node/lib/python3.12/site-packages/adxl345_node/__init__.py
+[9.440s] Listing '/home/orangepi/ros2_ws/install/adxl345_node/lib/python3.12/site-packages/adxl345_node'...
+[9.441s] Compiling '/home/orangepi/ros2_ws/install/adxl345_node/lib/python3.12/site-packages/adxl345_node/__init__.py'...
+[9.441s] Compiling '/home/orangepi/ros2_ws/install/adxl345_node/lib/python3.12/site-packages/adxl345_node/adxl345_node.py'...
+[9.504s] -- Installing: /home/orangepi/ros2_ws/install/adxl345_node/lib/adxl345_node/adxl345_node.py
+[9.505s] -- Installing: /home/orangepi/ros2_ws/install/adxl345_node/share/ament_index/resource_index/package_run_dependencies/adxl345_node
+[9.506s] -- Installing: /home/orangepi/ros2_ws/install/adxl345_node/share/ament_index/resource_index/parent_prefix_path/adxl345_node
+[9.507s] -- Installing: /home/orangepi/ros2_ws/install/adxl345_node/share/adxl345_node/environment/ament_prefix_path.sh
+[9.508s] -- Installing: /home/orangepi/ros2_ws/install/adxl345_node/share/adxl345_node/environment/ament_prefix_path.dsv
+[9.508s] -- Installing: /home/orangepi/ros2_ws/install/adxl345_node/share/adxl345_node/environment/path.sh
+[9.509s] -- Installing: /home/orangepi/ros2_ws/install/adxl345_node/share/adxl345_node/environment/path.dsv
+[9.509s] -- Installing: /home/orangepi/ros2_ws/install/adxl345_node/share/adxl345_node/local_setup.bash
+[9.510s] -- Installing: /home/orangepi/ros2_ws/install/adxl345_node/share/adxl345_node/local_setup.sh
+[9.511s] -- Installing: /home/orangepi/ros2_ws/install/adxl345_node/share/adxl345_node/local_setup.zsh
+[9.511s] -- Installing: /home/orangepi/ros2_ws/install/adxl345_node/share/adxl345_node/local_setup.dsv
+[9.512s] -- Installing: /home/orangepi/ros2_ws/install/adxl345_node/share/adxl345_node/package.dsv
+[9.512s] -- Installing: /home/orangepi/ros2_ws/install/adxl345_node/share/ament_index/resource_index/packages/adxl345_node
+[9.513s] -- Installing: /home/orangepi/ros2_ws/install/adxl345_node/share/adxl345_node/cmake/adxl345_nodeConfig.cmake
+[9.514s] -- Installing: /home/orangepi/ros2_ws/install/adxl345_node/share/adxl345_node/cmake/adxl345_nodeConfig-version.cmake
+[9.514s] -- Installing: /home/orangepi/ros2_ws/install/adxl345_node/share/adxl345_node/package.xml
+[9.523s] Invoked command in '/home/orangepi/ros2_ws/build/adxl345_node' returned '0': /usr/bin/cmake --install /home/orangepi/ros2_ws/build/adxl345_node

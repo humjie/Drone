@@ -1,0 +1,4 @@
+source;share/adxl345_node/local_setup.bash
+source;share/adxl345_node/local_setup.dsv
+source;share/adxl345_node/local_setup.sh
+source;share/adxl345_node/local_setup.zsh

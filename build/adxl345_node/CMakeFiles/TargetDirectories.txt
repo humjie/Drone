@@ -1,0 +1,12 @@
+/home/orangepi/ros2_ws/build/adxl345_node/CMakeFiles/uninstall.dir
+/home/orangepi/ros2_ws/build/adxl345_node/CMakeFiles/adxl345_node_uninstall.dir
+/home/orangepi/ros2_ws/build/adxl345_node/CMakeFiles/ament_cmake_python_copy_adxl345_node.dir
+/home/orangepi/ros2_ws/build/adxl345_node/CMakeFiles/ament_cmake_python_copy_adxl345_node_setup.dir
+/home/orangepi/ros2_ws/build/adxl345_node/CMakeFiles/ament_cmake_python_build_adxl345_node_egg.dir
+/home/orangepi/ros2_ws/build/adxl345_node/CMakeFiles/test.dir
+/home/orangepi/ros2_ws/build/adxl345_node/CMakeFiles/edit_cache.dir
+/home/orangepi/ros2_ws/build/adxl345_node/CMakeFiles/rebuild_cache.dir
+/home/orangepi/ros2_ws/build/adxl345_node/CMakeFiles/list_install_components.dir
+/home/orangepi/ros2_ws/build/adxl345_node/CMakeFiles/install.dir
+/home/orangepi/ros2_ws/build/adxl345_node/CMakeFiles/install/local.dir
+/home/orangepi/ros2_ws/build/adxl345_node/CMakeFiles/install/strip.dir

@@ -1,0 +1,179 @@
+[0.000000] (-) TimerEvent: {}
+[0.002260] (adxl345_node) JobQueued: {'identifier': 'adxl345_node', 'dependencies': OrderedDict()}
+[0.002675] (adxl345_node) JobStarted: {'identifier': 'adxl345_node'}
+[0.069039] (adxl345_node) JobProgress: {'identifier': 'adxl345_node', 'progress': 'cmake'}
+[0.072066] (adxl345_node) Command: {'cmd': ['/usr/bin/cmake', '/home/orangepi/ros2_ws/src/adxl345_node', '-DCATKIN_INSTALL_INTO_PREFIX_ROOT=0', '-DCMAKE_INSTALL_PREFIX=/home/orangepi/ros2_ws/install/adxl345_node'], 'cwd': '/home/orangepi/ros2_ws/build/adxl345_node', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'en_US.UTF-8', 'USER': 'orangepi', 'SSH_CLIENT': '192.168.0.128 52218 22', 'ROS_PACKAGE_PATH': '/home/orangepi/ros2_ws/install/adxl345_node/share', 'XDG_SESSION_TYPE': 'tty', 'GIT_ASKPASS': '/home/orangepi/.vscode-server/cli/servers/Stable-fabdb6a30b49f79a7aba0f2ad9df9b399473380f/server/extensions/git/dist/askpass.sh', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'BROWSER': '/home/orangepi/.vscode-server/cli/servers/Stable-fabdb6a30b49f79a7aba0f2ad9df9b399473380f/server/bin/helpers/browser.sh', 'HOME': '/home/orangepi', 'OLDPWD': '/home/orangepi/ros2_ws', 'TERM_PROGRAM_VERSION': '1.96.2', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-b73ccf80-8f20-4c4e-97aa-9dc557040ba8.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/orangepi/.vscode-server/cli/servers/Stable-fabdb6a30b49f79a7aba0f2ad9df9b399473380f/server/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/home/orangepi/.vscode-server/cli/servers/Stable-fabdb6a30b49f79a7aba0f2ad9df9b399473380f/server/node', 'SSL_CERT_FILE': '/usr/lib/ssl/cert.pem', 'PYDEVD_DISABLE_FILE_VALIDATION': '1', 'BUNDLED_DEBUGPY_PATH': '/home/orangepi/.vscode-server/extensions/ms-python.debugpy-2025.8.0-linux-arm64/bundled/libs/debugpy', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'COLCON_PREFIX_PATH': '/home/orangepi/ros2_ws/install:/home/orangepi/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'orangepi', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'PKG_CONFIG_PATH': '/home/orangepi/ros2_ws/install/adxl345_node/lib/aarch64-linux-gnu/pkgconfig:/home/orangepi/ros2_ws/install/adxl345_node/lib/pkgconfig', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '6', 'PATH': '/opt/ros/jazzy/bin:/home/orangepi/.vscode-server/cli/servers/Stable-fabdb6a30b49f79a7aba0f2ad9df9b399473380f/server/bin/remote-cli:/home/orangepi/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/orangepi/.vscode-server/extensions/ms-python.debugpy-2025.8.0-linux-arm64/bundled/scripts/noConfigScripts:/home/orangepi/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand', 'XDG_RUNTIME_DIR': '/run/user/1000', 'SSL_CERT_DIR': '/usr/lib/ssl/certs', 'VSCODE_DEBUGPY_ADAPTER_ENDPOINTS': '/home/orangepi/.vscode-server/extensions/ms-python.debugpy-2025.8.0-linux-arm64/.noConfigDebugAdapterEndpoints/endpoint-eafc9373665f109e.txt', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-3cb7b1d95a.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'LC_MESSAGES': 'en_US.UTF-8', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/orangepi/ros2_ws/build/adxl345_node', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '192.168.0.128 52218 192.168.0.112 22', 'PYTHONPATH': '/home/orangepi/ros2_ws/install/adxl345_node/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/orangepi/ros2_ws/install/adxl345_node:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}), 'shell': False}
+[0.094176] (-) TimerEvent: {}
+[0.195201] (-) TimerEvent: {}
+[0.297625] (-) TimerEvent: {}
+[0.400284] (-) TimerEvent: {}
+[0.505161] (-) TimerEvent: {}
+[0.607151] (-) TimerEvent: {}
+[0.707152] (adxl345_node) StdoutLine: {'line': b'-- The C compiler identification is GNU 13.3.0\n'}
+[0.708530] (-) TimerEvent: {}
+[0.811054] (-) TimerEvent: {}
+[0.916688] (-) TimerEvent: {}
+[1.017729] (-) TimerEvent: {}
+[1.119517] (-) TimerEvent: {}
+[1.173471] (adxl345_node) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 13.3.0\n'}
+[1.219936] (-) TimerEvent: {}
+[1.265806] (adxl345_node) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[1.320325] (-) TimerEvent: {}
+[1.421422] (-) TimerEvent: {}
+[1.524102] (-) TimerEvent: {}
+[1.626310] (-) TimerEvent: {}
+[1.727336] (-) TimerEvent: {}
+[1.828390] (-) TimerEvent: {}
+[1.926264] (adxl345_node) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[1.928549] (-) TimerEvent: {}
+[2.008396] (adxl345_node) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[2.010025] (adxl345_node) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[2.014289] (adxl345_node) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[2.028861] (-) TimerEvent: {}
+[2.060980] (adxl345_node) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[2.129115] (-) TimerEvent: {}
+[2.230140] (-) TimerEvent: {}
+[2.331438] (-) TimerEvent: {}
+[2.432535] (-) TimerEvent: {}
+[2.533609] (-) TimerEvent: {}
+[2.618786] (adxl345_node) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[2.633837] (-) TimerEvent: {}
+[2.693091] (adxl345_node) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[2.694464] (adxl345_node) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[2.697491] (adxl345_node) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[2.708560] (adxl345_node) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[2.734091] (-) TimerEvent: {}
+[2.835034] (-) TimerEvent: {}
+[2.936084] (-) TimerEvent: {}
+[3.037096] (-) TimerEvent: {}
+[3.138117] (-) TimerEvent: {}
+[3.239123] (-) TimerEvent: {}
+[3.340001] (-) TimerEvent: {}
+[3.440817] (-) TimerEvent: {}
+[3.541724] (-) TimerEvent: {}
+[3.564895] (adxl345_node) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter \n'}
+[3.641942] (-) TimerEvent: {}
+[3.742873] (-) TimerEvent: {}
+[3.843871] (-) TimerEvent: {}
+[3.944703] (-) TimerEvent: {}
+[4.045623] (-) TimerEvent: {}
+[4.146718] (-) TimerEvent: {}
+[4.195220] (adxl345_node) StdoutLine: {'line': b'-- Found rclpy: 7.1.4 (/opt/ros/jazzy/share/rclpy/cmake)\n'}
+[4.201560] (adxl345_node) StdoutLine: {'line': b'-- Found sensor_msgs: 5.3.6 (/opt/ros/jazzy/share/sensor_msgs/cmake)\n'}
+[4.246974] (-) TimerEvent: {}
+[4.347981] (-) TimerEvent: {}
+[4.402107] (adxl345_node) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)\n'}
+[4.448229] (-) TimerEvent: {}
+[4.487303] (adxl345_node) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)\n'}
+[4.548480] (-) TimerEvent: {}
+[4.581092] (adxl345_node) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[4.648731] (-) TimerEvent: {}
+[4.692108] (adxl345_node) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[4.748986] (-) TimerEvent: {}
+[4.849920] (-) TimerEvent: {}
+[4.950853] (-) TimerEvent: {}
+[5.051847] (-) TimerEvent: {}
+[5.152861] (-) TimerEvent: {}
+[5.253750] (-) TimerEvent: {}
+[5.354600] (-) TimerEvent: {}
+[5.455686] (-) TimerEvent: {}
+[5.556630] (-) TimerEvent: {}
+[5.657495] (-) TimerEvent: {}
+[5.758346] (-) TimerEvent: {}
+[5.859271] (-) TimerEvent: {}
+[5.960294] (-) TimerEvent: {}
+[6.061303] (-) TimerEvent: {}
+[6.162133] (-) TimerEvent: {}
+[6.262935] (-) TimerEvent: {}
+[6.363770] (-) TimerEvent: {}
+[6.464727] (-) TimerEvent: {}
+[6.565848] (-) TimerEvent: {}
+[6.592519] (adxl345_node) StdoutLine: {'line': b'-- Configuring done (6.5s)\n'}
+[6.616810] (adxl345_node) StdoutLine: {'line': b'-- Generating done (0.0s)\n'}
+[6.624603] (adxl345_node) StderrLine: {'line': b'\x1b[33mCMake Warning:\n'}
+[6.625730] (adxl345_node) StderrLine: {'line': b'  Manually-specified variables were not used by the project:\n'}
+[6.626318] (adxl345_node) StderrLine: {'line': b'\n'}
+[6.626844] (adxl345_node) StderrLine: {'line': b'    CATKIN_INSTALL_INTO_PREFIX_ROOT\n'}
+[6.627385] (adxl345_node) StderrLine: {'line': b'\n'}
+[6.628055] (adxl345_node) StderrLine: {'line': b'\x1b[0m\n'}
+[6.635107] (adxl345_node) StdoutLine: {'line': b'-- Build files have been written to: /home/orangepi/ros2_ws/build/adxl345_node\n'}
+[6.666151] (-) TimerEvent: {}
+[6.683760] (adxl345_node) CommandEnded: {'returncode': 0}
+[6.686264] (adxl345_node) JobProgress: {'identifier': 'adxl345_node', 'progress': 'build'}
+[6.689407] (adxl345_node) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/orangepi/ros2_ws/build/adxl345_node', '--', '-j4', '-l4'], 'cwd': '/home/orangepi/ros2_ws/build/adxl345_node', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'en_US.UTF-8', 'USER': 'orangepi', 'SSH_CLIENT': '192.168.0.128 52218 22', 'ROS_PACKAGE_PATH': '/home/orangepi/ros2_ws/install/adxl345_node/share', 'XDG_SESSION_TYPE': 'tty', 'GIT_ASKPASS': '/home/orangepi/.vscode-server/cli/servers/Stable-fabdb6a30b49f79a7aba0f2ad9df9b399473380f/server/extensions/git/dist/askpass.sh', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'BROWSER': '/home/orangepi/.vscode-server/cli/servers/Stable-fabdb6a30b49f79a7aba0f2ad9df9b399473380f/server/bin/helpers/browser.sh', 'HOME': '/home/orangepi', 'OLDPWD': '/home/orangepi/ros2_ws', 'TERM_PROGRAM_VERSION': '1.96.2', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-b73ccf80-8f20-4c4e-97aa-9dc557040ba8.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/orangepi/.vscode-server/cli/servers/Stable-fabdb6a30b49f79a7aba0f2ad9df9b399473380f/server/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/home/orangepi/.vscode-server/cli/servers/Stable-fabdb6a30b49f79a7aba0f2ad9df9b399473380f/server/node', 'SSL_CERT_FILE': '/usr/lib/ssl/cert.pem', 'PYDEVD_DISABLE_FILE_VALIDATION': '1', 'BUNDLED_DEBUGPY_PATH': '/home/orangepi/.vscode-server/extensions/ms-python.debugpy-2025.8.0-linux-arm64/bundled/libs/debugpy', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'COLCON_PREFIX_PATH': '/home/orangepi/ros2_ws/install:/home/orangepi/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'orangepi', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'PKG_CONFIG_PATH': '/home/orangepi/ros2_ws/install/adxl345_node/lib/aarch64-linux-gnu/pkgconfig:/home/orangepi/ros2_ws/install/adxl345_node/lib/pkgconfig', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '6', 'PATH': '/opt/ros/jazzy/bin:/home/orangepi/.vscode-server/cli/servers/Stable-fabdb6a30b49f79a7aba0f2ad9df9b399473380f/server/bin/remote-cli:/home/orangepi/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/orangepi/.vscode-server/extensions/ms-python.debugpy-2025.8.0-linux-arm64/bundled/scripts/noConfigScripts:/home/orangepi/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand', 'XDG_RUNTIME_DIR': '/run/user/1000', 'SSL_CERT_DIR': '/usr/lib/ssl/certs', 'VSCODE_DEBUGPY_ADAPTER_ENDPOINTS': '/home/orangepi/.vscode-server/extensions/ms-python.debugpy-2025.8.0-linux-arm64/.noConfigDebugAdapterEndpoints/endpoint-eafc9373665f109e.txt', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-3cb7b1d95a.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'LC_MESSAGES': 'en_US.UTF-8', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/orangepi/ros2_ws/build/adxl345_node', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '192.168.0.128 52218 192.168.0.112 22', 'PYTHONPATH': '/home/orangepi/ros2_ws/install/adxl345_node/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/orangepi/ros2_ws/install/adxl345_node:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}), 'shell': False}
+[6.766441] (-) TimerEvent: {}
+[6.867544] (-) TimerEvent: {}
+[6.966276] (adxl345_node) StdoutLine: {'line': b'Built target ament_cmake_python_copy_adxl345_node_setup\n'}
+[6.967204] (adxl345_node) StdoutLine: {'line': b'Built target ament_cmake_python_copy_adxl345_node\n'}
+[6.967694] (-) TimerEvent: {}
+[7.068425] (-) TimerEvent: {}
+[7.169762] (-) TimerEvent: {}
+[7.270667] (-) TimerEvent: {}
+[7.371490] (-) TimerEvent: {}
+[7.472337] (-) TimerEvent: {}
+[7.573187] (-) TimerEvent: {}
+[7.673985] (-) TimerEvent: {}
+[7.774781] (-) TimerEvent: {}
+[7.875629] (-) TimerEvent: {}
+[7.976597] (-) TimerEvent: {}
+[8.077542] (-) TimerEvent: {}
+[8.178344] (-) TimerEvent: {}
+[8.279153] (-) TimerEvent: {}
+[8.311283] (adxl345_node) StdoutLine: {'line': b'running egg_info\n'}
+[8.316877] (adxl345_node) StdoutLine: {'line': b'creating adxl345_node.egg-info\n'}
+[8.379346] (-) TimerEvent: {}
+[8.433036] (adxl345_node) StdoutLine: {'line': b'writing adxl345_node.egg-info/PKG-INFO\n'}
+[8.434454] (adxl345_node) StdoutLine: {'line': b'writing dependency_links to adxl345_node.egg-info/dependency_links.txt\n'}
+[8.435693] (adxl345_node) StdoutLine: {'line': b'writing top-level names to adxl345_node.egg-info/top_level.txt\n'}
+[8.436485] (adxl345_node) StdoutLine: {'line': b"writing manifest file 'adxl345_node.egg-info/SOURCES.txt'\n"}
+[8.479533] (-) TimerEvent: {}
+[8.580362] (-) TimerEvent: {}
+[8.681158] (-) TimerEvent: {}
+[8.781955] (-) TimerEvent: {}
+[8.788407] (adxl345_node) StdoutLine: {'line': b"reading manifest file 'adxl345_node.egg-info/SOURCES.txt'\n"}
+[8.791604] (adxl345_node) StdoutLine: {'line': b"writing manifest file 'adxl345_node.egg-info/SOURCES.txt'\n"}
+[8.882266] (-) TimerEvent: {}
+[8.983280] (-) TimerEvent: {}
+[9.069826] (adxl345_node) StdoutLine: {'line': b'Built target ament_cmake_python_build_adxl345_node_egg\n'}
+[9.083546] (-) TimerEvent: {}
+[9.124382] (adxl345_node) CommandEnded: {'returncode': 0}
+[9.127665] (adxl345_node) JobProgress: {'identifier': 'adxl345_node', 'progress': 'install'}
+[9.172112] (adxl345_node) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/orangepi/ros2_ws/build/adxl345_node'], 'cwd': '/home/orangepi/ros2_ws/build/adxl345_node', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'en_US.UTF-8', 'USER': 'orangepi', 'SSH_CLIENT': '192.168.0.128 52218 22', 'ROS_PACKAGE_PATH': '/home/orangepi/ros2_ws/install/adxl345_node/share', 'XDG_SESSION_TYPE': 'tty', 'GIT_ASKPASS': '/home/orangepi/.vscode-server/cli/servers/Stable-fabdb6a30b49f79a7aba0f2ad9df9b399473380f/server/extensions/git/dist/askpass.sh', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'BROWSER': '/home/orangepi/.vscode-server/cli/servers/Stable-fabdb6a30b49f79a7aba0f2ad9df9b399473380f/server/bin/helpers/browser.sh', 'HOME': '/home/orangepi', 'OLDPWD': '/home/orangepi/ros2_ws', 'TERM_PROGRAM_VERSION': '1.96.2', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-b73ccf80-8f20-4c4e-97aa-9dc557040ba8.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/orangepi/.vscode-server/cli/servers/Stable-fabdb6a30b49f79a7aba0f2ad9df9b399473380f/server/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/home/orangepi/.vscode-server/cli/servers/Stable-fabdb6a30b49f79a7aba0f2ad9df9b399473380f/server/node', 'SSL_CERT_FILE': '/usr/lib/ssl/cert.pem', 'PYDEVD_DISABLE_FILE_VALIDATION': '1', 'BUNDLED_DEBUGPY_PATH': '/home/orangepi/.vscode-server/extensions/ms-python.debugpy-2025.8.0-linux-arm64/bundled/libs/debugpy', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'COLCON_PREFIX_PATH': '/home/orangepi/ros2_ws/install:/home/orangepi/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'orangepi', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'PKG_CONFIG_PATH': '/home/orangepi/ros2_ws/install/adxl345_node/lib/aarch64-linux-gnu/pkgconfig:/home/orangepi/ros2_ws/install/adxl345_node/lib/pkgconfig', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '6', 'PATH': '/opt/ros/jazzy/bin:/home/orangepi/.vscode-server/cli/servers/Stable-fabdb6a30b49f79a7aba0f2ad9df9b399473380f/server/bin/remote-cli:/home/orangepi/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/orangepi/.vscode-server/extensions/ms-python.debugpy-2025.8.0-linux-arm64/bundled/scripts/noConfigScripts:/home/orangepi/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand', 'XDG_RUNTIME_DIR': '/run/user/1000', 'SSL_CERT_DIR': '/usr/lib/ssl/certs', 'VSCODE_DEBUGPY_ADAPTER_ENDPOINTS': '/home/orangepi/.vscode-server/extensions/ms-python.debugpy-2025.8.0-linux-arm64/.noConfigDebugAdapterEndpoints/endpoint-eafc9373665f109e.txt', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-3cb7b1d95a.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'LC_MESSAGES': 'en_US.UTF-8', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/orangepi/ros2_ws/build/adxl345_node', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '192.168.0.128 52218 192.168.0.112 22', 'PYTHONPATH': '/home/orangepi/ros2_ws/install/adxl345_node/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/orangepi/ros2_ws/install/adxl345_node:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}), 'shell': False}
+[9.183893] (-) TimerEvent: {}
+[9.212165] (adxl345_node) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[9.213181] (adxl345_node) StdoutLine: {'line': b'-- Installing: /home/orangepi/ros2_ws/install/adxl345_node/share/adxl345_node/environment/pythonpath.sh\n'}
+[9.213821] (adxl345_node) StdoutLine: {'line': b'-- Installing: /home/orangepi/ros2_ws/install/adxl345_node/share/adxl345_node/environment/pythonpath.dsv\n'}
+[9.214417] (adxl345_node) StdoutLine: {'line': b'-- Installing: /home/orangepi/ros2_ws/install/adxl345_node/lib/python3.12/site-packages/adxl345_node-0.1.0-py3.12.egg-info\n'}
+[9.215046] (adxl345_node) StdoutLine: {'line': b'-- Installing: /home/orangepi/ros2_ws/install/adxl345_node/lib/python3.12/site-packages/adxl345_node-0.1.0-py3.12.egg-info/SOURCES.txt\n'}
+[9.215630] (adxl345_node) StdoutLine: {'line': b'-- Installing: /home/orangepi/ros2_ws/install/adxl345_node/lib/python3.12/site-packages/adxl345_node-0.1.0-py3.12.egg-info/dependency_links.txt\n'}
+[9.216245] (adxl345_node) StdoutLine: {'line': b'-- Installing: /home/orangepi/ros2_ws/install/adxl345_node/lib/python3.12/site-packages/adxl345_node-0.1.0-py3.12.egg-info/PKG-INFO\n'}
+[9.216836] (adxl345_node) StdoutLine: {'line': b'-- Installing: /home/orangepi/ros2_ws/install/adxl345_node/lib/python3.12/site-packages/adxl345_node-0.1.0-py3.12.egg-info/top_level.txt\n'}
+[9.217389] (adxl345_node) StdoutLine: {'line': b'-- Installing: /home/orangepi/ros2_ws/install/adxl345_node/lib/python3.12/site-packages/adxl345_node\n'}
+[9.217880] (adxl345_node) StdoutLine: {'line': b'-- Installing: /home/orangepi/ros2_ws/install/adxl345_node/lib/python3.12/site-packages/adxl345_node/adxl345_node.py\n'}
+[9.218351] (adxl345_node) StdoutLine: {'line': b'-- Installing: /home/orangepi/ros2_ws/install/adxl345_node/lib/python3.12/site-packages/adxl345_node/__init__.py\n'}
+[9.284009] (-) TimerEvent: {}
+[9.385125] (-) TimerEvent: {}
+[9.442339] (adxl345_node) StdoutLine: {'line': b"Listing '/home/orangepi/ros2_ws/install/adxl345_node/lib/python3.12/site-packages/adxl345_node'...\n"}
+[9.443237] (adxl345_node) StdoutLine: {'line': b"Compiling '/home/orangepi/ros2_ws/install/adxl345_node/lib/python3.12/site-packages/adxl345_node/__init__.py'...\n"}
+[9.443758] (adxl345_node) StdoutLine: {'line': b"Compiling '/home/orangepi/ros2_ws/install/adxl345_node/lib/python3.12/site-packages/adxl345_node/adxl345_node.py'...\n"}
+[9.485409] (-) TimerEvent: {}
+[9.506279] (adxl345_node) StdoutLine: {'line': b'-- Installing: /home/orangepi/ros2_ws/install/adxl345_node/lib/adxl345_node/adxl345_node.py\n'}
+[9.507363] (adxl345_node) StdoutLine: {'line': b'-- Installing: /home/orangepi/ros2_ws/install/adxl345_node/share/ament_index/resource_index/package_run_dependencies/adxl345_node\n'}
+[9.508430] (adxl345_node) StdoutLine: {'line': b'-- Installing: /home/orangepi/ros2_ws/install/adxl345_node/share/ament_index/resource_index/parent_prefix_path/adxl345_node\n'}
+[9.509282] (adxl345_node) StdoutLine: {'line': b'-- Installing: /home/orangepi/ros2_ws/install/adxl345_node/share/adxl345_node/environment/ament_prefix_path.sh\n'}
+[9.509925] (adxl345_node) StdoutLine: {'line': b'-- Installing: /home/orangepi/ros2_ws/install/adxl345_node/share/adxl345_node/environment/ament_prefix_path.dsv\n'}
+[9.510508] (adxl345_node) StdoutLine: {'line': b'-- Installing: /home/orangepi/ros2_ws/install/adxl345_node/share/adxl345_node/environment/path.sh\n'}
+[9.511094] (adxl345_node) StdoutLine: {'line': b'-- Installing: /home/orangepi/ros2_ws/install/adxl345_node/share/adxl345_node/environment/path.dsv\n'}
+[9.511655] (adxl345_node) StdoutLine: {'line': b'-- Installing: /home/orangepi/ros2_ws/install/adxl345_node/share/adxl345_node/local_setup.bash\n'}
+[9.512288] (adxl345_node) StdoutLine: {'line': b'-- Installing: /home/orangepi/ros2_ws/install/adxl345_node/share/adxl345_node/local_setup.sh\n'}
+[9.512909] (adxl345_node) StdoutLine: {'line': b'-- Installing: /home/orangepi/ros2_ws/install/adxl345_node/share/adxl345_node/local_setup.zsh\n'}
+[9.513443] (adxl345_node) StdoutLine: {'line': b'-- Installing: /home/orangepi/ros2_ws/install/adxl345_node/share/adxl345_node/local_setup.dsv\n'}
+[9.514028] (adxl345_node) StdoutLine: {'line': b'-- Installing: /home/orangepi/ros2_ws/install/adxl345_node/share/adxl345_node/package.dsv\n'}
+[9.514580] (adxl345_node) StdoutLine: {'line': b'-- Installing: /home/orangepi/ros2_ws/install/adxl345_node/share/ament_index/resource_index/packages/adxl345_node\n'}
+[9.515138] (adxl345_node) StdoutLine: {'line': b'-- Installing: /home/orangepi/ros2_ws/install/adxl345_node/share/adxl345_node/cmake/adxl345_nodeConfig.cmake\n'}
+[9.515860] (adxl345_node) StdoutLine: {'line': b'-- Installing: /home/orangepi/ros2_ws/install/adxl345_node/share/adxl345_node/cmake/adxl345_nodeConfig-version.cmake\n'}
+[9.516617] (adxl345_node) StdoutLine: {'line': b'-- Installing: /home/orangepi/ros2_ws/install/adxl345_node/share/adxl345_node/package.xml\n'}
+[9.524979] (adxl345_node) CommandEnded: {'returncode': 0}
+[9.585539] (-) TimerEvent: {}
+[9.640828] (adxl345_node) JobEnded: {'identifier': 'adxl345_node', 'rc': 0}
+[9.646008] (-) EventReactorShutdown: {}

@@ -1,0 +1,6 @@
+Invoking command in '/home/orangepi/ros2_ws/build/adxl345_node': /usr/bin/cmake /home/orangepi/ros2_ws/src/adxl345_node -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/orangepi/ros2_ws/install/adxl345_node
+Invoked command in '/home/orangepi/ros2_ws/build/adxl345_node' returned '0': /usr/bin/cmake /home/orangepi/ros2_ws/src/adxl345_node -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/orangepi/ros2_ws/install/adxl345_node
+Invoking command in '/home/orangepi/ros2_ws/build/adxl345_node': /usr/bin/cmake --build /home/orangepi/ros2_ws/build/adxl345_node -- -j4 -l4
+Invoked command in '/home/orangepi/ros2_ws/build/adxl345_node' returned '0': /usr/bin/cmake --build /home/orangepi/ros2_ws/build/adxl345_node -- -j4 -l4
+Invoking command in '/home/orangepi/ros2_ws/build/adxl345_node': /usr/bin/cmake --install /home/orangepi/ros2_ws/build/adxl345_node
+Invoked command in '/home/orangepi/ros2_ws/build/adxl345_node' returned '0': /usr/bin/cmake --install /home/orangepi/ros2_ws/build/adxl345_node

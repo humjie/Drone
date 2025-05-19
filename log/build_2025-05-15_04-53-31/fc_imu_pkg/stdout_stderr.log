@@ -1,0 +1,35 @@
+running egg_info
+creating ../../build/fc_imu_pkg/fc_imu_pkg.egg-info
+writing ../../build/fc_imu_pkg/fc_imu_pkg.egg-info/PKG-INFO
+writing dependency_links to ../../build/fc_imu_pkg/fc_imu_pkg.egg-info/dependency_links.txt
+writing entry points to ../../build/fc_imu_pkg/fc_imu_pkg.egg-info/entry_points.txt
+writing requirements to ../../build/fc_imu_pkg/fc_imu_pkg.egg-info/requires.txt
+writing top-level names to ../../build/fc_imu_pkg/fc_imu_pkg.egg-info/top_level.txt
+writing manifest file '../../build/fc_imu_pkg/fc_imu_pkg.egg-info/SOURCES.txt'
+reading manifest file '../../build/fc_imu_pkg/fc_imu_pkg.egg-info/SOURCES.txt'
+writing manifest file '../../build/fc_imu_pkg/fc_imu_pkg.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/orangepi/ros2_ws/build/fc_imu_pkg/build
+creating /home/orangepi/ros2_ws/build/fc_imu_pkg/build/lib
+creating /home/orangepi/ros2_ws/build/fc_imu_pkg/build/lib/fc_imu_pkg
+copying fc_imu_pkg/__init__.py -> /home/orangepi/ros2_ws/build/fc_imu_pkg/build/lib/fc_imu_pkg
+copying fc_imu_pkg/fc_imu_node.py -> /home/orangepi/ros2_ws/build/fc_imu_pkg/build/lib/fc_imu_pkg
+running install
+running install_lib
+creating /home/orangepi/ros2_ws/install/fc_imu_pkg/lib/python3.12/site-packages/fc_imu_pkg
+copying /home/orangepi/ros2_ws/build/fc_imu_pkg/build/lib/fc_imu_pkg/__init__.py -> /home/orangepi/ros2_ws/install/fc_imu_pkg/lib/python3.12/site-packages/fc_imu_pkg
+copying /home/orangepi/ros2_ws/build/fc_imu_pkg/build/lib/fc_imu_pkg/fc_imu_node.py -> /home/orangepi/ros2_ws/install/fc_imu_pkg/lib/python3.12/site-packages/fc_imu_pkg
+byte-compiling /home/orangepi/ros2_ws/install/fc_imu_pkg/lib/python3.12/site-packages/fc_imu_pkg/__init__.py to __init__.cpython-312.pyc
+byte-compiling /home/orangepi/ros2_ws/install/fc_imu_pkg/lib/python3.12/site-packages/fc_imu_pkg/fc_imu_node.py to fc_imu_node.cpython-312.pyc
+running install_data
+creating /home/orangepi/ros2_ws/install/fc_imu_pkg/share/ament_index
+creating /home/orangepi/ros2_ws/install/fc_imu_pkg/share/ament_index/resource_index
+creating /home/orangepi/ros2_ws/install/fc_imu_pkg/share/ament_index/resource_index/packages
+copying resource/fc_imu_pkg -> /home/orangepi/ros2_ws/install/fc_imu_pkg/share/ament_index/resource_index/packages
+copying package.xml -> /home/orangepi/ros2_ws/install/fc_imu_pkg/share/fc_imu_pkg
+running install_egg_info
+Copying ../../build/fc_imu_pkg/fc_imu_pkg.egg-info to /home/orangepi/ros2_ws/install/fc_imu_pkg/lib/python3.12/site-packages/fc_imu_pkg-0.0.0-py3.12.egg-info
+running install_scripts
+Installing fc_imu_node script to /home/orangepi/ros2_ws/install/fc_imu_pkg/lib/fc_imu_pkg
+writing list of installed files to '/home/orangepi/ros2_ws/build/fc_imu_pkg/install.log'

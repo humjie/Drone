@@ -1,0 +1,16 @@
+package.xml
+setup.cfg
+setup.py
+../../../build/accelerometer_pkg/accelerometer_pkg.egg-info/PKG-INFO
+../../../build/accelerometer_pkg/accelerometer_pkg.egg-info/SOURCES.txt
+../../../build/accelerometer_pkg/accelerometer_pkg.egg-info/dependency_links.txt
+../../../build/accelerometer_pkg/accelerometer_pkg.egg-info/entry_points.txt
+../../../build/accelerometer_pkg/accelerometer_pkg.egg-info/requires.txt
+../../../build/accelerometer_pkg/accelerometer_pkg.egg-info/top_level.txt
+../../../build/accelerometer_pkg/accelerometer_pkg.egg-info/zip-safe
+accelerometer_pkg/__init__.py
+accelerometer_pkg/accelerometer_node.py
+resource/accelerometer_pkg
+test/test_copyright.py
+test/test_flake8.py
+test/test_pep257.py

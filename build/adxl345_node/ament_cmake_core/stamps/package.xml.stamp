@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>adxl345_node</name>
+  <version>0.1.0</version>
+  <description>ROS2 node for reading ADXL345 accelerometer data via an ESP device.</description>
+
+  <maintainer email="you@example.com">Your Name</maintainer>
+  <license>Apache-2.0</license>
+
+  <!-- ament_python is the build system for Python packages -->
+  <buildtool_depend>ament_python</buildtool_depend>
+
+  <!-- ROS-graph and messaging dependencies -->
+  <exec_depend>rclpy</exec_depend>
+  <exec_depend>sensor_msgs</exec_depend>
+  <exec_depend>geometry_msgs</exec_depend>
+  <exec_depend>std_msgs</exec_depend>
+
+  <!-- non-ROS Python dependency for serial comms -->
+  <exec_depend>pyserial</exec_depend>
+
+  <!-- (optional) tests, if you have any pytest/unit tests -->
+  <!--
+  <test_depend>ament_lint_auto</test_depend>
+  <test_depend>ament_lint_common</test_depend>
+  -->
+</package>

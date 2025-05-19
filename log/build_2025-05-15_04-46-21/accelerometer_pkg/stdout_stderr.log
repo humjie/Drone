@@ -1,0 +1,22 @@
+running egg_info
+writing ../../../build/accelerometer_pkg/accelerometer_pkg.egg-info/PKG-INFO
+writing dependency_links to ../../../build/accelerometer_pkg/accelerometer_pkg.egg-info/dependency_links.txt
+writing entry points to ../../../build/accelerometer_pkg/accelerometer_pkg.egg-info/entry_points.txt
+writing requirements to ../../../build/accelerometer_pkg/accelerometer_pkg.egg-info/requires.txt
+writing top-level names to ../../../build/accelerometer_pkg/accelerometer_pkg.egg-info/top_level.txt
+reading manifest file '../../../build/accelerometer_pkg/accelerometer_pkg.egg-info/SOURCES.txt'
+writing manifest file '../../../build/accelerometer_pkg/accelerometer_pkg.egg-info/SOURCES.txt'
+running build
+running build_py
+copying accelerometer_pkg/accelerometer_node.py -> /home/orangepi/ros2_ws/build/accelerometer_pkg/build/lib/accelerometer_pkg
+running install
+running install_lib
+copying /home/orangepi/ros2_ws/build/accelerometer_pkg/build/lib/accelerometer_pkg/accelerometer_node.py -> /home/orangepi/ros2_ws/install/accelerometer_pkg/lib/python3.12/site-packages/accelerometer_pkg
+byte-compiling /home/orangepi/ros2_ws/install/accelerometer_pkg/lib/python3.12/site-packages/accelerometer_pkg/accelerometer_node.py to accelerometer_node.cpython-312.pyc
+running install_data
+running install_egg_info
+removing '/home/orangepi/ros2_ws/install/accelerometer_pkg/lib/python3.12/site-packages/accelerometer_pkg-0.0.1-py3.12.egg-info' (and everything under it)
+Copying ../../../build/accelerometer_pkg/accelerometer_pkg.egg-info to /home/orangepi/ros2_ws/install/accelerometer_pkg/lib/python3.12/site-packages/accelerometer_pkg-0.0.1-py3.12.egg-info
+running install_scripts
+Installing accelerometer_node script to /home/orangepi/ros2_ws/install/accelerometer_pkg/lib/accelerometer_pkg
+writing list of installed files to '/home/orangepi/ros2_ws/build/accelerometer_pkg/install.log'

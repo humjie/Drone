@@ -1,0 +1,8 @@
+setup.cfg
+setup.py
+adxl345_node/__init__.py
+adxl345_node/adxl345_node.py
+adxl345_node.egg-info/PKG-INFO
+adxl345_node.egg-info/SOURCES.txt
+adxl345_node.egg-info/dependency_links.txt
+adxl345_node.egg-info/top_level.txt
