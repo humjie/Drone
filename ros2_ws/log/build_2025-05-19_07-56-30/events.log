@@ -1,0 +1,256 @@
+[0.000000] (-) TimerEvent: {}
+[0.003585] (-) JobUnselected: {'identifier': 'accelerometer_pkg'}
+[0.003930] (-) JobUnselected: {'identifier': 'fc_imu_pkg'}
+[0.004074] (fc_motor_control) JobQueued: {'identifier': 'fc_motor_control', 'dependencies': OrderedDict()}
+[0.004194] (fc_motor_control) JobStarted: {'identifier': 'fc_motor_control'}
+[0.094201] (-) TimerEvent: {}
+[0.206709] (-) TimerEvent: {}
+[0.309218] (-) TimerEvent: {}
+[0.411761] (-) TimerEvent: {}
+[0.514389] (-) TimerEvent: {}
+[0.616710] (-) TimerEvent: {}
+[0.719665] (-) TimerEvent: {}
+[0.821861] (-) TimerEvent: {}
+[0.924165] (-) TimerEvent: {}
+[1.026373] (-) TimerEvent: {}
+[1.128332] (-) TimerEvent: {}
+[1.231517] (-) TimerEvent: {}
+[1.339505] (-) TimerEvent: {}
+[1.441821] (-) TimerEvent: {}
+[1.544489] (-) TimerEvent: {}
+[1.647669] (-) TimerEvent: {}
+[1.749752] (-) TimerEvent: {}
+[1.851893] (-) TimerEvent: {}
+[1.954268] (-) TimerEvent: {}
+[2.056328] (-) TimerEvent: {}
+[2.158630] (-) TimerEvent: {}
+[2.260843] (-) TimerEvent: {}
+[2.363644] (-) TimerEvent: {}
+[2.466385] (-) TimerEvent: {}
+[2.568428] (-) TimerEvent: {}
+[2.670665] (-) TimerEvent: {}
+[2.773427] (-) TimerEvent: {}
+[2.876159] (-) TimerEvent: {}
+[2.978750] (-) TimerEvent: {}
+[3.082656] (-) TimerEvent: {}
+[3.185571] (-) TimerEvent: {}
+[3.288246] (-) TimerEvent: {}
+[3.389436] (-) TimerEvent: {}
+[3.490676] (-) TimerEvent: {}
+[3.591883] (-) TimerEvent: {}
+[3.693070] (-) TimerEvent: {}
+[3.796310] (-) TimerEvent: {}
+[3.898958] (-) TimerEvent: {}
+[4.001839] (-) TimerEvent: {}
+[4.102892] (-) TimerEvent: {}
+[4.204703] (-) TimerEvent: {}
+[4.305759] (-) TimerEvent: {}
+[4.408902] (-) TimerEvent: {}
+[4.511509] (-) TimerEvent: {}
+[4.612516] (-) TimerEvent: {}
+[4.713445] (-) TimerEvent: {}
+[4.815545] (-) TimerEvent: {}
+[4.918212] (-) TimerEvent: {}
+[5.020489] (-) TimerEvent: {}
+[5.123003] (-) TimerEvent: {}
+[5.225597] (-) TimerEvent: {}
+[5.328454] (-) TimerEvent: {}
+[5.430987] (-) TimerEvent: {}
+[5.533876] (-) TimerEvent: {}
+[5.636237] (-) TimerEvent: {}
+[5.739026] (-) TimerEvent: {}
+[5.841900] (-) TimerEvent: {}
+[5.944443] (-) TimerEvent: {}
+[6.046597] (-) TimerEvent: {}
+[6.149418] (-) TimerEvent: {}
+[6.251956] (-) TimerEvent: {}
+[6.352967] (-) TimerEvent: {}
+[6.453917] (-) TimerEvent: {}
+[6.556893] (-) TimerEvent: {}
+[6.660310] (-) TimerEvent: {}
+[6.762859] (-) TimerEvent: {}
+[6.865635] (-) TimerEvent: {}
+[6.968314] (-) TimerEvent: {}
+[7.070587] (-) TimerEvent: {}
+[7.173477] (-) TimerEvent: {}
+[7.276412] (-) TimerEvent: {}
+[7.379370] (-) TimerEvent: {}
+[7.483684] (-) TimerEvent: {}
+[7.591442] (-) TimerEvent: {}
+[7.693578] (-) TimerEvent: {}
+[7.796293] (-) TimerEvent: {}
+[7.902078] (-) TimerEvent: {}
+[8.004770] (-) TimerEvent: {}
+[8.107362] (-) TimerEvent: {}
+[8.209089] (-) TimerEvent: {}
+[8.310281] (-) TimerEvent: {}
+[8.411483] (-) TimerEvent: {}
+[8.514037] (-) TimerEvent: {}
+[8.616703] (-) TimerEvent: {}
+[8.719225] (-) TimerEvent: {}
+[8.822014] (-) TimerEvent: {}
+[8.925039] (-) TimerEvent: {}
+[9.029648] (-) TimerEvent: {}
+[9.132597] (-) TimerEvent: {}
+[9.233665] (-) TimerEvent: {}
+[9.334687] (-) TimerEvent: {}
+[9.435718] (-) TimerEvent: {}
+[9.542115] (-) TimerEvent: {}
+[9.643455] (-) TimerEvent: {}
+[9.751516] (-) TimerEvent: {}
+[9.852717] (-) TimerEvent: {}
+[9.955546] (-) TimerEvent: {}
+[10.058020] (-) TimerEvent: {}
+[10.160980] (-) TimerEvent: {}
+[10.264023] (-) TimerEvent: {}
+[10.366769] (-) TimerEvent: {}
+[10.469800] (-) TimerEvent: {}
+[10.571864] (-) TimerEvent: {}
+[10.674322] (-) TimerEvent: {}
+[10.776595] (-) TimerEvent: {}
+[10.879318] (-) TimerEvent: {}
+[10.981760] (-) TimerEvent: {}
+[11.087501] (-) TimerEvent: {}
+[11.190201] (-) TimerEvent: {}
+[11.293601] (-) TimerEvent: {}
+[11.395796] (-) TimerEvent: {}
+[11.504223] (-) TimerEvent: {}
+[11.607368] (-) TimerEvent: {}
+[11.709295] (-) TimerEvent: {}
+[11.811648] (-) TimerEvent: {}
+[11.914361] (-) TimerEvent: {}
+[12.016593] (-) TimerEvent: {}
+[12.119058] (-) TimerEvent: {}
+[12.221819] (-) TimerEvent: {}
+[12.324426] (-) TimerEvent: {}
+[12.427571] (-) TimerEvent: {}
+[12.530291] (-) TimerEvent: {}
+[12.632459] (-) TimerEvent: {}
+[12.735084] (-) TimerEvent: {}
+[12.837783] (-) TimerEvent: {}
+[12.940457] (-) TimerEvent: {}
+[13.042562] (-) TimerEvent: {}
+[13.145170] (-) TimerEvent: {}
+[13.248024] (-) TimerEvent: {}
+[13.355670] (-) TimerEvent: {}
+[13.458916] (-) TimerEvent: {}
+[13.562553] (-) TimerEvent: {}
+[13.665172] (-) TimerEvent: {}
+[13.767911] (-) TimerEvent: {}
+[13.870856] (-) TimerEvent: {}
+[13.973539] (-) TimerEvent: {}
+[14.076719] (-) TimerEvent: {}
+[14.179643] (-) TimerEvent: {}
+[14.282467] (-) TimerEvent: {}
+[14.384840] (-) TimerEvent: {}
+[14.487186] (-) TimerEvent: {}
+[14.588459] (-) TimerEvent: {}
+[14.687175] (fc_motor_control) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/fc_motor_control', 'build', '--build-base', '/home/orangepi/airduino/ros2_ws/build/fc_motor_control/build', 'install', '--record', '/home/orangepi/airduino/ros2_ws/build/fc_motor_control/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/orangepi/airduino/ros2_ws/src/fc_motor_control', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'en_US.UTF-8', 'USER': 'orangepi', 'SSH_CLIENT': '192.168.0.129 34687 22', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'BROWSER': '/home/orangepi/.vscode-server/cli/servers/Stable-848b80aeb52026648a8ff9f7c45a9b0a80641e2e/server/bin/helpers/browser.sh', 'HOME': '/home/orangepi', 'OLDPWD': '/home/orangepi', 'TERM_PROGRAM_VERSION': '1.100.2', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-69aefbe1-6262-44af-bda9-1e908e63de2a.sock', 'ROS_PYTHON_VERSION': '3', 'SSL_CERT_FILE': '/usr/lib/ssl/cert.pem', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'orangepi', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '8', 'PATH': '/home/orangepi/.vscode-server/cli/servers/Stable-848b80aeb52026648a8ff9f7c45a9b0a80641e2e/server/bin/remote-cli:/home/orangepi/.local/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'SSL_CERT_DIR': '/usr/lib/ssl/certs', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'LC_MESSAGES': 'en_US.UTF-8', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/orangepi/airduino/ros2_ws/build/fc_motor_control', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '192.168.0.129 34687 192.168.0.112 22', 'PYTHONPATH': '/home/orangepi/airduino/ros2_ws/build/fc_motor_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/orangepi/airduino/ros2_ws/install/fc_motor_control/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}, 'shell': False}
+[14.691692] (-) TimerEvent: {}
+[14.794414] (-) TimerEvent: {}
+[14.897283] (-) TimerEvent: {}
+[15.000033] (-) TimerEvent: {}
+[15.102877] (-) TimerEvent: {}
+[15.206142] (-) TimerEvent: {}
+[15.316134] (-) TimerEvent: {}
+[15.419027] (-) TimerEvent: {}
+[15.521489] (-) TimerEvent: {}
+[15.624336] (-) TimerEvent: {}
+[15.727254] (-) TimerEvent: {}
+[15.830122] (-) TimerEvent: {}
+[15.932937] (-) TimerEvent: {}
+[16.035814] (-) TimerEvent: {}
+[16.138808] (-) TimerEvent: {}
+[16.241393] (-) TimerEvent: {}
+[16.343431] (-) TimerEvent: {}
+[16.444410] (-) TimerEvent: {}
+[16.547099] (-) TimerEvent: {}
+[16.649993] (-) TimerEvent: {}
+[16.752711] (-) TimerEvent: {}
+[16.855481] (-) TimerEvent: {}
+[16.957643] (-) TimerEvent: {}
+[17.060101] (-) TimerEvent: {}
+[17.163649] (-) TimerEvent: {}
+[17.265905] (-) TimerEvent: {}
+[17.368560] (-) TimerEvent: {}
+[17.471327] (-) TimerEvent: {}
+[17.573923] (-) TimerEvent: {}
+[17.676675] (-) TimerEvent: {}
+[17.779301] (-) TimerEvent: {}
+[17.881054] (-) TimerEvent: {}
+[17.982202] (-) TimerEvent: {}
+[18.083247] (-) TimerEvent: {}
+[18.185599] (-) TimerEvent: {}
+[18.287623] (-) TimerEvent: {}
+[18.373625] (fc_motor_control) StdoutLine: {'line': b'running egg_info\n'}
+[18.375964] (fc_motor_control) StdoutLine: {'line': b'creating ../../build/fc_motor_control/fc_motor_control.egg-info\n'}
+[18.387911] (-) TimerEvent: {}
+[18.490826] (-) TimerEvent: {}
+[18.593917] (-) TimerEvent: {}
+[18.619706] (fc_motor_control) StdoutLine: {'line': b'writing ../../build/fc_motor_control/fc_motor_control.egg-info/PKG-INFO\n'}
+[18.621731] (fc_motor_control) StdoutLine: {'line': b'writing dependency_links to ../../build/fc_motor_control/fc_motor_control.egg-info/dependency_links.txt\n'}
+[18.623020] (fc_motor_control) StdoutLine: {'line': b'writing entry points to ../../build/fc_motor_control/fc_motor_control.egg-info/entry_points.txt\n'}
+[18.624130] (fc_motor_control) StdoutLine: {'line': b'writing requirements to ../../build/fc_motor_control/fc_motor_control.egg-info/requires.txt\n'}
+[18.625106] (fc_motor_control) StdoutLine: {'line': b'writing top-level names to ../../build/fc_motor_control/fc_motor_control.egg-info/top_level.txt\n'}
+[18.626042] (fc_motor_control) StdoutLine: {'line': b"writing manifest file '../../build/fc_motor_control/fc_motor_control.egg-info/SOURCES.txt'\n"}
+[18.694189] (-) TimerEvent: {}
+[18.796484] (-) TimerEvent: {}
+[18.898741] (-) TimerEvent: {}
+[19.001460] (-) TimerEvent: {}
+[19.103969] (-) TimerEvent: {}
+[19.161487] (fc_motor_control) StdoutLine: {'line': b"reading manifest file '../../build/fc_motor_control/fc_motor_control.egg-info/SOURCES.txt'\n"}
+[19.163089] (fc_motor_control) StdoutLine: {'line': b"adding license file 'LICENSE'\n"}
+[19.168745] (fc_motor_control) StdoutLine: {'line': b"writing manifest file '../../build/fc_motor_control/fc_motor_control.egg-info/SOURCES.txt'\n"}
+[19.171060] (fc_motor_control) StdoutLine: {'line': b'running build\n'}
+[19.172333] (fc_motor_control) StdoutLine: {'line': b'running build_py\n'}
+[19.173234] (fc_motor_control) StdoutLine: {'line': b'creating /home/orangepi/airduino/ros2_ws/build/fc_motor_control/build\n'}
+[19.174336] (fc_motor_control) StdoutLine: {'line': b'creating /home/orangepi/airduino/ros2_ws/build/fc_motor_control/build/lib\n'}
+[19.175165] (fc_motor_control) StdoutLine: {'line': b'creating /home/orangepi/airduino/ros2_ws/build/fc_motor_control/build/lib/fc_motor_control\n'}
+[19.176190] (fc_motor_control) StdoutLine: {'line': b'copying fc_motor_control/__init__.py -> /home/orangepi/airduino/ros2_ws/build/fc_motor_control/build/lib/fc_motor_control\n'}
+[19.176821] (fc_motor_control) StdoutLine: {'line': b'copying fc_motor_control/fc_motor_control.py -> /home/orangepi/airduino/ros2_ws/build/fc_motor_control/build/lib/fc_motor_control\n'}
+[19.177879] (fc_motor_control) StdoutLine: {'line': b'running install\n'}
+[19.204220] (-) TimerEvent: {}
+[19.246939] (fc_motor_control) StdoutLine: {'line': b'running install_lib\n'}
+[19.304497] (-) TimerEvent: {}
+[19.407385] (-) TimerEvent: {}
+[19.488239] (fc_motor_control) StdoutLine: {'line': b'creating /home/orangepi/airduino/ros2_ws/install/fc_motor_control/lib/python3.12/site-packages/fc_motor_control\n'}
+[19.489621] (fc_motor_control) StdoutLine: {'line': b'copying /home/orangepi/airduino/ros2_ws/build/fc_motor_control/build/lib/fc_motor_control/__init__.py -> /home/orangepi/airduino/ros2_ws/install/fc_motor_control/lib/python3.12/site-packages/fc_motor_control\n'}
+[19.490819] (fc_motor_control) StdoutLine: {'line': b'copying /home/orangepi/airduino/ros2_ws/build/fc_motor_control/build/lib/fc_motor_control/fc_motor_control.py -> /home/orangepi/airduino/ros2_ws/install/fc_motor_control/lib/python3.12/site-packages/fc_motor_control\n'}
+[19.494590] (fc_motor_control) StdoutLine: {'line': b'byte-compiling /home/orangepi/airduino/ros2_ws/install/fc_motor_control/lib/python3.12/site-packages/fc_motor_control/__init__.py to __init__.cpython-312.pyc\n'}
+[19.497408] (fc_motor_control) StdoutLine: {'line': b'byte-compiling /home/orangepi/airduino/ros2_ws/install/fc_motor_control/lib/python3.12/site-packages/fc_motor_control/fc_motor_control.py to fc_motor_control.cpython-312.pyc\n'}
+[19.506596] (fc_motor_control) StdoutLine: {'line': b'running install_data\n'}
+[19.507971] (-) TimerEvent: {}
+[19.510548] (fc_motor_control) StdoutLine: {'line': b'creating /home/orangepi/airduino/ros2_ws/install/fc_motor_control/share/ament_index\n'}
+[19.511588] (fc_motor_control) StdoutLine: {'line': b'creating /home/orangepi/airduino/ros2_ws/install/fc_motor_control/share/ament_index/resource_index\n'}
+[19.512206] (fc_motor_control) StdoutLine: {'line': b'creating /home/orangepi/airduino/ros2_ws/install/fc_motor_control/share/ament_index/resource_index/packages\n'}
+[19.512744] (fc_motor_control) StdoutLine: {'line': b'copying resource/fc_motor_control -> /home/orangepi/airduino/ros2_ws/install/fc_motor_control/share/ament_index/resource_index/packages\n'}
+[19.513261] (fc_motor_control) StdoutLine: {'line': b'copying package.xml -> /home/orangepi/airduino/ros2_ws/install/fc_motor_control/share/fc_motor_control\n'}
+[19.516001] (fc_motor_control) StdoutLine: {'line': b'running install_egg_info\n'}
+[19.608232] (-) TimerEvent: {}
+[19.710325] (-) TimerEvent: {}
+[19.813307] (-) TimerEvent: {}
+[19.815753] (fc_motor_control) StdoutLine: {'line': b'Copying ../../build/fc_motor_control/fc_motor_control.egg-info to /home/orangepi/airduino/ros2_ws/install/fc_motor_control/lib/python3.12/site-packages/fc_motor_control-0.0.0-py3.12.egg-info\n'}
+[19.823164] (fc_motor_control) StdoutLine: {'line': b'running install_scripts\n'}
+[19.913590] (-) TimerEvent: {}
+[20.016286] (-) TimerEvent: {}
+[20.118382] (-) TimerEvent: {}
+[20.220882] (-) TimerEvent: {}
+[20.323040] (-) TimerEvent: {}
+[20.425286] (-) TimerEvent: {}
+[20.527815] (-) TimerEvent: {}
+[20.629867] (-) TimerEvent: {}
+[20.732547] (-) TimerEvent: {}
+[20.835264] (-) TimerEvent: {}
+[20.937765] (-) TimerEvent: {}
+[21.039771] (-) TimerEvent: {}
+[21.141880] (-) TimerEvent: {}
+[21.150755] (fc_motor_control) StdoutLine: {'line': b'Installing fc_motor_control script to /home/orangepi/airduino/ros2_ws/install/fc_motor_control/lib/fc_motor_control\n'}
+[21.153326] (fc_motor_control) StdoutLine: {'line': b"writing list of installed files to '/home/orangepi/airduino/ros2_ws/build/fc_motor_control/install.log'\n"}
+[21.242249] (-) TimerEvent: {}
+[21.345466] (-) TimerEvent: {}
+[21.448432] (-) TimerEvent: {}
+[21.551074] (-) TimerEvent: {}
+[21.559122] (fc_motor_control) CommandEnded: {'returncode': 0}
+[21.653630] (-) TimerEvent: {}
+[21.739831] (fc_motor_control) JobEnded: {'identifier': 'fc_motor_control', 'rc': 0}
+[21.751293] (-) EventReactorShutdown: {}
