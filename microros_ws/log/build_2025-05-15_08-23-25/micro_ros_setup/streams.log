@@ -1,0 +1,181 @@
+[0.061s] Invoking command in '/home/orangepi/microros_ws/build/micro_ros_setup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /home/orangepi/microros_ws/src/micro_ros_setup -DCMAKE_INSTALL_PREFIX=/home/orangepi/microros_ws/install/micro_ros_setup
+[1.565s] -- The C compiler identification is GNU 13.3.0
+[2.807s] -- The CXX compiler identification is GNU 13.3.0
+[2.906s] -- Detecting C compiler ABI info
+[3.493s] -- Detecting C compiler ABI info - done
+[3.565s] -- Check for working C compiler: /usr/bin/cc - skipped
+[3.569s] -- Detecting C compile features
+[3.573s] -- Detecting C compile features - done
+[3.616s] -- Detecting CXX compiler ABI info
+[4.173s] -- Detecting CXX compiler ABI info - done
+[4.247s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[4.248s] -- Detecting CXX compile features
+[4.251s] -- Detecting CXX compile features - done
+[4.274s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[5.107s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[5.790s] -- Found ament_lint_auto: 0.17.2 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[6.450s] -- Configuring done (6.0s)
+[6.465s] -- Generating done (0.0s)
+[6.474s] -- Build files have been written to: /home/orangepi/microros_ws/build/micro_ros_setup
+[6.508s] Invoked command in '/home/orangepi/microros_ws/build/micro_ros_setup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /home/orangepi/microros_ws/src/micro_ros_setup -DCMAKE_INSTALL_PREFIX=/home/orangepi/microros_ws/install/micro_ros_setup
+[6.515s] Invoking command in '/home/orangepi/microros_ws/build/micro_ros_setup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/orangepi/microros_ws/build/micro_ros_setup -- -j4 -l4
+[6.704s] Invoked command in '/home/orangepi/microros_ws/build/micro_ros_setup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/orangepi/microros_ws/build/micro_ros_setup -- -j4 -l4
+[6.753s] Invoking command in '/home/orangepi/microros_ws/build/micro_ros_setup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/orangepi/microros_ws/build/micro_ros_setup
+[6.790s] -- Install configuration: ""
+[6.791s] -- Installing: /home/orangepi/microros_ws/install/micro_ros_setup/share/ament_index/resource_index/package_run_dependencies/micro_ros_setup
+[6.791s] -- Installing: /home/orangepi/microros_ws/install/micro_ros_setup/share/ament_index/resource_index/parent_prefix_path/micro_ros_setup
+[6.792s] -- Installing: /home/orangepi/microros_ws/install/micro_ros_setup/share/micro_ros_setup/environment/ament_prefix_path.sh
+[6.793s] -- Installing: /home/orangepi/microros_ws/install/micro_ros_setup/share/micro_ros_setup/environment/ament_prefix_path.dsv
+[6.793s] -- Installing: /home/orangepi/microros_ws/install/micro_ros_setup/share/micro_ros_setup/environment/path.sh
+[6.794s] -- Installing: /home/orangepi/microros_ws/install/micro_ros_setup/share/micro_ros_setup/environment/path.dsv
+[6.794s] -- Installing: /home/orangepi/microros_ws/install/micro_ros_setup/share/micro_ros_setup/local_setup.bash
+[6.795s] -- Installing: /home/orangepi/microros_ws/install/micro_ros_setup/share/micro_ros_setup/local_setup.sh
+[6.796s] -- Installing: /home/orangepi/microros_ws/install/micro_ros_setup/share/micro_ros_setup/local_setup.zsh
+[6.796s] -- Installing: /home/orangepi/microros_ws/install/micro_ros_setup/share/micro_ros_setup/local_setup.dsv
+[6.797s] -- Installing: /home/orangepi/microros_ws/install/micro_ros_setup/share/micro_ros_setup/package.dsv
+[6.797s] -- Installing: /home/orangepi/microros_ws/install/micro_ros_setup/share/ament_index/resource_index/packages/micro_ros_setup
+[6.799s] -- Installing: /home/orangepi/microros_ws/install/micro_ros_setup/share/micro_ros_setup/cmake/micro_ros_setupConfig.cmake
+[6.801s] -- Installing: /home/orangepi/microros_ws/install/micro_ros_setup/share/micro_ros_setup/cmake/micro_ros_setupConfig-version.cmake
+[6.801s] -- Installing: /home/orangepi/microros_ws/install/micro_ros_setup/share/micro_ros_setup/package.xml
+[6.802s] -- Installing: /home/orangepi/microros_ws/install/micro_ros_setup/./config
+[6.802s] -- Installing: /home/orangepi/microros_ws/install/micro_ros_setup/./config/freertos
+[6.803s] -- Installing: /home/orangepi/microros_ws/install/micro_ros_setup/./config/freertos/list_apps.sh
+[6.804s] -- Installing: /home/orangepi/microros_ws/install/micro_ros_setup/./config/freertos/nucleo_f446re
+[6.804s] -- Installing: /home/orangepi/microros_ws/install/micro_ros_setup/./config/freertos/nucleo_f446re/build.sh
+[6.805s] -- Installing: /home/orangepi/microros_ws/install/micro_ros_setup/./config/freertos/nucleo_f446re/board.repos
+[6.806s] -- Installing: /home/orangepi/microros_ws/install/micro_ros_setup/./config/freertos/nucleo_f446re/package.xml
+[6.806s] -- Installing: /home/orangepi/microros_ws/install/micro_ros_setup/./config/freertos/nucleo_f446re/create.sh
+[6.807s] -- Installing: /home/orangepi/microros_ws/install/micro_ros_setup/./config/freertos/nucleo_f446re/client_uros_packages.repos
+[6.807s] -- Installing: /home/orangepi/microros_ws/install/micro_ros_setup/./config/freertos/nucleo_f446re/configure.sh
+[6.808s] -- Installing: /home/orangepi/microros_ws/install/micro_ros_setup/./config/freertos/nucleo_f446re/client-colcon.meta
+[6.809s] -- Installing: /home/orangepi/microros_ws/install/micro_ros_setup/./config/freertos/nucleo_f446re/flash.sh
+[6.809s] -- Installing: /home/orangepi/microros_ws/install/micro_ros_setup/./config/freertos/dev_ros2_packages.txt
+[6.810s] -- Installing: /home/orangepi/microros_ws/install/micro_ros_setup/./config/freertos/esp32
+[6.810s] -- Installing: /home/orangepi/microros_ws/install/micro_ros_setup/./config/freertos/esp32/build.sh
+[6.811s] -- Installing: /home/orangepi/microros_ws/install/micro_ros_setup/./config/freertos/esp32/board.repos
+[6.812s] -- Installing: /home/orangepi/microros_ws/install/micro_ros_setup/./config/freertos/esp32/README.md
+[6.812s] -- Installing: /home/orangepi/microros_ws/install/micro_ros_setup/./config/freertos/esp32/package.xml
+[6.813s] -- Installing: /home/orangepi/microros_ws/install/micro_ros_setup/./config/freertos/esp32/create.sh
+[6.813s] -- Installing: /home/orangepi/microros_ws/install/micro_ros_setup/./config/freertos/esp32/client_uros_packages.repos
+[6.814s] -- Installing: /home/orangepi/microros_ws/install/micro_ros_setup/./config/freertos/esp32/configure.sh
+[6.815s] -- Installing: /home/orangepi/microros_ws/install/micro_ros_setup/./config/freertos/esp32/client-colcon.meta
+[6.815s] -- Installing: /home/orangepi/microros_ws/install/micro_ros_setup/./config/freertos/esp32/flash.sh
+[6.816s] -- Installing: /home/orangepi/microros_ws/install/micro_ros_setup/./config/freertos/olimex-stm32-e407
+[6.816s] -- Installing: /home/orangepi/microros_ws/install/micro_ros_setup/./config/freertos/olimex-stm32-e407/build.sh
+[6.817s] -- Installing: /home/orangepi/microros_ws/install/micro_ros_setup/./config/freertos/olimex-stm32-e407/board.repos
+[6.818s] -- Installing: /home/orangepi/microros_ws/install/micro_ros_setup/./config/freertos/olimex-stm32-e407/package.xml
+[6.818s] -- Installing: /home/orangepi/microros_ws/install/micro_ros_setup/./config/freertos/olimex-stm32-e407/create.sh
+[6.819s] -- Installing: /home/orangepi/microros_ws/install/micro_ros_setup/./config/freertos/olimex-stm32-e407/client_uros_packages.repos
+[6.819s] -- Installing: /home/orangepi/microros_ws/install/micro_ros_setup/./config/freertos/olimex-stm32-e407/configure.sh
+[6.820s] -- Installing: /home/orangepi/microros_ws/install/micro_ros_setup/./config/freertos/olimex-stm32-e407/client-colcon.meta
+[6.821s] -- Installing: /home/orangepi/microros_ws/install/micro_ros_setup/./config/freertos/olimex-stm32-e407/flash.sh
+[6.821s] -- Installing: /home/orangepi/microros_ws/install/micro_ros_setup/./config/freertos/nucleo_f446ze
+[6.822s] -- Installing: /home/orangepi/microros_ws/install/micro_ros_setup/./config/freertos/nucleo_f446ze/build.sh
+[6.823s] -- Installing: /home/orangepi/microros_ws/install/micro_ros_setup/./config/freertos/nucleo_f446ze/board.repos
+[6.823s] -- Installing: /home/orangepi/microros_ws/install/micro_ros_setup/./config/freertos/nucleo_f446ze/package.xml
+[6.824s] -- Installing: /home/orangepi/microros_ws/install/micro_ros_setup/./config/freertos/nucleo_f446ze/create.sh
+[6.825s] -- Installing: /home/orangepi/microros_ws/install/micro_ros_setup/./config/freertos/nucleo_f446ze/client_uros_packages.repos
+[6.825s] -- Installing: /home/orangepi/microros_ws/install/micro_ros_setup/./config/freertos/nucleo_f446ze/configure.sh
+[6.826s] -- Installing: /home/orangepi/microros_ws/install/micro_ros_setup/./config/freertos/nucleo_f446ze/client-colcon.meta
+[6.826s] -- Installing: /home/orangepi/microros_ws/install/micro_ros_setup/./config/freertos/nucleo_f446ze/flash.sh
+[6.827s] -- Installing: /home/orangepi/microros_ws/install/micro_ros_setup/./config/freertos/crazyflie21
+[6.828s] -- Installing: /home/orangepi/microros_ws/install/micro_ros_setup/./config/freertos/crazyflie21/build.sh
+[6.828s] -- Installing: /home/orangepi/microros_ws/install/micro_ros_setup/./config/freertos/crazyflie21/board.repos
+[6.829s] -- Installing: /home/orangepi/microros_ws/install/micro_ros_setup/./config/freertos/crazyflie21/package.xml
+[6.830s] -- Installing: /home/orangepi/microros_ws/install/micro_ros_setup/./config/freertos/crazyflie21/create.sh
+[6.830s] -- Installing: /home/orangepi/microros_ws/install/micro_ros_setup/./config/freertos/crazyflie21/client_uros_packages.repos
+[6.831s] -- Installing: /home/orangepi/microros_ws/install/micro_ros_setup/./config/freertos/crazyflie21/configure.sh
+[6.832s] -- Installing: /home/orangepi/microros_ws/install/micro_ros_setup/./config/freertos/crazyflie21/client-colcon.meta
+[6.832s] -- Installing: /home/orangepi/microros_ws/install/micro_ros_setup/./config/freertos/crazyflie21/flash.sh
+[6.833s] -- Installing: /home/orangepi/microros_ws/install/micro_ros_setup/./config/freertos/dev_uros_packages.repos
+[6.834s] -- Installing: /home/orangepi/microros_ws/install/micro_ros_setup/./config/freertos/nucleo_f746zg
+[6.834s] -- Installing: /home/orangepi/microros_ws/install/micro_ros_setup/./config/freertos/nucleo_f746zg/build.sh
+[6.835s] -- Installing: /home/orangepi/microros_ws/install/micro_ros_setup/./config/freertos/nucleo_f746zg/board.repos
+[6.835s] -- Installing: /home/orangepi/microros_ws/install/micro_ros_setup/./config/freertos/nucleo_f746zg/package.xml
+[6.836s] -- Installing: /home/orangepi/microros_ws/install/micro_ros_setup/./config/freertos/nucleo_f746zg/create.sh
+[6.837s] -- Installing: /home/orangepi/microros_ws/install/micro_ros_setup/./config/freertos/nucleo_f746zg/client_uros_packages.repos
+[6.837s] -- Installing: /home/orangepi/microros_ws/install/micro_ros_setup/./config/freertos/nucleo_f746zg/configure.sh
+[6.838s] -- Installing: /home/orangepi/microros_ws/install/micro_ros_setup/./config/freertos/nucleo_f746zg/client-colcon.meta
+[6.839s] -- Installing: /home/orangepi/microros_ws/install/micro_ros_setup/./config/freertos/nucleo_f746zg/flash.sh
+[6.839s] -- Installing: /home/orangepi/microros_ws/install/micro_ros_setup/./config/freertos/nucleo_f767zi
+[6.840s] -- Installing: /home/orangepi/microros_ws/install/micro_ros_setup/./config/freertos/nucleo_f767zi/build.sh
+[6.841s] -- Installing: /home/orangepi/microros_ws/install/micro_ros_setup/./config/freertos/nucleo_f767zi/board.repos
+[6.841s] -- Installing: /home/orangepi/microros_ws/install/micro_ros_setup/./config/freertos/nucleo_f767zi/package.xml
+[6.842s] -- Installing: /home/orangepi/microros_ws/install/micro_ros_setup/./config/freertos/nucleo_f767zi/create.sh
+[6.842s] -- Installing: /home/orangepi/microros_ws/install/micro_ros_setup/./config/freertos/nucleo_f767zi/client_uros_packages.repos
+[6.843s] -- Installing: /home/orangepi/microros_ws/install/micro_ros_setup/./config/freertos/nucleo_f767zi/configure.sh
+[6.844s] -- Installing: /home/orangepi/microros_ws/install/micro_ros_setup/./config/freertos/nucleo_f767zi/client-colcon.meta
+[6.844s] -- Installing: /home/orangepi/microros_ws/install/micro_ros_setup/./config/freertos/nucleo_f767zi/flash.sh
+[6.845s] -- Installing: /home/orangepi/microros_ws/install/micro_ros_setup/./config/agent_ros2_packages.txt
+[6.846s] -- Installing: /home/orangepi/microros_ws/install/micro_ros_setup/./config/raspbian
+[6.846s] -- Installing: /home/orangepi/microros_ws/install/micro_ros_setup/./config/raspbian/generic
+[6.847s] -- Installing: /home/orangepi/microros_ws/install/micro_ros_setup/./config/raspbian/generic/build.sh
+[6.847s] -- Installing: /home/orangepi/microros_ws/install/micro_ros_setup/./config/raspbian/generic/supported_platforms
+[6.848s] -- Installing: /home/orangepi/microros_ws/install/micro_ros_setup/./config/raspbian/generic/create.sh
+[6.848s] -- Installing: /home/orangepi/microros_ws/install/micro_ros_setup/./config/raspbian/generic/client_uros_packages.repos
+[6.849s] -- Installing: /home/orangepi/microros_ws/install/micro_ros_setup/./config/raspbian/generic/configure.sh
+[6.849s] -- Installing: /home/orangepi/microros_ws/install/micro_ros_setup/./config/raspbian/generic/client-colcon.meta
+[6.850s] -- Installing: /home/orangepi/microros_ws/install/micro_ros_setup/./config/raspbian/generic/flash.sh
+[6.850s] -- Installing: /home/orangepi/microros_ws/install/micro_ros_setup/./config/raspbian/dev_ros2_packages.txt
+[6.850s] -- Installing: /home/orangepi/microros_ws/install/micro_ros_setup/./config/raspbian/dev_uros_packages.repos
+[6.851s] -- Installing: /home/orangepi/microros_ws/install/micro_ros_setup/./config/android
+[6.851s] -- Installing: /home/orangepi/microros_ws/install/micro_ros_setup/./config/android/generic
+[6.852s] -- Installing: /home/orangepi/microros_ws/install/micro_ros_setup/./config/android/generic/build.sh
+[6.853s] -- Installing: /home/orangepi/microros_ws/install/micro_ros_setup/./config/android/generic/package.xml
+[6.854s] -- Installing: /home/orangepi/microros_ws/install/micro_ros_setup/./config/android/generic/create.sh
+[6.856s] -- Installing: /home/orangepi/microros_ws/install/micro_ros_setup/./config/android/generic/client_uros_packages.repos
+[6.857s] -- Installing: /home/orangepi/microros_ws/install/micro_ros_setup/./config/android/generic/client-colcon.meta
+[6.858s] -- Installing: /home/orangepi/microros_ws/install/micro_ros_setup/./config/android/generic/flash.sh
+[6.859s] -- Installing: /home/orangepi/microros_ws/install/micro_ros_setup/./config/android/dev_ros2_packages.txt
+[6.859s] -- Installing: /home/orangepi/microros_ws/install/micro_ros_setup/./config/android/dev_uros_packages.repos
+[6.859s] -- Installing: /home/orangepi/microros_ws/install/micro_ros_setup/./config/generate_lib
+[6.860s] -- Installing: /home/orangepi/microros_ws/install/micro_ros_setup/./config/generate_lib/generic
+[6.860s] -- Installing: /home/orangepi/microros_ws/install/micro_ros_setup/./config/generate_lib/generic/build.sh
+[6.861s] -- Installing: /home/orangepi/microros_ws/install/micro_ros_setup/./config/generate_lib/generic/package.xml
+[6.862s] -- Installing: /home/orangepi/microros_ws/install/micro_ros_setup/./config/generate_lib/generic/create.sh
+[6.862s] -- Installing: /home/orangepi/microros_ws/install/micro_ros_setup/./config/generate_lib/generic/demo_toolchain.cmake
+[6.863s] -- Installing: /home/orangepi/microros_ws/install/micro_ros_setup/./config/generate_lib/generic/client_uros_packages.repos
+[6.864s] -- Installing: /home/orangepi/microros_ws/install/micro_ros_setup/./config/generate_lib/generic/client-colcon.meta
+[6.864s] -- Installing: /home/orangepi/microros_ws/install/micro_ros_setup/./config/generate_lib/generic/flash.sh
+[6.866s] -- Installing: /home/orangepi/microros_ws/install/micro_ros_setup/./config/generate_lib/dev_ros2_packages.txt
+[6.867s] -- Installing: /home/orangepi/microros_ws/install/micro_ros_setup/./config/generate_lib/dev_uros_packages.repos
+[6.867s] -- Installing: /home/orangepi/microros_ws/install/micro_ros_setup/./config/agent_uros_packages.repos
+[6.869s] -- Installing: /home/orangepi/microros_ws/install/micro_ros_setup/./config/host
+[6.869s] -- Installing: /home/orangepi/microros_ws/install/micro_ros_setup/./config/host/generic
+[6.870s] -- Installing: /home/orangepi/microros_ws/install/micro_ros_setup/./config/host/generic/build.sh
+[6.871s] -- Installing: /home/orangepi/microros_ws/install/micro_ros_setup/./config/host/generic/client-host-colcon.meta
+[6.871s] -- Installing: /home/orangepi/microros_ws/install/micro_ros_setup/./config/host/generic/package.xml
+[6.872s] -- Installing: /home/orangepi/microros_ws/install/micro_ros_setup/./config/host/generic/create.sh
+[6.873s] -- Installing: /home/orangepi/microros_ws/install/micro_ros_setup/./config/host/generic/client_host_packages.repos
+[6.873s] -- Installing: /home/orangepi/microros_ws/install/micro_ros_setup/./config/host/generic/flash.sh
+[6.874s] -- Installing: /home/orangepi/microros_ws/install/micro_ros_setup/./config/host/dev_ros2_packages.txt
+[6.874s] -- Installing: /home/orangepi/microros_ws/install/micro_ros_setup/./config/host/dev_uros_packages.repos
+[6.875s] -- Installing: /home/orangepi/microros_ws/install/micro_ros_setup/./config/host/client_ros2_packages.txt
+[6.876s] -- Installing: /home/orangepi/microros_ws/install/micro_ros_setup/./config/client_uros_packages.repos
+[6.876s] -- Installing: /home/orangepi/microros_ws/install/micro_ros_setup/./config/client_ros2_packages.txt
+[6.877s] -- Installing: /home/orangepi/microros_ws/install/micro_ros_setup/./config/zephyr
+[6.878s] -- Installing: /home/orangepi/microros_ws/install/micro_ros_setup/./config/zephyr/generic
+[6.879s] -- Installing: /home/orangepi/microros_ws/install/micro_ros_setup/./config/zephyr/generic/build.sh
+[6.879s] -- Installing: /home/orangepi/microros_ws/install/micro_ros_setup/./config/zephyr/generic/board.repos
+[6.880s] -- Installing: /home/orangepi/microros_ws/install/micro_ros_setup/./config/zephyr/generic/supported_platforms
+[6.880s] -- Installing: /home/orangepi/microros_ws/install/micro_ros_setup/./config/zephyr/generic/package.xml
+[6.882s] -- Installing: /home/orangepi/microros_ws/install/micro_ros_setup/./config/zephyr/generic/create.sh
+[6.882s] -- Installing: /home/orangepi/microros_ws/install/micro_ros_setup/./config/zephyr/generic/client_uros_packages.repos
+[6.883s] -- Installing: /home/orangepi/microros_ws/install/micro_ros_setup/./config/zephyr/generic/configure.sh
+[6.884s] -- Installing: /home/orangepi/microros_ws/install/micro_ros_setup/./config/zephyr/generic/client-colcon.meta
+[6.885s] -- Installing: /home/orangepi/microros_ws/install/micro_ros_setup/./config/zephyr/generic/flash.sh
+[6.885s] -- Installing: /home/orangepi/microros_ws/install/micro_ros_setup/./config/zephyr/list_apps.sh
+[6.886s] -- Installing: /home/orangepi/microros_ws/install/micro_ros_setup/./config/zephyr/dev_ros2_packages.txt
+[6.886s] -- Installing: /home/orangepi/microros_ws/install/micro_ros_setup/./config/zephyr/dev_uros_packages.repos
+[6.887s] -- Installing: /home/orangepi/microros_ws/install/micro_ros_setup/./config/utils.sh
+[6.888s] -- Installing: /home/orangepi/microros_ws/install/micro_ros_setup/lib/micro_ros_setup/create_ws.sh
+[6.889s] -- Installing: /home/orangepi/microros_ws/install/micro_ros_setup/lib/micro_ros_setup/create_agent_ws.sh
+[6.889s] -- Installing: /home/orangepi/microros_ws/install/micro_ros_setup/lib/micro_ros_setup/create_firmware_ws.sh
+[6.890s] -- Installing: /home/orangepi/microros_ws/install/micro_ros_setup/lib/micro_ros_setup/configure_firmware.sh
+[6.891s] -- Installing: /home/orangepi/microros_ws/install/micro_ros_setup/lib/micro_ros_setup/flash_firmware.sh
+[6.891s] -- Installing: /home/orangepi/microros_ws/install/micro_ros_setup/lib/micro_ros_setup/build_firmware.sh
+[6.894s] -- Installing: /home/orangepi/microros_ws/install/micro_ros_setup/lib/micro_ros_setup/build_agent.sh
+[6.896s] -- Installing: /home/orangepi/microros_ws/install/micro_ros_setup/lib/micro_ros_setup/yaml_filter.py
+[6.897s] -- Installing: /home/orangepi/microros_ws/install/micro_ros_setup/lib/micro_ros_setup/clean_env.sh
+[6.897s] -- Installing: /home/orangepi/microros_ws/install/micro_ros_setup/lib/micro_ros_setup/component
+[6.898s] Invoked command in '/home/orangepi/microros_ws/build/micro_ros_setup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/orangepi/microros_ws/build/micro_ros_setup
