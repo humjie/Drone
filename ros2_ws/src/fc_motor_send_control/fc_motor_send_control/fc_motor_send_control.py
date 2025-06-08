@@ -44,11 +44,12 @@ class FCMotorController(Node):
         super().__init__('fc_motor_controller')
         
         # Declare parameters
-        self.declare_parameter('serial_port', '/dev/ttyACM0')
+        self.declare_parameter('serial_port', '/dev/tty_betaflight_fc')
         self.declare_parameter('baud_rate', 115200)
         self.declare_parameter('min_throttle', 1000)
         self.declare_parameter('max_throttle', 2000)
-        self.declare_parameter('motor_mixing_strength', 0.5)  # How strongly roll/pitch/yaw affect motors
+        self.declare_parameter('motor_mixing_strength', 0.5)
+        self.declare_parameter('throttle_increment', 10)  # How much to increase/decrease per second
         
         # Get parameters
         self.serial_port = self.get_parameter('serial_port').value
@@ -56,6 +57,7 @@ class FCMotorController(Node):
         self.min_throttle = self.get_parameter('min_throttle').value
         self.max_throttle = self.get_parameter('max_throttle').value
         self.mixing_strength = self.get_parameter('motor_mixing_strength').value
+        self.throttle_increment = self.get_parameter('throttle_increment').value
         
         # Initialize serial connection
         self.get_logger().info(f"Connecting to flight controller at {self.serial_port}")
@@ -82,26 +84,34 @@ class FCMotorController(Node):
         self.get_logger().info("====================================")
         self.get_logger().info("Subscribed to topic: joystick_data")
         self.get_logger().info("Message type: geometry_msgs/Vector3")
-        self.get_logger().info("Adding roll/pitch/yaw control")
+        self.get_logger().info("Continuous throttle control:")
+        self.get_logger().info("Value = 1: +10 throttle every 1 second")
+        self.get_logger().info("Value = 0: -10 throttle every 1 second")
         self.get_logger().info("====================================")
         print("\033[1;32m") # Green and bold text
         print("⭐ FC Motor Controller Active ⭐")
         print("Subscribed to topic: \033[1;36mjoystick_data\033[1;32m")
         print("Message type: \033[1;36mgeometry_msgs/Vector3\033[1;32m")
-        print("Using advanced motor mixing for roll/pitch/yaw control")
+        print("📈 Value = 1: \033[1;33m+10 throttle every 1s\033[1;32m")
+        print("📉 Value = 0: \033[1;33m-10 throttle every 1s\033[1;32m")
         print("\033[0m") # Reset text formatting
         
         # Initialize motor values
         self.motor_values = [self.min_throttle] * 4  # All motors at minimum throttle
         
         # Initialize control values
-        self.throttle = 0.0
+        self.current_throttle_base = self.min_throttle  # Current base throttle level
         self.roll = 0.0
         self.pitch = 0.0
         self.yaw = 0.0
         
-        # Count of received messages
+        # Continuous throttle control state tracking
+        self.current_throttle_input = 0.0  # Current throttle input value
+        self.last_update_time = time.time()  # Track time for 1-second intervals
+        
+        # Count of received messages and throttle changes
         self.msg_count = 0
+        self.throttle_step_count = 0  # Track net throttle steps
         
         # Motor layout for quadcopter (+) configuration:
         #    M1(front)
@@ -110,20 +120,44 @@ class FCMotorController(Node):
         #       |
         #    M3(back)
         
-        self.get_logger().info("FC Motor Controller initialized with roll/pitch/yaw support")
+        self.get_logger().info("FC Motor Controller initialized with continuous throttle control")
     
     def joystick_callback(self, msg):
-        """Process incoming joystick data"""
+        """Process incoming joystick data with continuous throttle mechanism"""
         # Extract control values from message
-        self.throttle = msg.x  # Throttle from x component (0.0 to 1.0)
-        self.pitch = msg.y     # Pitch from y component (-1.0 to 1.0)
-        self.roll = msg.z      # Roll from z component (-1.0 to 1.0)
+        throttle_input = msg.x  # Throttle input from x component (0.0 to 1.0)
+        self.pitch = msg.y      # Pitch from y component (-1.0 to 1.0)
+        self.roll = msg.z       # Roll from z component (-1.0 to 1.0)
         
-        # For this example, we're not using yaw (could add another message type or use Vector3Stamped)
+        # Update current throttle input
+        self.current_throttle_input = throttle_input
         
-        # Scale throttle from 0-1 to min_throttle-max_throttle
-        throttle_base = int(self.min_throttle + self.throttle * (self.max_throttle - self.min_throttle))
-        throttle_base = max(self.min_throttle, min(self.max_throttle, throttle_base))
+        # Check if 1 second has passed since last update
+        current_time = time.time()
+        if current_time - self.last_update_time >= 0.01:
+            # INCREASE THROTTLE: Continuous value of 1.0
+            if throttle_input >= 0.9:  # Consider >= 0.9 as "1"
+                old_throttle = self.current_throttle_base
+                self.current_throttle_base = min(self.max_throttle, 
+                                               self.current_throttle_base + self.throttle_increment)
+                self.throttle_step_count += 1
+                
+                self.get_logger().info(f"📈 INCREASE (continuous 1): {old_throttle} → {self.current_throttle_base} (+{self.throttle_increment})")
+            
+            # DECREASE THROTTLE: Continuous value of 0.0
+            elif throttle_input <= 0.1:  # Consider <= 0.1 as "0"
+                old_throttle = self.current_throttle_base
+                self.current_throttle_base = max(self.min_throttle, 
+                                               self.current_throttle_base - self.throttle_increment)
+                self.throttle_step_count -= 1
+                
+                self.get_logger().info(f"📉 DECREASE (continuous 0): {old_throttle} → {self.current_throttle_base} (-{self.throttle_increment})")
+            
+            # Update last update time
+            self.last_update_time = current_time
+        
+        # Use the current base throttle level
+        throttle_base = self.current_throttle_base
         
         # Calculate motor mix based on roll, pitch, and yaw
         # For a quadcopter in + configuration:
@@ -154,8 +188,9 @@ class FCMotorController(Node):
         # Increment message counter
         self.msg_count += 1
         
-        # Print received message data to terminal
-        print(f"\033[K\rMsg #{self.msg_count}: thr={self.throttle:.2f}, pitch={self.pitch:.2f}, roll={self.roll:.2f} → motors=[{m1}, {m2}, {m3}, {m4}]", end="")
+        # Print received message data to terminal with continuous info
+        step_info = f"steps:{self.throttle_step_count:+d}, net:{self.current_throttle_base-self.min_throttle:+d}"
+        print(f"\033[K\rMsg #{self.msg_count}: input={throttle_input:.2f}, {step_info}, base={self.current_throttle_base}, pitch={self.pitch:.2f}, roll={self.roll:.2f} → motors=[{m1}, {m2}, {m3}, {m4}]", end="")
         
         # Send command to flight controller
         try:
