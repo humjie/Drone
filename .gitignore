@@ -1,0 +1,13 @@
+# Python artifacts
+__pycache__/
+*.pyc
+
+# ROS 2 build artifacts
+build/
+install/
+log/
+
+# Environment folders
+*.egg-info/
+*.venv/
+*.env/
