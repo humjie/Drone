@@ -1,0 +1,118 @@
+[0.000000] (-) TimerEvent: {}
+[0.000831] (-) JobUnselected: {'identifier': 'accelerometer_pkg'}
+[0.001581] (-) JobUnselected: {'identifier': 'fc_motor_control'}
+[0.001883] (fc_imu_pkg) JobQueued: {'identifier': 'fc_imu_pkg', 'dependencies': OrderedDict()}
+[0.002814] (fc_imu_pkg) JobStarted: {'identifier': 'fc_imu_pkg'}
+[0.099035] (-) TimerEvent: {}
+[0.200321] (-) TimerEvent: {}
+[0.301230] (-) TimerEvent: {}
+[0.402114] (-) TimerEvent: {}
+[0.503087] (-) TimerEvent: {}
+[0.603990] (-) TimerEvent: {}
+[0.704904] (-) TimerEvent: {}
+[0.805750] (-) TimerEvent: {}
+[0.906587] (-) TimerEvent: {}
+[1.007469] (-) TimerEvent: {}
+[1.108336] (-) TimerEvent: {}
+[1.209335] (-) TimerEvent: {}
+[1.310327] (-) TimerEvent: {}
+[1.411427] (-) TimerEvent: {}
+[1.512835] (-) TimerEvent: {}
+[1.614239] (-) TimerEvent: {}
+[1.715148] (-) TimerEvent: {}
+[1.816016] (-) TimerEvent: {}
+[1.916955] (-) TimerEvent: {}
+[2.017850] (-) TimerEvent: {}
+[2.118766] (-) TimerEvent: {}
+[2.219699] (-) TimerEvent: {}
+[2.320596] (-) TimerEvent: {}
+[2.421489] (-) TimerEvent: {}
+[2.522322] (-) TimerEvent: {}
+[2.623201] (-) TimerEvent: {}
+[2.724064] (-) TimerEvent: {}
+[2.824924] (-) TimerEvent: {}
+[2.925766] (-) TimerEvent: {}
+[3.026598] (-) TimerEvent: {}
+[3.127511] (-) TimerEvent: {}
+[3.228337] (-) TimerEvent: {}
+[3.329177] (-) TimerEvent: {}
+[3.430005] (-) TimerEvent: {}
+[3.530867] (-) TimerEvent: {}
+[3.631774] (-) TimerEvent: {}
+[3.732690] (-) TimerEvent: {}
+[3.833575] (-) TimerEvent: {}
+[3.934456] (-) TimerEvent: {}
+[4.035379] (-) TimerEvent: {}
+[4.136250] (-) TimerEvent: {}
+[4.238065] (-) TimerEvent: {}
+[4.339304] (-) TimerEvent: {}
+[4.440163] (-) TimerEvent: {}
+[4.541051] (-) TimerEvent: {}
+[4.641953] (-) TimerEvent: {}
+[4.742847] (-) TimerEvent: {}
+[4.844409] (-) TimerEvent: {}
+[4.946062] (-) TimerEvent: {}
+[5.047641] (-) TimerEvent: {}
+[5.149230] (-) TimerEvent: {}
+[5.250993] (-) TimerEvent: {}
+[5.352090] (-) TimerEvent: {}
+[5.453274] (-) TimerEvent: {}
+[5.554398] (-) TimerEvent: {}
+[5.557494] (fc_imu_pkg) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/fc_imu_pkg', 'build', '--build-base', '/home/orangepi/airduino/ros2_ws/build/fc_imu_pkg/build', 'install', '--record', '/home/orangepi/airduino/ros2_ws/build/fc_imu_pkg/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/orangepi/airduino/ros2_ws/src/fc_imu_pkg', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'en_US.UTF-8', 'USER': 'orangepi', 'SSH_CLIENT': '192.168.0.128 37978 22', 'XDG_SESSION_TYPE': 'tty', 'GIT_ASKPASS': '/home/orangepi/.vscode-server/cli/servers/Stable-17baf841131aa23349f217ca7c570c76ee87b957/server/extensions/git/dist/askpass.sh', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'BROWSER': '/home/orangepi/.vscode-server/cli/servers/Stable-17baf841131aa23349f217ca7c570c76ee87b957/server/bin/helpers/browser.sh', 'HOME': '/home/orangepi', 'OLDPWD': '/home/orangepi', 'TERM_PROGRAM_VERSION': '1.99.3', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-6e8d4efc-931b-46f0-8c3b-980f8573aea7.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/orangepi/.vscode-server/cli/servers/Stable-17baf841131aa23349f217ca7c570c76ee87b957/server/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/home/orangepi/.vscode-server/cli/servers/Stable-17baf841131aa23349f217ca7c570c76ee87b957/server/node', 'SSL_CERT_FILE': '/usr/lib/ssl/cert.pem', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'orangepi', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '6', 'PATH': '/home/orangepi/.vscode-server/cli/servers/Stable-17baf841131aa23349f217ca7c570c76ee87b957/server/bin/remote-cli:/home/orangepi/.local/bin:/opt/ros/jazzy/bin:/home/orangepi/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'SSL_CERT_DIR': '/usr/lib/ssl/certs', 'LANG': 'en_US.UTF-8', 'RMW_IMPLEMENTATION': 'rmw_fastretps_cpp', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-4498a0ce81.sock', 'TERM_PROGRAM': 'vscode', 'ROS_DOMAIN_ID': '0', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'LC_MESSAGES': 'en_US.UTF-8', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/orangepi/airduino/ros2_ws/build/fc_imu_pkg', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '192.168.0.128 37978 192.168.0.112 22', 'PYTHONPATH': '/home/orangepi/airduino/ros2_ws/build/fc_imu_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/orangepi/airduino/ros2_ws/install/fc_imu_pkg/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}, 'shell': False}
+[5.654653] (-) TimerEvent: {}
+[5.756335] (-) TimerEvent: {}
+[5.857228] (-) TimerEvent: {}
+[5.958101] (-) TimerEvent: {}
+[6.059057] (-) TimerEvent: {}
+[6.159933] (-) TimerEvent: {}
+[6.260794] (-) TimerEvent: {}
+[6.361643] (-) TimerEvent: {}
+[6.462504] (-) TimerEvent: {}
+[6.563634] (-) TimerEvent: {}
+[6.664537] (-) TimerEvent: {}
+[6.765429] (-) TimerEvent: {}
+[6.866300] (-) TimerEvent: {}
+[6.967191] (-) TimerEvent: {}
+[7.068052] (-) TimerEvent: {}
+[7.168896] (-) TimerEvent: {}
+[7.227745] (fc_imu_pkg) StdoutLine: {'line': b'running egg_info\n'}
+[7.269098] (-) TimerEvent: {}
+[7.349785] (fc_imu_pkg) StdoutLine: {'line': b'writing ../../build/fc_imu_pkg/fc_imu_pkg.egg-info/PKG-INFO\n'}
+[7.351447] (fc_imu_pkg) StdoutLine: {'line': b'writing dependency_links to ../../build/fc_imu_pkg/fc_imu_pkg.egg-info/dependency_links.txt\n'}
+[7.355446] (fc_imu_pkg) StdoutLine: {'line': b'writing entry points to ../../build/fc_imu_pkg/fc_imu_pkg.egg-info/entry_points.txt\n'}
+[7.356280] (fc_imu_pkg) StdoutLine: {'line': b'writing requirements to ../../build/fc_imu_pkg/fc_imu_pkg.egg-info/requires.txt\n'}
+[7.357051] (fc_imu_pkg) StdoutLine: {'line': b'writing top-level names to ../../build/fc_imu_pkg/fc_imu_pkg.egg-info/top_level.txt\n'}
+[7.369240] (-) TimerEvent: {}
+[7.470043] (-) TimerEvent: {}
+[7.570930] (-) TimerEvent: {}
+[7.607335] (fc_imu_pkg) StdoutLine: {'line': b"reading manifest file '../../build/fc_imu_pkg/fc_imu_pkg.egg-info/SOURCES.txt'\n"}
+[7.615323] (fc_imu_pkg) StdoutLine: {'line': b"writing manifest file '../../build/fc_imu_pkg/fc_imu_pkg.egg-info/SOURCES.txt'\n"}
+[7.616187] (fc_imu_pkg) StdoutLine: {'line': b'running build\n'}
+[7.616908] (fc_imu_pkg) StdoutLine: {'line': b'running build_py\n'}
+[7.617954] (fc_imu_pkg) StdoutLine: {'line': b'running install\n'}
+[7.667173] (fc_imu_pkg) StdoutLine: {'line': b'running install_lib\n'}
+[7.671040] (-) TimerEvent: {}
+[7.771743] (-) TimerEvent: {}
+[7.790771] (fc_imu_pkg) StdoutLine: {'line': b'running install_data\n'}
+[7.791732] (fc_imu_pkg) StdoutLine: {'line': b'running install_egg_info\n'}
+[7.872197] (-) TimerEvent: {}
+[7.921475] (fc_imu_pkg) StdoutLine: {'line': b"removing '/home/orangepi/airduino/ros2_ws/install/fc_imu_pkg/lib/python3.12/site-packages/fc_imu_pkg-0.0.0-py3.12.egg-info' (and everything under it)\n"}
+[7.924047] (fc_imu_pkg) StdoutLine: {'line': b'Copying ../../build/fc_imu_pkg/fc_imu_pkg.egg-info to /home/orangepi/airduino/ros2_ws/install/fc_imu_pkg/lib/python3.12/site-packages/fc_imu_pkg-0.0.0-py3.12.egg-info\n'}
+[7.931043] (fc_imu_pkg) StdoutLine: {'line': b'running install_scripts\n'}
+[7.972179] (-) TimerEvent: {}
+[8.073109] (-) TimerEvent: {}
+[8.174008] (-) TimerEvent: {}
+[8.274959] (-) TimerEvent: {}
+[8.375778] (-) TimerEvent: {}
+[8.476618] (-) TimerEvent: {}
+[8.577526] (-) TimerEvent: {}
+[8.678384] (-) TimerEvent: {}
+[8.717283] (fc_imu_pkg) StdoutLine: {'line': b'Installing fc_imu_node script to /home/orangepi/airduino/ros2_ws/install/fc_imu_pkg/lib/fc_imu_pkg\n'}
+[8.719353] (fc_imu_pkg) StdoutLine: {'line': b"writing list of installed files to '/home/orangepi/airduino/ros2_ws/build/fc_imu_pkg/install.log'\n"}
+[8.778759] (-) TimerEvent: {}
+[8.880762] (-) TimerEvent: {}
+[8.981848] (-) TimerEvent: {}
+[9.039614] (fc_imu_pkg) CommandEnded: {'returncode': 0}
+[9.082686] (-) TimerEvent: {}
+[9.129298] (fc_imu_pkg) JobEnded: {'identifier': 'fc_imu_pkg', 'rc': 0}
+[9.133561] (-) EventReactorShutdown: {}

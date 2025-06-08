@@ -1,0 +1,38 @@
+[14.686s] Invoking command in '/home/orangepi/airduino/ros2_ws/src/fc_motor_control': PYTHONPATH=/home/orangepi/airduino/ros2_ws/build/fc_motor_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/orangepi/airduino/ros2_ws/install/fc_motor_control/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/fc_motor_control build --build-base /home/orangepi/airduino/ros2_ws/build/fc_motor_control/build install --record /home/orangepi/airduino/ros2_ws/build/fc_motor_control/install.log --single-version-externally-managed install_data
+[18.370s] running egg_info
+[18.372s] creating ../../build/fc_motor_control/fc_motor_control.egg-info
+[18.616s] writing ../../build/fc_motor_control/fc_motor_control.egg-info/PKG-INFO
+[18.618s] writing dependency_links to ../../build/fc_motor_control/fc_motor_control.egg-info/dependency_links.txt
+[18.619s] writing entry points to ../../build/fc_motor_control/fc_motor_control.egg-info/entry_points.txt
+[18.620s] writing requirements to ../../build/fc_motor_control/fc_motor_control.egg-info/requires.txt
+[18.621s] writing top-level names to ../../build/fc_motor_control/fc_motor_control.egg-info/top_level.txt
+[18.622s] writing manifest file '../../build/fc_motor_control/fc_motor_control.egg-info/SOURCES.txt'
+[19.158s] reading manifest file '../../build/fc_motor_control/fc_motor_control.egg-info/SOURCES.txt'
+[19.160s] adding license file 'LICENSE'
+[19.165s] writing manifest file '../../build/fc_motor_control/fc_motor_control.egg-info/SOURCES.txt'
+[19.168s] running build
+[19.169s] running build_py
+[19.170s] creating /home/orangepi/airduino/ros2_ws/build/fc_motor_control/build
+[19.171s] creating /home/orangepi/airduino/ros2_ws/build/fc_motor_control/build/lib
+[19.172s] creating /home/orangepi/airduino/ros2_ws/build/fc_motor_control/build/lib/fc_motor_control
+[19.172s] copying fc_motor_control/__init__.py -> /home/orangepi/airduino/ros2_ws/build/fc_motor_control/build/lib/fc_motor_control
+[19.173s] copying fc_motor_control/fc_motor_control.py -> /home/orangepi/airduino/ros2_ws/build/fc_motor_control/build/lib/fc_motor_control
+[19.174s] running install
+[19.244s] running install_lib
+[19.485s] creating /home/orangepi/airduino/ros2_ws/install/fc_motor_control/lib/python3.12/site-packages/fc_motor_control
+[19.486s] copying /home/orangepi/airduino/ros2_ws/build/fc_motor_control/build/lib/fc_motor_control/__init__.py -> /home/orangepi/airduino/ros2_ws/install/fc_motor_control/lib/python3.12/site-packages/fc_motor_control
+[19.487s] copying /home/orangepi/airduino/ros2_ws/build/fc_motor_control/build/lib/fc_motor_control/fc_motor_control.py -> /home/orangepi/airduino/ros2_ws/install/fc_motor_control/lib/python3.12/site-packages/fc_motor_control
+[19.491s] byte-compiling /home/orangepi/airduino/ros2_ws/install/fc_motor_control/lib/python3.12/site-packages/fc_motor_control/__init__.py to __init__.cpython-312.pyc
+[19.494s] byte-compiling /home/orangepi/airduino/ros2_ws/install/fc_motor_control/lib/python3.12/site-packages/fc_motor_control/fc_motor_control.py to fc_motor_control.cpython-312.pyc
+[19.503s] running install_data
+[19.507s] creating /home/orangepi/airduino/ros2_ws/install/fc_motor_control/share/ament_index
+[19.508s] creating /home/orangepi/airduino/ros2_ws/install/fc_motor_control/share/ament_index/resource_index
+[19.508s] creating /home/orangepi/airduino/ros2_ws/install/fc_motor_control/share/ament_index/resource_index/packages
+[19.509s] copying resource/fc_motor_control -> /home/orangepi/airduino/ros2_ws/install/fc_motor_control/share/ament_index/resource_index/packages
+[19.511s] copying package.xml -> /home/orangepi/airduino/ros2_ws/install/fc_motor_control/share/fc_motor_control
+[19.512s] running install_egg_info
+[19.812s] Copying ../../build/fc_motor_control/fc_motor_control.egg-info to /home/orangepi/airduino/ros2_ws/install/fc_motor_control/lib/python3.12/site-packages/fc_motor_control-0.0.0-py3.12.egg-info
+[19.820s] running install_scripts
+[21.148s] Installing fc_motor_control script to /home/orangepi/airduino/ros2_ws/install/fc_motor_control/lib/fc_motor_control
+[21.150s] writing list of installed files to '/home/orangepi/airduino/ros2_ws/build/fc_motor_control/install.log'
+[21.559s] Invoked command in '/home/orangepi/airduino/ros2_ws/src/fc_motor_control' returned '0': PYTHONPATH=/home/orangepi/airduino/ros2_ws/build/fc_motor_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/orangepi/airduino/ros2_ws/install/fc_motor_control/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/fc_motor_control build --build-base /home/orangepi/airduino/ros2_ws/build/fc_motor_control/build install --record /home/orangepi/airduino/ros2_ws/build/fc_motor_control/install.log --single-version-externally-managed install_data

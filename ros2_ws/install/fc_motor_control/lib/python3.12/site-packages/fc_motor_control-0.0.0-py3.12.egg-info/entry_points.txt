@@ -1,0 +1,2 @@
+[console_scripts]
+fc_motor_control = fc_motor_control.fc_motor_control:main

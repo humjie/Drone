@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: fc-motor-control
+Version: 0.0.0
+Summary: To bridge between ROS2 and flight controller to receive the value from controller and control the motors
+Maintainer: orangepi
+Maintainer-email: mingjiehu5@gmail.com
+License: Apache-2.0
+License-File: LICENSE

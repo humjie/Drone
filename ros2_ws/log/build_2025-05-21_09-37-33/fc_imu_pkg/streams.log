@@ -1,0 +1,21 @@
+[5.557s] Invoking command in '/home/orangepi/airduino/ros2_ws/src/fc_imu_pkg': PYTHONPATH=/home/orangepi/airduino/ros2_ws/build/fc_imu_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/orangepi/airduino/ros2_ws/install/fc_imu_pkg/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/fc_imu_pkg build --build-base /home/orangepi/airduino/ros2_ws/build/fc_imu_pkg/build install --record /home/orangepi/airduino/ros2_ws/build/fc_imu_pkg/install.log --single-version-externally-managed install_data
+[7.225s] running egg_info
+[7.347s] writing ../../build/fc_imu_pkg/fc_imu_pkg.egg-info/PKG-INFO
+[7.349s] writing dependency_links to ../../build/fc_imu_pkg/fc_imu_pkg.egg-info/dependency_links.txt
+[7.353s] writing entry points to ../../build/fc_imu_pkg/fc_imu_pkg.egg-info/entry_points.txt
+[7.353s] writing requirements to ../../build/fc_imu_pkg/fc_imu_pkg.egg-info/requires.txt
+[7.354s] writing top-level names to ../../build/fc_imu_pkg/fc_imu_pkg.egg-info/top_level.txt
+[7.605s] reading manifest file '../../build/fc_imu_pkg/fc_imu_pkg.egg-info/SOURCES.txt'
+[7.613s] writing manifest file '../../build/fc_imu_pkg/fc_imu_pkg.egg-info/SOURCES.txt'
+[7.613s] running build
+[7.614s] running build_py
+[7.615s] running install
+[7.664s] running install_lib
+[7.788s] running install_data
+[7.789s] running install_egg_info
+[7.919s] removing '/home/orangepi/airduino/ros2_ws/install/fc_imu_pkg/lib/python3.12/site-packages/fc_imu_pkg-0.0.0-py3.12.egg-info' (and everything under it)
+[7.921s] Copying ../../build/fc_imu_pkg/fc_imu_pkg.egg-info to /home/orangepi/airduino/ros2_ws/install/fc_imu_pkg/lib/python3.12/site-packages/fc_imu_pkg-0.0.0-py3.12.egg-info
+[7.928s] running install_scripts
+[8.715s] Installing fc_imu_node script to /home/orangepi/airduino/ros2_ws/install/fc_imu_pkg/lib/fc_imu_pkg
+[8.716s] writing list of installed files to '/home/orangepi/airduino/ros2_ws/build/fc_imu_pkg/install.log'
+[9.037s] Invoked command in '/home/orangepi/airduino/ros2_ws/src/fc_imu_pkg' returned '0': PYTHONPATH=/home/orangepi/airduino/ros2_ws/build/fc_imu_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/orangepi/airduino/ros2_ws/install/fc_imu_pkg/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/fc_imu_pkg build --build-base /home/orangepi/airduino/ros2_ws/build/fc_imu_pkg/build install --record /home/orangepi/airduino/ros2_ws/build/fc_imu_pkg/install.log --single-version-externally-managed install_data
