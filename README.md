@@ -17,7 +17,7 @@ Quantity: 1 set
 Price: **$61.06**
 
 ### 🛠 Frame + Propellers
-**["BETAFPV Pavo20 Pro" Brushless BWhoop Frame with HD VTX Bracket + GEMFAN 2218 3-Blades 1.5mm Shaft Propellers (x2 pairs)](https://shopee.sg/product/1021002494/24135674597)**  
+**[BETAFPV Pavo20 Pro" Brushless BWhoop Frame with HD VTX Bracket + GEMFAN 2218 3-Blades 1.5mm Shaft Propellers (x2 pairs)](https://shopee.sg/product/1021002494/24135674597)**  
 Quantity: 1  
 Price: **$31.08**
 
